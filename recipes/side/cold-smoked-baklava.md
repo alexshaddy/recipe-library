@@ -11,6 +11,8 @@ cuisine:
 course:
   - dessert
 dietary_tags:
+protein:
+  - none
   - vegetarian
 season:
   - all-year
@@ -36,6 +38,8 @@ key_equipment:
   - sharp-knife
   - saucepan
 tags:
+protein:
+  - none
   - dessert
   - baklava
   - phyllo
