@@ -16,7 +16,7 @@ season:
 prep_time: "5 min"
 cook_time: "10 min"
 inactive_time: ""
-total_time: "15 min
+total_time: "15 min"
 base_servings: 8
 serving_unit: "servings"
 scaling_notes: "Gravy scales best when the flour is kept proportional to the drippings."
