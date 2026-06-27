@@ -57,7 +57,7 @@ Handwritten chef notebook (Lebanese-Sicilian family recipes, professional kitche
 | 2026-06-26 | stuffed-fried-squash-blossoms | handwritten | Chef's Recipe Notebook, p.22 | reviewed |
 | 2026-06-26 | 5-13-kat-dinner | handwritten | Chef's Recipe Notebook, p.23 | archived |
 | 2026-06-26 | yakiniku-salt-slab | handwritten | Chef's Recipe Notebook, p.23 | draft |
-| 2026-06-26 | ryu-confit-egg-yolk | handwritten | Chef's Recipe Notebook, p.23 | draft |
+| 2026-06-26 | ryu-confit-egg-yolk | handwritten | Chef's Recipe Notebook, p.23 | reviewed |
 | 2026-06-26 | grilled-radicchio-with-carrot-ginger-glaze | handwritten | Chef's Recipe Notebook, p.24 | draft |
 | 2026-06-26 | ricotta | handwritten | Chef's Recipe Notebook, p.24 | reviewed |
 | 2026-06-27 | miso-butter | reconstructed | Title-only addendum; compound butter based on notebook context | reviewed |

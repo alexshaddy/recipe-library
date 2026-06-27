@@ -4,6 +4,10 @@ All notable changes to the Recipe Library are documented in this file.
 
 ## 2026-06-27 — Tier 1 Source Mismatch Fixes & Title-Only Reconstructions
 
+### Fixed
+
+- **Ryu Confit Egg Yolk** (`recipes/condiment/ryu-confit-egg-yolk.md`) — Replaced 2-step stub (just "1 egg yolk" + "salt [TO VERIFY]") with complete recipe from notebook source. Ingredients now include egg yolks, neutral oil, sesame oil, gochugaru, chili flakes. Full 6-step confit method at 160°F/71°C for ~55 minutes with sensory cues, temperature tolerance guidance, two variations (soy-cured, garlic-infused), make-ahead/storage, and scaling (TICKET-003).
+
 ### Added
 
 - **Miso Butter** (`recipes/condiment/miso-butter.md`) — Savory compound butter with white miso, mirin, honey, optional scallions and sesame seeds. Created from title-only addendum (TICKET-005 / TICKET-016). 7-step method with whipping, shaping, and chilling guidance.
