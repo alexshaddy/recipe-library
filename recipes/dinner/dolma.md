@@ -72,7 +72,7 @@ date_modified: "2026-06-27"
 
 2. **Combine Ingredients.** In a large bowl, mix rice, ground lamb, the cooked onion–pine nut mixture, currants, dill, mint, lemon zest, lemon juice, tomato paste, salt, and pepper until evenly combined. The mixture should feel moist and smell herbaceous and bright.
 
-3. **Prepare the Leaves.** If using preserved grape leaves, rinse thoroughly under cold water to remove excess brine. Blanch in boiling water for 2 minutes to soften, then drain and pat dry. Trim any tough stems.
+3. **Prepare the Leaves.** If using preserved grape leaves, rinse thoroughly under cold water to remove excess brine. Blanch in boiling water (~2 min) to soften, then drain and pat dry. Trim any tough stems.
 
 4. **Roll the Dolma.** Place a leaf flat, vein side up, with the stem end facing you. Place about 1 tablespoon of filling near the stem end. Fold the sides over the filling, then roll tightly away from you into a cigar shape — snug but not so tight that the rice will burst the leaf as it expands. Repeat with remaining leaves and filling.
 
