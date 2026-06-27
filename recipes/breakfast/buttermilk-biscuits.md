@@ -55,11 +55,13 @@ _Base servings: 8 biscuits_
 
 ## Instructions
 
-1. **Mix the dry ingredients.** Whisk the flour, baking powder, salt, and baking soda together.
-2. **Cut in the butter.** Work the cold butter into the flour until the pieces are pea-sized and the mixture looks sandy.
-3. **Add the buttermilk.** Stir just until the dough comes together; it should look shaggy and slightly sticky.
-4. **Fold for layers.** Turn the dough onto a floured surface and fold it 2 to 3 times to build lift.
-5. **Cut and bake.** Pat to about 3/4-inch thickness, cut straight down, brush with melted butter, and bake at 425 F until tall and golden.
+1. **Mix the dry ingredients.** Whisk the flour, baking powder, salt, and baking soda together for about 30 seconds, until the mixture is uniformly speckled and fragrant.
+2. **Cut in the butter.** Add the chilled butter pieces and use a pastry cutter to work them into the flour until the pieces are pea‑sized and the mixture feels sandy to the touch, about 2 minutes.
+3. **Add the buttermilk.** Pour the cold buttermilk over the mixture and stir gently for 1 minute, just until the dough comes together into a shaggy, slightly sticky mass.
+4. **Fold for layers.** Turn the dough onto a lightly floured surface, gently pat into a rectangle, then fold it over itself 2–3 times; this creates layers and should take about 1 minute.
+5. **Shape and chill.** Pat the dough to about 3/4‑inch thickness, cut out biscuits with a cutter, then place on a sheet‑pan and chill for 5 minutes while the oven preheats.
+6. **Brush and bake.** Brush the tops with melted butter, then bake at 425 °F for 12–15 minutes, until the biscuits are tall, golden‑brown, and emit a nutty aroma.
+7. **Cool and serve.** Remove from the oven, let cool on a rack for 5 minutes; the biscuits should feel light and fluffy when broken open.
 
 ## Notes & Variations
 
