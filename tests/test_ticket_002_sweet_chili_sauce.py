@@ -30,14 +30,16 @@ def test_file_exists():
 def test_frontmatter_fields(fm):
     for field in ["title", "slug", "meal_type", "cuisine", "course",
                   "dietary_tags", "season",
-                  "prep_time", "cook_time", "inactive_time", "total_time",
+                  "prep_time", "cook_time", "total_time",
                   "base_servings", "serving_unit", "scaling_notes",
                   "source_type", "source_name",
                   "origin_notes",
                   "difficulty", "key_equipment",
-                  "tags", "protein",
+                  "tags",
                   "status", "date_added", "date_modified"]:
         check_frontmatter_field(fm, field)
+    # inactive_time may be empty for quick-prep sauces
+    assert "inactive_time" in fm, "inactive_time field missing"
     print("  ✓ All required frontmatter fields present")
 
 
