@@ -32,6 +32,7 @@ difficulty: "easy"
 key_equipment:
   - saucepan
 tags:
+- recipe/side
 - soup
 - lentil
 - curry
