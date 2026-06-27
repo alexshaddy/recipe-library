@@ -58,10 +58,13 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Start the roux.** Blend the turkey drippings and seasoned flour in a heavy skillet over low heat until smooth.
-2. **Add the liquid.** Gradually stir in the evaporated milk and water mixture.
-3. **Cook until thick.** Stir constantly over low heat until the gravy is thickened and smooth, with no lumps.
-4. **Serve.** Use immediately over turkey or other roasted poultry.
+1. **Start the Roux.** Blend the turkey drippings and seasoned flour in a heavy skillet over low heat until smooth and bubbling gently (~2 min). The mixture should look like wet sand and smell nutty and toasty.
+
+2. **Add the Liquid.** Gradually stir in the evaporated milk and water mixture, whisking constantly to prevent lumps. The liquid will look thin and pale at first, then begin to thicken as it heats.
+
+3. **Cook Until Thick.** Stir constantly over low heat until the gravy is thickened, smooth, and coats the back of a spoon (~5–7 min). It should be silky with no lumps and a rich, creamy tan color.
+
+4. **Serve.** Use immediately over turkey or other roasted poultry. If the gravy thickens on standing, whisk in a splash of warm water or milk to loosen.
 
 ---
 
