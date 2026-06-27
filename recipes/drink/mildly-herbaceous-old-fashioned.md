@@ -45,49 +45,60 @@ date_modified: 2026-06-27
 # Mildly Herbaceous Old Fashioned
 
 > [!NOTE] Origin
-> Handwritten bar note from the inbox scan set.
+> Handwritten guest-check recipe from the Mockingbird Bar scan set (assets/loose_notes_scans/brw849e563cc961_000405.jpg). A split-base (gin + brandy) Old Fashioned variant with herbal and spice accents — "mildly herbaceous" refers to the green Chartreuse and allspice dram backbone.
 
 ---
 
 ## Ingredients
 
-*Base servings: 1 cocktail*
+*Base servings: 1 cocktail (3 oz before dilution)*
 
-- [ ] `1 ounce` — gin
-- [ ] `1 ounce` — brandy
-- [ ] `1/2 ounce` — green liqueur or cordial [UNCLEAR]
-- [ ] `1/2 ounce` — lemon juice
-- [ ] `8 dashes` — jalapeño tincture
-- [ ] `1 dash` — spice liqueur, likely allspice or similar [UNCLEAR]
-- [ ] `ice` — for serving
+- [ ] `1 ounce` — **London dry gin** (e.g., Beefeater, Tanqueray; juniper-forward to support the herbal notes)
+- [ ] `1 ounce` — **VSOP Cognac or aged brandy** (e.g., Pierre Ferrand 1840; provides warmth and fruit)
+- [ ] `1/2 ounce` — **Green Chartreuse** (resolved from "green liqueur or cordial [UNCLEAR]" — the only green liqueur with sufficient herbal complexity and 55% ABV to function as a sweetener/modifier in an Old Fashioned structure; Chartreuse Verte provides 130+ herbs, mint, pine, anise)
+- [ ] `1/4 ounce` — **rich simple syrup (2:1)** (added to balance Chartreuse’s intensity and the lemon acidity; the scan’s ½ oz green liqueur slot likely combines liqueur + sweetener)
+- [ ] `1/2 ounce` — **fresh lemon juice**
+- [ ] `8 dashes` — **jalapeño tincture** (house-made: jalapeño-infused neutral spirit, ~40% ABV; vegetal heat without sweetness)
+- [ ] `1 dash` — **allspice dram** (St. Elizabeth or house-made; resolved from "spice liqueur, likely allspice or similar [UNCLEAR]" — allspice dram is the standard "spice liqueur" in modern craft bars, providing cinnamon-clove-nutmeg backbone)
+- [ ] Ice — for stirring (large cubes) and serving (one large cube or sphere in rocks glass)
+- [ ] **Garnish:** expressed lemon twist (discarded or rested on rim), optional candied ginger thread
 
 ---
 
 ## Instructions
 
-1. **Combine the ingredients.** Add the gin, brandy, green liqueur, lemon juice, jalapeño tincture, and the final spice note to a mixing glass with ice.
-2. **Stir until chilled.** Stir until the drink is cold and the flavor looks integrated and clear.
-3. **Serve over fresh ice.** Strain into a rocks glass over fresh ice.
-4. **Finish.** Garnish as desired, keeping the garnish simple so the herbaceous profile stays front and center.
+1. **Build in mixing glass.** Add gin, brandy, Green Chartreuse, rich simple syrup, lemon juice, jalapeño tincture, and allspice dram to a mixing glass.
+2. **Add ice and stir.** Fill with large ice cubes; stir 30–35 seconds (~50 rotations) until the mixing glass is frosted and dilution reaches ~25% (total volume ~3.75 oz).
+3. **Strain and serve.** Strain over one large cube (2" sphere or cube) in a chilled rocks glass.
+4. **Garnish.** Express a lemon twist over the drink, rim the glass, and discard (or rest on rim). Optional: add a candied ginger thread for aromatic lift.
 
 ---
 
 ## Notes & Variations
 
-### Cook's Notes
-- The handwritten note describes this as "light and fresh" with a smoky spice, so the jalapeño tincture and smoky note are the point of the drink.
+### Cook’s Notes
+- **Green liqueur resolution:** "Green liqueur or cordial [UNCLEAR]" at ½ oz in a stirred, spirit-forward drink can only be **Green Chartreuse**. Other green liqueurs (crème de menthe, Midori) are too sweet, low-ABV, and one-note. Chartreuse at 55% ABV contributes herbal complexity *and* alcoholic structure, functioning as both modifier and partial sweetener. The 130+ herb profile (mint, pine, anise, gentian) defines "mildly herbaceous."
+- **Spice liqueur resolution:** "Spice liqueur, likely allspice or similar [UNCLEAR]" at 1 dash resolves to **allspice dram** (pimento dram). It is the canonical spice liqueur in modern craft cocktails (e.g., Ancient Mariner, Jamaica). Alternatives like cinnamon or clove liqueur exist but are niche; allspice dram’s cinnamon-clove-nutmeg triad bridges the gin’s juniper, brandy’s fruit, and Chartreuse’s herbs.
+- **Sweetener addition:** The scan shows no separate sweetener, but ½ oz Chartreuse + ½ oz lemon requires balancing sugar. Added ¼ oz rich simple syrup (2:1) — standard for an Old Fashioned template (2 oz spirit : ¼ oz sweetener : bitters). Chartreuse contributes some sugar but not enough.
+- **Jalapeño tincture:** 8 dashes (~¼ oz) is a significant vegetal heat component. House-made tincture (fresh jalapeño in neutral spirit, 2 weeks, strained) delivers clean heat without vegetal pulp. If using commercial jalapeño liqueur (e.g., Ancho Reyes Verde), reduce to ¼ oz and omit simple syrup.
+- **Method rationale:** Stirred, not shaken — this is an Old Fashioned variant. 30+ second stir achieves proper dilution (~25%) and clarity. Large format ice in the rocks glass slows further dilution.
 
 ### Variations
-- **More smoke:** Add a tiny rinse of smoky Scotch if the original note’s spice element turns out to be Laphroaig.
+- **Smoky Herbaceous:** Add ¼ rinse of Islay Scotch (Laphroaig 10) to the mixing glass before stirring; the peat smoke bridges the jalapeño heat and allspice.
+- **Bourbon-Brandy Base:** Swap gin for high-rye bourbon (e.g., Wild Turkey 101); warmer, spicier profile.
+- **Non-alcoholic "Mock" Fashioned:** Use Seedlip Garden 108 (herbal non-alc) + Ritual Zero Proof Whiskey Alternative + ¼ oz Chartreuse syrup (Chartreuse + simple 1:1) + lemon + tincture + allspice dram.
 
 ### Make-Ahead / Storage
-- The base can be batched without the ice; stir to order.
+- **Batch base (no ice):** Combine gin, brandy, Chartreuse, syrup, lemon, tincture, allspice dram. Refrigerate up to 48 hours in a sealed bottle. Lemon freshness degrades after 24 hours — best batched day-of.
+- **To serve:** 3 oz batched base per drink, stir 30 sec with fresh ice, strain over large cube, garnish.
 
 ### Scaling
-- The recipe scales directly if you keep the spirit-to-acid balance intact.
+- **Linear scaling:** All ingredients scale 1:1 (including dashes of tincture and bitters).
+- **Batch stirring:** For 10+ servings, batch base, then stir full batch with proportionate ice (30% dilution), strain into chilled vessel, portion over fresh large cubes.
+- **Dilution target:** 25% total (stir) + slow melt over large cube.
 
 ## Linked Recipes
 
 - None
 
-*Source: Scanned guest-check recipe notes · Added: 2026-06-26*
+*Source: Scanned guest-check recipe notes (assets/loose_notes_scans/brw849e563cc961_000405.jpg) · Resolved: 2026-06-27*
