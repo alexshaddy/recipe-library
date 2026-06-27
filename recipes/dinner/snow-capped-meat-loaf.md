@@ -32,11 +32,6 @@ key_equipment:
   - mixing-bowl
 tags:
   - recipe/dinner
-tags:
-  - recipe/condiment
-  - carnation
-  - vintage
-  - technique/bake
 protein: []
 status: reviewed
 date_added: 2026-06-26

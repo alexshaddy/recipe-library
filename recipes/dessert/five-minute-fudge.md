@@ -33,11 +33,6 @@ key_equipment:
   - 8-inch-square-pan
 tags:
   - recipe/dessert
-tags:
-  - recipe/condiment
-  - carnation
-  - vintage
-  - technique/boil
 protein: []
 status: reviewed
 date_added: 2026-06-26

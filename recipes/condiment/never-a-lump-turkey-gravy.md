@@ -30,11 +30,6 @@ key_equipment:
   - heavy-skillet
 tags:
   - recipe/condiment
-tags:
-  - recipe/condiment
-  - carnation
-  - vintage
-  - technique/roux
 protein: []
 status: reviewed
 date_added: 2026-06-26

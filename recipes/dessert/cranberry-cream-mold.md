@@ -34,11 +34,6 @@ key_equipment:
   - refrigerator
 tags:
   - recipe/dessert
-tags:
-  - recipe/condiment
-  - carnation
-  - vintage
-  - technique/chill
 protein: []
 status: reviewed
 date_added: 2026-06-26
