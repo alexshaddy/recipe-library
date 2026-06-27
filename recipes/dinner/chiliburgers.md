@@ -91,6 +91,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - The chili-sauce glaze goes on near the end so it stays glossy instead of scorching.
+- The evaporated milk in the beef mixture adds moisture and richness, keeping the patties juicy even when cooked to well-done — a classic mid-century trick.
 
 ### Variations
 - **Classic burger version:** Skip the chili topping and serve the patties plain.
