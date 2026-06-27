@@ -667,3 +667,8 @@ To github.com:alexshaddy/recipe-library.git
  1 file changed, 4 insertions(+)
 To github.com:alexshaddy/recipe-library.git
    27b6067..53e84ed  main -> main
+[main bb17f7e] Auto-commit: changes from herdr agents
+ 2 files changed, 93 insertions(+)
+ create mode 100644 docs/specs/026-broccoli-agrodolce.md
+To github.com:alexshaddy/recipe-library.git
+   53e84ed..bb17f7e  main -> main
