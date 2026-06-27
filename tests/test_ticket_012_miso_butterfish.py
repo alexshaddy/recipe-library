@@ -194,8 +194,11 @@ def test_make_ahead(content):
 
 
 def test_storage(content):
-    """Must have a Storage section."""
-    assert "Storage" in content.lower(), "Missing 'Storage' section"
+    """Must have a Storage section (standalone or combined with Make-Ahead)."""
+    lower = content.lower()
+    has_storage = "storage" in lower
+    has_combined = "make-ahead" in lower and "storage" in lower
+    assert has_storage, "Missing 'Storage' in content (combined or standalone)"
 
 
 def test_scaling_section(content):
