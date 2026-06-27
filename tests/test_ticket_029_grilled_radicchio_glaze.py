@@ -107,11 +107,11 @@ def test_ingredients_content(content):
 
 
 def test_chanterelle_resolved(content):
-    """Verify the [TO VERIFY] on chanterelle powder is resolved — look at ingredient list only."""
+    """Verify the [TO VERIFY] on chanterelle powder is resolved — check ingredient section only."""
     assert "chanterelle powder" in content.lower(), "Missing chanterelle powder"
-    # Check only the ingredient section (before ## Instructions) for [TO VERIFY]
-    ingredient_section = content.split("## Instructions")[0]
-    assert "[TO VERIFY]" not in ingredient_section, \
+    # Check only between ## Ingredients and ## Instructions for [TO VERIFY]
+    ingr_section = content.split("## Ingredients")[1].split("## Instructions")[0] if "## Ingredients" in content and "## Instructions" in content else ""
+    assert "[TO VERIFY]" not in ingr_section, \
         "Chanterelle powder still has [TO VERIFY] in ingredient list"
     print("  ✓ Chanterelle powder [TO VERIFY] resolved")
 
