@@ -1,11 +1,12 @@
 ---
-title: "Broccoli"
-aliases: []
+title: "Broccoli (Sicilian Agrodolce)"
+aliases: ["Broccoli Agrodolce", "Sicilian Sweet-Sour Broccoli"]
 slug: broccoli
 meal_type:
   - side
 cuisine:
-  - italian
+  - Italian
+  - Sicilian
 course:
   - vegetable
 dietary_tags:
@@ -13,28 +14,38 @@ dietary_tags:
   - vegetarian
   - gluten-free
 season:
-  - all-year
-prep_time: "10 min [ESTIMATED]"
-cook_time: "15 min [ESTIMATED]"
+  - winter
+  - spring
+prep_time: "15 min"
+cook_time: "20 min"
 inactive_time: ""
-total_time: "25 min [ESTIMATED]"
+total_time: "35 min"
 base_servings: 4
 serving_unit: "portions"
-scaling_notes: "The broccoli should stay bright and still have bite."
+scaling_notes: "Blanch broccoli in batches; agrodolce scales linearly. For 8 servings, use 2 skillets for the glaze step to avoid steaming. Pine nuts toast in 60–90 sec — watch closely."
 source_type: "handwritten"
 source_name: "Chef's Recipe Notebook"
 source_url: ""
 source_page: "21-22"
-origin_notes: "Menu-development broccoli note from the 6.21 dinner pages."
+origin_notes: "Expanded from 6.21 pop-up dinner notebook (page 21-22). Original note was a simple sautéed broccoli; Addendum III specifies Sicilian agrodolce with sugar + vinegar, raisins, and pine nuts — a classic Paleritan preparation."
 difficulty: "easy"
 key_equipment:
+  - large-pot
+  - slotted-spoon
   - skillet
+  - heatproof-spatula
+  - small-saucepan
 tags:
-  - recipe/side
-  - technique/sauté
-status: draft
+  - side
+  - vegetable
+  - broccoli
+  - agrodolce
+  - sicilian
+  - technique-blanching
+  - technique-glazing
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Broccoli
