@@ -1,372 +1,185 @@
 #!/usr/bin/env python3
-"""Test suite for TICKET-011: Miso Ramen recipe.
+"""
+TICKET-011: Create Miso Ramen from title-only addendum.
 
-Validates the recipe at recipes/dinner/miso-ramen.md against all
-requirements in the ticket: file existence, ingredient groupings,
-instruction structure, frontmatter metadata, and content keywords.
+Validates `recipes/dinner/miso-ramen.md` against:
+  - TICKET-011 requirements
+  - Sapporo-style miso ramen spec
 """
 
-import sys
 import os
+import re
+import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from test_helpers import *
 
+RECIPE = "dinner/miso-ramen.md"
+EXPECTED_DATE_MODIFIED = "2026-06-27"
+
 
 def test_file_exists():
-    """Verify the Miso Ramen recipe file exists at the expected path."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    assert recipe is not None, "Recipe file not found at recipes/dinner/miso-ramen.md"
-    return True
+    fm, content = load_recipe(RECIPE)
+    print("  ✓ File exists at recipes/dinner/miso-ramen.md")
+    return fm, content
 
 
-def test_frontmatter_present():
-    """Verify frontmatter metadata exists and has required fields."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    fm = recipe.get("frontmatter", recipe.get("metadata", {}))
-    required_keys = ["cuisine", "tags", "technique", "protein", "status", "date_modified"]
-    for key in required_keys:
-        assert key in fm, f"Missing frontmatter key: {key}"
-    return fm
+def test_frontmatter_cuisine(fm):
+    cuisines = fm.get("cuisine", [])
+    if isinstance(cuisines, str):
+        cuisines = [cuisines]
+    assert any("japanese" in c.lower() for c in cuisines), f"Expected cuisine Japanese, got {cuisines}"
+    print("  ✓ Cuisine is Japanese")
 
 
-def test_frontmatter_cuisine():
-    """Verify cuisine is Japanese."""
-    fm = test_frontmatter_present()
-    assert "japanese" in str(fm.get("cuisine", "")).lower(), \
-        "Cuisine must include 'Japanese'"
-    return True
-
-
-def test_frontmatter_tags():
-    """Verify tags include dinner, ramen, and noodles."""
-    fm = test_frontmatter_present()
+def test_frontmatter_tags(fm):
     tags = fm.get("tags", [])
     if isinstance(tags, str):
-        tags = [t.strip() for t in tags.split(",")]
-    for expected in ["dinner", "ramen", "noodles"]:
-        assert expected in tags, f"Missing tag: {expected}"
-    return True
+        tags = [tags]
+    tags_lower = [t.lower() for t in tags]
+    for exp in ["dinner", "ramen", "noodles"]:
+        assert any(exp in t for t in tags_lower), f"Missing tag containing '{exp}', got {tags}"
+    print("  ✓ Tags include dinner, ramen, noodles")
 
 
-def test_frontmatter_technique():
-    """Verify technique includes broth-making and tare."""
-    fm = test_frontmatter_present()
-    technique = fm.get("technique", [])
-    if isinstance(technique, str):
-        technique = [t.strip() for t in technique.split(",")]
-    for expected in ["broth-making", "tare"]:
-        assert expected in technique, f"Missing technique: {expected}"
-    return True
+def test_frontmatter_technique(fm):
+    tags = fm.get("tags", [])
+    if isinstance(tags, str):
+        tags = [tags]
+    for exp in ["broth-making", "tare"]:
+        assert any(exp in t.lower() for t in tags), f"Missing technique '{exp}' in tags: {tags}"
+    print("  ✓ Technique tags include broth-making, tare")
 
 
-def test_frontmatter_protein():
-    """Verify protein includes chicken and pork."""
-    fm = test_frontmatter_present()
+def test_frontmatter_protein(fm):
     protein = fm.get("protein", [])
     if isinstance(protein, str):
-        protein = [p.strip() for p in protein.split(",")]
-    for expected in ["chicken", "pork"]:
-        assert expected in protein, f"Missing protein: {expected}"
-    return True
+        protein = [protein]
+    for exp in ["chicken", "pork"]:
+        assert exp in protein, f"Missing protein '{exp}', got {protein}"
+    print("  ✓ Protein includes chicken, pork")
 
 
-def test_frontmatter_status():
-    """Verify status is 'reviewed' and date_modified is 2026-06-27."""
-    fm = test_frontmatter_present()
-    assert fm.get("status") == "reviewed", \
-        f"Expected status 'reviewed', got '{fm.get('status')}'"
-    modified = fm.get("date_modified", fm.get("date-modified", ""))
-    assert str(modified) == "2026-06-27", \
-        f"Expected date_modified '2026-06-27', got '{modified}'"
-    return True
+def test_frontmatter_status(fm):
+    assert fm.get("status") == "reviewed", f"Expected status 'reviewed', got '{fm.get('status')}'"
+    dm = fmt_date(fm.get("date_modified", ""))
+    assert dm == EXPECTED_DATE_MODIFIED, f"Expected date_modified '{EXPECTED_DATE_MODIFIED}', got '{dm}'"
+    print("  ✓ Status reviewed, date_modified 2026-06-27")
 
 
-def test_ingredient_groups_present():
-    """Verify the ingredient section contains the required groups.
-
-    Required groups: broth (chicken/pork), miso tare, noodles, toppings.
-    """
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = recipe.get("content", recipe.get("body", ""))
-    if not content:
-        if "sections" in recipe:
-            content = "\n".join(
-                s.get("body", "") if isinstance(s, dict) else str(s)
-                for s in recipe["sections"]
-            )
-        else:
-            content = str(recipe)
-
-    content_lower = content.lower()
-
-    # Check group headers or mentions
-    groups = ["broth", "miso tare", "tare", "noodles", "toppings"]
-    found = [g for g in groups if g in content_lower]
-    # "tare" alone should count if "miso tare" isn't present as a literal heading
-    assert "miso tare" in content_lower or "tare" in content_lower, \
-        "Missing 'miso tare' or 'tare' in ingredients"
-    assert "broth" in content_lower, "Missing 'broth' in ingredients"
-    assert "noodles" in content_lower, "Missing 'noodles' in ingredients"
-    assert "toppings" in content_lower, "Missing 'toppings' in ingredients"
-    return True
+def test_frontmatter_fields(fm):
+    for field in ["title", "slug", "meal_type", "cuisine", "course", "season",
+                  "prep_time", "cook_time", "inactive_time", "total_time",
+                  "base_servings", "serving_unit", "scaling_notes",
+                  "source_type", "source_name", "origin_notes",
+                  "difficulty", "key_equipment", "tags", "protein", "status",
+                  "date_added", "date_modified"]:
+        check_frontmatter_field(fm, field)
+    print("  ✓ All required frontmatter fields present")
 
 
-def test_ingredient_group_broth_details():
-    """Verify broth mentions chicken and/or pork."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe).lower()
-    assert "chicken" in content or "pork" in content, \
-        "Broth group should mention chicken or pork"
-    return True
+def test_ingredient_groups(content):
+    assert "### For the Broth" in content, "Missing broth ingredient group"
+    assert "### For the Miso Tare" in content or "### For the Tare" in content, "Missing tare ingredient group"
+    assert "### For the Noodles" in content or "noodles" in content.lower(), "Missing noodles"
+    assert "### For Toppings" in content or "toppings" in content.lower(), "Missing toppings"
+    print("  ✓ Ingredient groups: broth, tare, noodles, toppings")
 
 
-def test_ingredient_group_miso_tare_details():
-    """Verify miso tare mentions white miso and red miso."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe).lower()
-    assert "white miso" in content, "Missing 'white miso' in miso tare"
-    assert "red miso" in content, "Missing 'red miso' in miso tare"
-    return True
+def test_ingredient_broth_chicken_pork(content):
+    lower = content.lower()
+    assert "chicken" in lower or "pork" in lower, "Broth should mention chicken or pork"
+    print("  ✓ Broth mentions chicken/pork")
 
 
-def test_ingredient_group_tare_components():
-    """Verify miso tare mentions mirin, sake, garlic, and ginger."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe).lower()
-    for component in ["mirin", "sake", "garlic", "ginger"]:
-        assert component in content, f"Missing tare component: {component}"
-    return True
+def test_ingredient_miso_tare(content):
+    lower = content.lower()
+    assert "white miso" in lower, "Missing white miso in tare"
+    assert "red miso" in lower, "Missing red miso in tare"
+    print("  ✓ Miso tare includes white miso and red miso")
 
 
-def test_toppings_present():
-    """Verify all required toppings are mentioned.
-
-    Required toppings: chashu, nori, corn, butter
-    """
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe).lower()
-    for topping in ["chashu", "nori", "corn", "butter"]:
-        assert topping in content, f"Missing required topping: {topping}"
-    return True
+def test_ingredient_tare_components(content):
+    lower = content.lower()
+    for comp in ["mirin", "sake", "garlic", "ginger"]:
+        assert comp in lower, f"Missing tare component: {comp}"
+    print("  ✓ Tare components: mirin, sake, garlic, ginger")
 
 
-def test_instructions_structure():
-    """Verify instructions have 7-9 steps with bolded titles and sensory cues.
-
-    Uses the shared check_instructions helper.
-    """
-    recipe = load_recipe("dinner/miso-ramen.md")
-    instruction_text = _get_instructions(recipe)
-    assert instruction_text, "No instructions section found in recipe"
-
-    steps = _split_steps(instruction_text)
-    step_count = len(steps)
-    assert 7 <= step_count <= 9, \
-        f"Expected 7-9 instruction steps, got {step_count}"
-
-    # Every step should have a bolded title (marked by **...**)
-    for i, step in enumerate(steps):
-        assert "**" in step, f"Step {i+1} is missing a bolded title"
-
-    # At least some steps should contain sensory cues
-    sensory_keywords = [
-        "until", "fragrant", "golden", "brown", "bubbly",
-        "soft", "tender", "simmer", "boil", "sizzl",
-        "thickened", "caramelized", "translucent", "aromatic",
-    ]
-    sensory_count = sum(
-        1 for step in steps
-        if any(kw in step.lower() for kw in sensory_keywords)
-    )
-    assert sensory_count >= 3, \
-        f"Expected at least 3 steps with sensory cues, found {sensory_count}"
-
-    return True
+def test_toppings(content):
+    lower = content.lower()
+    for t in ["chashu", "nori", "corn", "butter"]:
+        assert t in lower, f"Missing topping: {t}"
+    print("  ✓ Toppings: chashu, nori, corn, butter")
 
 
-def test_instructions_inline_timing():
-    """Verify instructions contain inline timing cues (e.g. '5 minutes', '10 min')."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    instruction_text = _get_instructions(recipe)
-    assert instruction_text, "No instructions section found"
-
-    # Look for patterns like "X minutes" or "X min" or "X-hour"
-    import re
-    timing_pattern = r'\d+\s*(?:min(?:ute)?s?|hour|hr)s?'
-    matches = re.findall(timing_pattern, instruction_text.lower())
-    assert len(matches) >= 2, \
-        f"Expected at least 2 inline timing cues, found {len(matches)}: {matches}"
-    return True
+def test_instructions(content):
+    n, titles, sensory = check_instructions(content, min_steps=7, max_steps=9)
+    print(f"  ✓ Instructions: {n} steps, {len(titles)} bolded titles, {len(sensory)} sensory cues")
 
 
-def test_cooks_notes():
-    """Verify there are at least 2 cook's notes."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe)
-    notes = _extract_section(content, "cook's notes", "notes")
-    if not notes:
-        notes = _extract_section(content, "cook's note", "note")
-    assert notes, "No 'Cook's Notes' section found"
-    # Count bullet points or numbered items as individual notes
-    note_items = _count_list_items(notes)
-    assert note_items >= 2, \
-        f"Expected at least 2 cook's notes, found {note_items}"
-    return True
+def test_inline_timing(content):
+    instr_match = re.search(r"## Instructions\s*\n(.*?)(?=## Notes|\Z)", content, re.DOTALL)
+    assert instr_match, "Could not find Instructions section"
+    instr_section = instr_match.group(1)
+    timing = re.findall(r"\d+\s*(?:min(?:ute)?s?|hour|hr)s?", instr_section, re.IGNORECASE)
+    assert len(timing) >= 2, f"Too few timing cues: {len(timing)}"
+    print(f"  ✓ Inline timing: {len(timing)} instances")
 
 
-def test_variations():
-    """Verify there is at least 1 variation."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe)
-    variation_section = _extract_section(content, "variation", "variations")
-    assert variation_section, "No 'Variations' section found"
-    return True
+def test_notes(content):
+    nb, vb = check_notes(content, min_cooks=2, min_variations=1)
+    print(f"  ✓ Notes: {nb} cook's notes, {vb} variations, make-ahead, storage, scaling")
 
 
-def test_make_ahead_storage():
-    """Verify make-ahead or storage instructions exist."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe).lower()
-    assert ("make-ahead" in content or "make ahead" in content
-            or "storage" in content or "store" in content), \
-        "Missing make-ahead or storage instructions"
-    return True
+def test_sections(content):
+    required = ["## Ingredients", "## Instructions", "## Notes & Variations",
+                "### Cook's Notes", "### Variations", "### Scaling"]
+    for h in required:
+        assert h in content, f"Missing heading: {h}"
+    assert "Make-Ahead" in content, "Missing Make-Ahead"
+    assert "Storage" in content, "Missing Storage"
+    print("  ✓ All required sections present")
 
 
-def test_scaling():
-    """Verify scaling information exists."""
-    recipe = load_recipe("dinner/miso-ramen.md")
-    content = _get_content(recipe).lower()
-    assert ("scaling" in content or "scale" in content
-            or "double" in content or "halve" in content
-            or "adjust" in content), \
-        "Missing scaling information"
-    return True
+def test_source_documented(fm):
+    assert fm.get("source_type"), "source_type empty"
+    assert fm.get("source_name"), "source_name empty"
+    print(f"  ✓ Source documented: {fm.get('source_type')} — {fm.get('source_name')}")
 
 
-def test_date_modified_format():
-    """Verify date_modified uses the shared fmt_date helper format."""
-    fm = test_frontmatter_present()
-    modified = fm.get("date_modified", fm.get("date-modified", ""))
-    formatted = fmt_date(str(modified))
-    assert formatted is not None, f"date_modified '{modified}' could not be formatted"
-    return True
+def test_slug(fm):
+    expected = "miso-ramen"
+    assert fm.get("slug") == expected, f"Expected slug '{expected}', got '{fm.get('slug')}'"
+    print(f"  ✓ Slug: {expected}")
 
 
-# ---------------------------------------------------------------------------
-# Internal helpers (operate on the dict returned by load_recipe)
-# ---------------------------------------------------------------------------
+def run():
+    fm, content = load_recipe(RECIPE)
 
-def _get_content(recipe):
-    """Extract full recipe text from the parsed recipe dict."""
-    content = recipe.get("content", recipe.get("body", ""))
-    if not content:
-        if "sections" in recipe:
-            content = "\n".join(
-                s.get("body", "") if isinstance(s, dict) else str(s)
-                for s in recipe["sections"]
-            )
-        else:
-            content = str(recipe)
-    return content
-
-
-def _get_instructions(recipe):
-    """Extract the instructions section text."""
-    content = _get_content(recipe)
-    return _extract_section(content, "instructions", "directions", "method")
-
-
-def _extract_section(content, *section_names):
-    """Return the text of the first section found matching any of the names."""
-    lines = content.split("\n")
-    in_section = False
-    section_lines = []
-    section_headers = set()
-
-    for name in section_names:
-        section_headers.add(f"## {name.lower()}")
-        section_headers.add(f"##{name.lower()}")
-        section_headers.add(f"# {name.lower()}")
-        section_headers.add(name.lower())
-
-    for line in lines:
-        stripped = line.strip().lower()
-        if stripped in section_headers or any(
-            stripped.startswith(h) for h in section_headers
-        ):
-            in_section = True
-            continue
-        if in_section:
-            # Stop at the next top-level or second-level heading
-            if stripped.startswith("## ") or stripped.startswith("# "):
-                break
-            section_lines.append(line)
-
-    return "\n".join(section_lines).strip()
-
-
-def _split_steps(text):
-    """Split instruction text into individual steps.
-
-    Steps may be numbered (1., 2., etc.) or separated by blank lines.
-    """
-    lines = text.split("\n")
-    steps = []
-    current_step = []
-    for line in lines:
-        stripped = line.strip()
-        if not stripped:
-            if current_step:
-                steps.append("\n".join(current_step))
-                current_step = []
-            continue
-        # Detect numbered step markers
-        import re
-        if re.match(r'^\d+[\.\)]\s', stripped):
-            if current_step:
-                steps.append("\n".join(current_step))
-            current_step = [stripped]
-        else:
-            current_step.append(stripped)
-    if current_step:
-        steps.append("\n".join(current_step))
-    return steps
-
-
-def _count_list_items(text):
-    """Count bullet or numbered items in text."""
-    import re
-    bullets = re.findall(r'^[\s]*[-*]\s', text, re.MULTILINE)
-    numbers = re.findall(r'^\s*\d+[\.\)]\s', text, re.MULTILINE)
-    return max(len(bullets), len(numbers), 1 if text.strip() else 0)
-
-
-# ---------------------------------------------------------------------------
-# Main entry point
-# ---------------------------------------------------------------------------
-
-if __name__ == "__main__":
     tests = [
-        ("File exists", test_file_exists),
-        ("Frontmatter: cuisine is Japanese", test_frontmatter_cuisine),
-        ("Frontmatter: tags include dinner, ramen, noodles", test_frontmatter_tags),
-        ("Frontmatter: technique includes broth-making, tare", test_frontmatter_technique),
-        ("Frontmatter: protein includes chicken, pork", test_frontmatter_protein),
-        ("Frontmatter: status reviewed, date 2026-06-27", test_frontmatter_status),
-        ("Ingredient groups present (broth, tare, noodles, toppings)", test_ingredient_groups_present),
-        ("Ingredient: broth mentions chicken/pork", test_ingredient_group_broth_details),
-        ("Ingredient: miso tare includes white and red miso", test_ingredient_group_miso_tare_details),
-        ("Ingredient: tare components (mirin, sake, garlic, ginger)", test_ingredient_group_tare_components),
-        ("Toppings: chashu, nori, corn, butter", test_toppings_present),
-        ("Instructions: 7-9 steps with bold titles & sensory cues", test_instructions_structure),
-        ("Instructions: inline timing cues", test_instructions_inline_timing),
-        ("Cook's notes: ≥2", test_cooks_notes),
-        ("Variations: ≥1", test_variations),
-        ("Make-ahead / storage", test_make_ahead_storage),
-        ("Scaling", test_scaling),
-        ("Date format via fmt_date", test_date_modified_format),
+        ("File exists", lambda: None),  # Already loaded
+        ("Frontmatter: cuisine Japanese", lambda: test_frontmatter_cuisine(fm)),
+        ("Frontmatter: tags", lambda: test_frontmatter_tags(fm)),
+        ("Frontmatter: technique tags", lambda: test_frontmatter_technique(fm)),
+        ("Frontmatter: protein", lambda: test_frontmatter_protein(fm)),
+        ("Frontmatter: status/date", lambda: test_frontmatter_status(fm)),
+        ("Frontmatter: all fields", lambda: test_frontmatter_fields(fm)),
+        ("Source documented", lambda: test_source_documented(fm)),
+        ("Slug", lambda: test_slug(fm)),
+        ("Ingredient groups", lambda: test_ingredient_groups(content)),
+        ("Broth: chicken/pork", lambda: test_ingredient_broth_chicken_pork(content)),
+        ("Miso tare: white+red", lambda: test_ingredient_miso_tare(content)),
+        ("Tare components", lambda: test_ingredient_tare_components(content)),
+        ("Toppings", lambda: test_toppings(content)),
+        ("Instructions", lambda: test_instructions(content)),
+        ("Inline timing", lambda: test_inline_timing(content)),
+        ("Notes & variations", lambda: test_notes(content)),
+        ("Sections", lambda: test_sections(content)),
     ]
 
     run_tests("TICKET-011", tests)
+
+
+if __name__ == "__main__":
+    run()
