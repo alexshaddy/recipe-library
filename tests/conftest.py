@@ -20,23 +20,10 @@ def parse_frontmatter(content):
         return None
 
 
-@pytest.fixture
-def fm(request):
-    """Fixture that loads the recipe file and returns parsed frontmatter and content."""
-    # Get the recipe path from the test module
-    test_file = request.module.__file__
-    # Extract ticket number from test file name
-    match = re.search(r'test_ticket_(\d+)', test_file)
-    if not match:
-        pytest.skip("Could not determine ticket number from test file")
-    
-    # We need to know which recipe file to load - this varies by ticket
-    # The test module should define RECIPE_PATH
-    if hasattr(request.module, 'RECIPE_PATH'):
-        path = request.module.RECIPE_PATH
-    else:
-        pytest.skip("Test module must define RECIPE_PATH")
-    
+def load_recipe(relative_path):
+    """Load a recipe file and return (frontmatter dict, content string)."""
+    path = os.path.join(RECIPE_DIR, relative_path)
+    assert os.path.exists(path), f"Recipe file not found at {path}"
     with open(path) as f:
         content = f.read()
     fm = parse_frontmatter(content)
@@ -45,12 +32,33 @@ def fm(request):
 
 
 @pytest.fixture
-def content(fm):
-    """Fixture that returns the full recipe content."""
-    return fm[1]
+def fm(request):
+    """Fixture that loads the recipe file and returns parsed frontmatter."""
+    # Get the recipe path from the test module
+    if hasattr(request.module, 'RECIPE_PATH'):
+        path = request.module.RECIPE_PATH
+    else:
+        pytest.skip("Test module must define RECIPE_PATH")
+    
+    fm, content = load_recipe(path)
+    return fm
 
 
 @pytest.fixture
-def frontmatter(fm):
-    """Fixture that returns just the frontmatter dict."""
-    return fm[0]
+def content(request):
+    """Fixture that returns the full recipe content."""
+    if hasattr(request.module, 'RECIPE_PATH'):
+        path = request.module.RECIPE_PATH
+    else:
+        pytest.skip("Test module must define RECIPE_PATH")
+    
+    with open(path) as f:
+        return f.read()
+
+
+@pytest.fixture
+def filename(request):
+    """Fixture that returns the recipe filename."""
+    if hasattr(request.module, 'RECIPE_PATH'):
+        return os.path.basename(request.module.RECIPE_PATH)
+    pytest.skip("Test module must define RECIPE_PATH")
