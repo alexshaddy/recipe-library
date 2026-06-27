@@ -38,7 +38,7 @@ protein:
 
 status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Marinated Olives
@@ -73,11 +73,16 @@ _Base servings: 1 batch_
 ### Cook's Notes
 
 - The ground clove is a warm accent, not a dominant flavor — use it sparingly.
+- If the olives are too salty, rinse them briefly before marinating to balance the brine.
 
-### Make-Ahead / Storage
+### Variations
 
-- Keep refrigerated and covered.
+- **Herb‑Infused Olives:** Add a handful of fresh thyme or rosemary sprigs to the oil mixture for an aromatic twist.
+
+### Make‑Ahead / Storage
+
+- Keep refrigerated and covered. The olives improve in flavor after 48 hours and can be stored for up to 2 weeks.
 
 ### Scaling
 
-- The flavors get stronger as they sit, so a large batch should be tasted before service.
+- The flavors get stronger as they sit, so a large batch should be tasted before service. Adjust the amount of garlic and herbs proportionally for bigger batches.
