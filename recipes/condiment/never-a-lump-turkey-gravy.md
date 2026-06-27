@@ -72,6 +72,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - The flour is already seasoned, so taste before adding extra salt.
+- The evaporated milk gives the gravy a velvety richness that water or regular milk cannot match — this is the "never a lump" secret.
 
 ### Variations
 - **Chicken gravy:** Use chicken drippings in place of turkey drippings.
