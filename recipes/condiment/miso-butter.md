@@ -7,79 +7,105 @@ meal_type:
 cuisine:
   - japanese-fusion
 course:
-  - condiment
+  - compound-butter
 dietary_tags:
   - vegetarian
+occasion: []
 season:
   - all-year
-prep_time: "10 min [ACTIVE]"
-cook_time: "0 min [ACTIVE]"
-inactive_time: "30 min [INACTIVE]"
-total_time: "40 min"
+prep_time: "10 min"
+cook_time: ""
+inactive_time: "1 hr"
+total_time: "1 hr 10 min"
 base_servings: 1
-serving_unit: "stick"
-scaling_notes: "Recipe scales linearly; keep butter at room temperature for easy mixing."
+serving_unit: "log"
+scaling_notes: "Scales linearly; keep the miso-to-butter ratio at roughly 1:4 by weight for balanced salt and umami."
 source_type: "handwritten"
 source_name: "Chef's Recipe Notebook"
 source_url: ""
 source_page: ""
-origin_notes: "Created from title-only addendum; simple miso compound butter."
+origin_notes: "Reconstructed from notebook transcription and addendum. Compound butter for finishing corn, steak, bread, and roasted vegetables."
 difficulty: "easy"
 key_equipment:
-  - mixing bowl
-  - spatula
-  - parchment paper or plastic wrap
+  - stand-mixer
+  - parchment-paper
 tags:
   - recipe/condiment
-  - ingredient/butter
-  - ingredient/miso
+  - condiment/butter
+  - condiment/miso
   - technique/compound-butter
-protein:
-  - none
+  - protein/none
 status: reviewed
-date_added: 2026-06-27
-date_modified: 2026-06-27
+date_added: "2026-06-27"
+date_modified: "2026-06-27"
 ---
 
 # Miso Butter
 
 > [!NOTE] Origin
-> Created from title-only addendum; simple miso compound butter.
+> Reconstructed from notebook transcription and addendum. A savory compound butter that brings deep umami to corn, steak, bread, and roasted vegetables.
+
+---
 
 ## Ingredients
 
-*Base servings: 1 stick (½ cup / 113g)*
+*Base servings: 1 log*
 
-- ½ cup (1 stick / 113g) unsalted butter, softened to room temperature
-- 2 tablespoons white miso (shiro miso)
-- 1 tablespoon honey or maple syrup (optional, for sweetness)
-- 1 tablespoon finely chopped scallions (green part only)
-- 1 teaspoon toasted sesame seeds
-- Pinch of freshly ground black pepper (optional)
+- [ ] `1/2 cup (1 stick)` — unsalted butter, softened to room temperature
+- [ ] `2 tablespoons` — white miso paste (shiro miso)
+- [ ] `1 teaspoon` — mirin
+- [ ] `1 teaspoon` — honey
+- [ ] `1 tablespoon` — scallions, thinly sliced *(optional)*
+- [ ] `1 teaspoon` — toasted sesame seeds *(optional)*
+
+---
 
 ## Instructions
 
-1. **Soften the Butter** – Leave the butter at room temperature for 30–60 minutes until soft and pliable but not melted. It should yield to gentle pressure.
-2. **Combine Ingredients** – In a mixing bowl, add the softened butter, white miso, honey or maple syrup (if using), chopped scallions, sesame seeds, and black pepper.
-3. **Mix Until Uniform** – Using a spatula, mash and stir the ingredients together until fully incorporated and the mixture is smooth and consistent in color.
-4. **Shape and Chill** – Place a sheet of parchment paper or plastic wrap on a flat surface. Scoop the mixture onto the center and shape into a log about 1.5 inches in diameter. Roll tightly, twisting the ends to seal. Refrigerate for at least 30 minutes to firm up.
-5. **Slice and Serve** – Unwrap and slice off rounds as needed. Use to top grilled corn, steak, bread, vegetables, or melt into sauces.
+1. **Soften the Butter.** Leave the butter at room temperature until it yields easily to a finger press — soft but not melted or greasy (~30 min). If short on time, cut into small cubes to speed softening.
+
+2. **Whip the Base.** Place the softened butter in a stand mixer bowl (or use a hand mixer). Beat on medium speed until the butter is pale, fluffy, and doubled in volume (~2–3 min). Scrape down the sides once halfway through.
+
+3. **Incorporate the Miso.** Add the white miso paste, mirin, and honey. Beat on low speed until the miso is fully blended and the mixture is uniform in color — no streaks of white or beige should remain (~1 min). The butter will turn a warm golden-tan.
+
+4. **Fold in Add-Ins.** If using scallions and sesame seeds, fold them in by hand with a spatula until evenly distributed. Taste and adjust — add a tiny pinch more miso for salt or honey for sweetness.
+
+5. **Shape the Log.** Transfer the miso butter onto a sheet of parchment paper. Using the paper, shape it into a log about 1½ inches in diameter. Twist the ends of the parchment tightly to seal, like a candy wrapper.
+
+6. **Chill Until Firm.** Refrigerate the log until the butter is firm enough to slice cleanly (~1 hr). For faster setting, freeze for 20–25 minutes — check frequently so it doesn't freeze solid.
+
+7. **Slice and Serve.** Unwrap the log and slice into coins with a sharp knife. Serve cold over hot corn, grilled steak, warm bread, or roasted vegetables — the butter will melt into a glossy, fragrant glaze.
+
+---
 
 ## Notes & Variations
 
 ### Cook's Notes
-- Using room-temperature butter ensures smooth incorporation of the miso without lumps.
-- White miso provides a mild, sweet umami; for deeper flavor, substitute half with red miso (aka miso) but reduce salt if needed.
+- White miso (shiro miso) is the mildest and sweetest variety, ideal here. Red miso will work but brings a stronger, saltier punch — reduce the amount slightly if substituting.
+- The butter must be truly soft before whipping, or the miso will not incorporate evenly and you'll end up with streaky, salty pockets.
 
-### Make-Ahead / Storage
-- Miso butter keeps refrigerated in an airtight container for up to 2 weeks.
-- For longer storage, freeze the log wrapped tightly in plastic wrap and then foil for up to 3 months; thaw in the refrigerator before slicing.
+### Variations
+- **Spicy Miso Butter:** Add 1 teaspoon gochujang or a pinch of togarashi along with the miso for a warm, spicy kick that pairs especially well with grilled corn and steak.
+- **Citrus Miso Butter:** Replace the mirin with 1 teaspoon yuzu juice (or lime juice) and add ½ teaspoon grated zest for a bright, tangy finish.
+
+### Make-Ahead
+- Wrap the chilled log tightly in plastic wrap over the parchment, then store in the refrigerator for up to 2 weeks.
+- For longer storage, freeze the wrapped log for up to 3 months. Slice frozen coins directly onto hot food — they'll melt in seconds.
+- If the butter softens too much during shaping, return it to the fridge for 10 minutes and try again.
+
+### Storage
+- Refrigerate in an airtight container or wrapped tightly for up to 2 weeks.
+- Freeze for up to 3 months; thaw in the refrigerator before slicing.
 - Always use a clean utensil when scooping to prevent contamination.
 
 ### Scaling
-- Double or triple the recipe as needed; maintain the ratio of 4 parts butter to 1 part miso by volume.
-- For a softer spread, increase butter slightly; for a firmer sliceable log, reduce butter or chill longer.
+- The recipe scales linearly: maintain roughly 4 parts butter to 1 part miso by weight (e.g., 2 sticks butter + 4 tbsp miso). Adjust mirin and honey proportionally.
+- For large batches, whip in a stand mixer with the paddle attachment and shape into multiple smaller logs for easier storage.
 
-### Variations
-- **Herbed Miso Butter:** Add 1 tablespoon chopped fresh herbs (such as chives, parsley, or dill) along with the scallions.
-- **Spicy Miso Butter:** Add ½ teaspoon chili flakes or a dash of sriracha to the mixture.
+---
+
+## Linked Recipes
+
+- None
+
+*Source: Chef's Recipe Notebook · Added: 2026-06-27*
