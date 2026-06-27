@@ -33,8 +33,11 @@ key_equipment:
   - blender
   - strainer
 tags:
-  - recipe/condiment
-  - technique/macerate
+- recipe/condiment
+- technique/macerate
+protein:
+- none
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
@@ -54,9 +57,9 @@ date_modified: 2026-06-26
 
 ### Instructions
 
-1. Combine the rhubarb and sugar, then vacuum seal and let the fruit shed liquid.
-2. Move the bag to the refrigerator after the initial hold and let the syrup continue extracting.
-3. Strain before use.
+1. Combine the rhubarb and sugar, then vacuum seal. Let the fruit shed liquid at room temperature for 12–24 hours.
+2. Transfer the sealed bag to the refrigerator and continue extracting for an additional 24–48 hours, allowing the flavors to meld.
+3. Strain the syrup through a fine mesh before use, discarding any solids.
 
 ---
 
@@ -70,8 +73,8 @@ date_modified: 2026-06-26
 
 ### Instructions
 
-1. Blend the rhubarb, sugar, and hot water until smooth, then vacuum seal.
-2. Chill the batch, then strain before use.
+1. Blend the rhubarb, sugar, and hot water until smooth (about 30 seconds), then vacuum seal.
+2. Chill the sealed bag in the refrigerator for 12 hours, then strain before use.
 
 ## Notes & Variations
 
