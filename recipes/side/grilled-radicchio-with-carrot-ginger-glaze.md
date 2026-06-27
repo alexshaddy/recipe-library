@@ -10,11 +10,11 @@ cuisine:
 course:
   - vegetable
 dietary_tags:
-protein:
-  - none
   - vegan
   - vegetarian
   - gluten-free
+protein:
+  - none
 season:
   - fall
   - winter
@@ -40,14 +40,16 @@ key_equipment:
   - tongs
   - fine-mesh-sieve
 tags:
-protein:
-  - none
   - side
   - vegetable
   - radicchio
   - grilled
   - glaze
   - technique-grilling
+  - technique-glazing
+  - technique-juicing
+protein:
+  - none
   - technique-glazing
   - technique-juicing
 status: reviewed
