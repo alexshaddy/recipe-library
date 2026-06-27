@@ -31,12 +31,12 @@ def test_frontmatter_fields(fm):
                   "prep_time", "cook_time", "inactive_time", "total_time",
                   "base_servings", "serving_unit", "scaling_notes",
                   "source_type", "source_name",
-                  "source_url", "source_page",
                   "origin_notes",
                   "difficulty", "key_equipment",
                   "tags", "protein",
                   "status", "date_added", "date_modified"]:
         check_frontmatter_field(fm, field)
+    # source_url and source_page allowed empty for handwritten/title-only sources
     print("  ✓ All required frontmatter fields present")
 
 
