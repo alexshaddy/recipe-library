@@ -6,6 +6,7 @@ All notable changes to the Recipe Library are documented in this file.
 
 ### Fixed
 
+- **Yakiniku Salt Slab** (`recipes/dinner/yakiniku-salt-slab.md`) — Replaced generic placeholder ingredients with notebook-accurate multi-component recipe covering A5 Wagyu, Himalayan salt slab technique, bordelaise sauce, nori bordelaise variant, and negi bed. 7-step method with gradual slab heating guidance, sauce reduction timing, and tableside plating instructions. Two variations (nori bordelaise, miso-bordelaise) (TICKET-006).
 - **Ryu Confit Egg Yolk** (`recipes/condiment/ryu-confit-egg-yolk.md`) — Replaced 2-step stub (just "1 egg yolk" + "salt [TO VERIFY]") with complete recipe from notebook source. Ingredients now include egg yolks, neutral oil, sesame oil, gochugaru, chili flakes. Full 6-step confit method at 160°F/71°C for ~55 minutes with sensory cues, temperature tolerance guidance, two variations (soy-cured, garlic-infused), make-ahead/storage, and scaling (TICKET-003).
 
 ### Added
