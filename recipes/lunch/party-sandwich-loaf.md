@@ -16,7 +16,7 @@ season:
 prep_time: "20 min"
 cook_time: "30 min"
 inactive_time: ""
-total_time: "50 min
+total_time: "50 min"
 base_servings: 8
 serving_unit: "slices"
 scaling_notes: "The filling scales with the loaf, but keep the bread proportion generous so the top does not get soggy."
