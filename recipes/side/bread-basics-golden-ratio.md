@@ -9,6 +9,8 @@ cuisine:
 course:
   - bread
 dietary_tags:
+protein:
+  - none
   - vegan
   - vegetarian
 season:
@@ -35,6 +37,8 @@ key_equipment:
   - lame
   - instant-read-thermometer
 tags:
+protein:
+  - none
   - bread
   - basic
   - artisan
