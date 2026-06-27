@@ -18,7 +18,7 @@ season:
   - winter
 prep_time: "10 min"
 cook_time: "10 min"
-inactive_time: ""
+inactive_time: "0 min"
 total_time: "20 min"
 base_servings: 4
 serving_unit: "portions"

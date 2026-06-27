@@ -18,7 +18,7 @@ season:
   - winter
 prep_time: "15 min"
 cook_time: "35 min"
-inactive_time: ""
+inactive_time: "0 min"
 total_time: "50 min"
 base_servings: 4
 serving_unit: "bowls"
