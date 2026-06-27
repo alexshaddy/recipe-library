@@ -38,7 +38,8 @@ tags:
 - technique/wok
 - technique/high-heat
 - technique/steam
-protein: []
+protein:
+- none
 status: reviewed
 date_added: "2026-06-26"
 date_modified: "2026-06-27"
