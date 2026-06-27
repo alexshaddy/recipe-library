@@ -10,6 +10,8 @@ cuisine:
 course:
   - vegetable
 dietary_tags:
+protein:
+  - none
   - vegan
   - vegetarian
   - gluten-free
@@ -38,6 +40,8 @@ key_equipment:
   - tongs
   - fine-mesh-sieve
 tags:
+protein:
+  - none
   - side
   - vegetable
   - radicchio
