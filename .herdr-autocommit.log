@@ -29965,3 +29965,9 @@ To github.com:alexshaddy/recipe-library.git
  1 file changed, 4 insertions(+)
 To github.com:alexshaddy/recipe-library.git
    12c31fc6..3e4243b7  main -> main
+[main e6ea8dee] Auto-commit: changes from herdr agents
+ 3 files changed, 4 insertions(+), 491 deletions(-)
+ delete mode 100644 review-pass-plan.md
+ delete mode 100644 revision-plan.md
+To github.com:alexshaddy/recipe-library.git
+   3e4243b7..e6ea8dee  main -> main
