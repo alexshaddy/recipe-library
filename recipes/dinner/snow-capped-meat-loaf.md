@@ -13,10 +13,10 @@ occasion:
   - comfort
 season:
   - all-year
-prep_time: "25 min [ESTIMATED]"
-cook_time: "45 min [ESTIMATED]"
+prep_time: "25 min "
+cook_time: "45 min "
 inactive_time: ""
-total_time: "1 hr 10 min [ESTIMATED]"
+total_time: "1 hr 10 min "
 base_servings: 6
 serving_unit: "slices"
 scaling_notes: "The potato topping is most reliable when the pan size keeps the meat loaf fairly shallow."
@@ -34,9 +34,10 @@ tags:
   - recipe/dinner
   - cuisine/american
   - technique/bake
-status: draft
+protein: []
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Snow Capped Meat Loaf

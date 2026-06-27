@@ -15,10 +15,10 @@ occasion:
   - holiday
 season:
   - fall
-prep_time: "20 min [ESTIMATED]"
+prep_time: "20 min "
 cook_time: ""
 inactive_time: "4 hr"
-total_time: "4 hr 20 min [ESTIMATED]"
+total_time: "4 hr 20 min "
 base_servings: 5
 serving_unit: "servings"
 scaling_notes: "The mold sets best when the gelatin and dairy proportions stay consistent."
@@ -36,9 +36,10 @@ tags:
   - recipe/dessert
   - cuisine/american
   - technique/chill
-status: draft
+protein: []
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Cranberry Cream Mold

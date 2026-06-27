@@ -13,10 +13,10 @@ occasion:
   - entertaining
 season:
   - all-year
-prep_time: "20 min [ESTIMATED]"
-cook_time: "25 min [ESTIMATED]"
+prep_time: "20 min "
+cook_time: "25 min "
 inactive_time: ""
-total_time: "45 min [ESTIMATED]"
+total_time: "45 min "
 base_servings: 6
 serving_unit: "sandwiches"
 scaling_notes: "The filled patties need enough room to seal; scale the patties before scaling the filling too aggressively."
@@ -34,9 +34,10 @@ tags:
   - recipe/lunch
   - cuisine/american
   - technique/bake
-status: draft
+protein: []
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Burgerwiches

@@ -13,10 +13,10 @@ occasion:
   - weeknight
 season:
   - all-year
-prep_time: "15 min [ESTIMATED]"
-cook_time: "1 hr [ESTIMATED]"
+prep_time: "15 min "
+cook_time: "1 hr "
 inactive_time: ""
-total_time: "1 hr 15 min [ESTIMATED]"
+total_time: "1 hr 15 min "
 base_servings: 6
 serving_unit: "slices"
 scaling_notes: "The loaf mixture scales cleanly; keep the pan size appropriate so the center cooks through evenly."
@@ -33,9 +33,10 @@ tags:
   - recipe/dinner
   - cuisine/american
   - technique/bake
-status: draft
+protein: []
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Savory Meat Loaf

@@ -8,15 +8,16 @@ cuisine:
   - american
 course:
   - candy
+occasion: []
 dietary_tags:
   - vegetarian
   - gluten-free
 season:
   - holiday
-prep_time: "5 min [ESTIMATED]"
-cook_time: "5 min [ESTIMATED]"
-inactive_time: "1 hr [ESTIMATED]"
-total_time: "1 hr 10 min [ESTIMATED]"
+prep_time: "5 min "
+cook_time: "5 min "
+inactive_time: "1 hr "
+total_time: "1 hr 10 min "
 base_servings: 16
 serving_unit: "pieces"
 scaling_notes: "This candy sets quickly; line up the ingredients before you start cooking."
@@ -34,9 +35,10 @@ tags:
   - recipe/dessert
   - cuisine/american
   - technique/boil
-status: draft
+protein: []
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Five Minute Fudge
@@ -48,7 +50,7 @@ date_modified: 2026-06-26
 
 ## Ingredients
 
-*Base servings: 16 pieces [ESTIMATED]*
+*Base servings: 16 pieces *
 
 - [ ] `2 tablespoons` — butter
 - [ ] `2/3 cup` — Carnation evaporated milk, undiluted

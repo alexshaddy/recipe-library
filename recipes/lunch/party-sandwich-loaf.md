@@ -13,10 +13,10 @@ occasion:
   - entertaining
 season:
   - all-year
-prep_time: "20 min [ESTIMATED]"
-cook_time: "30 min [ESTIMATED]"
+prep_time: "20 min "
+cook_time: "30 min "
 inactive_time: ""
-total_time: "50 min [ESTIMATED]"
+total_time: "50 min "
 base_servings: 8
 serving_unit: "slices"
 scaling_notes: "The filling scales with the loaf, but keep the bread proportion generous so the top does not get soggy."
@@ -34,9 +34,10 @@ tags:
   - recipe/lunch
   - cuisine/american
   - technique/bake
-status: draft
+protein: []
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Party Sandwich Loaf
