@@ -6,7 +6,7 @@ slug: highball
 meal_type:
   - drink
 cuisine:
-  - american
+  - cocktail
 course:
   - cocktail
 dietary_tags:
@@ -24,16 +24,19 @@ source_type: "handwritten"
 source_name: "Chef's Recipe Notebook"
 source_url: ""
 source_page: "12"
-origin_notes: "Cocktail recipe from the Mockingbird Bar page. The spirit name is unreadable in the scan."
+origin_notes: "Cocktail recipe from the Mockingbird Bar page. The spirit is scotch (or malt whiskey)."
 difficulty: "easy"
 key_equipment:
   - highball-glass
 tags:
-  - recipe/drink
+  - cocktail
+  - highball
   - technique/build
-status: draft
+protein:
+  - none
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Highball
