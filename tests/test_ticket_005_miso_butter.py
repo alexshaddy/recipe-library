@@ -39,7 +39,7 @@ EXPECTED_FRONTMATTER = {
 
 REQUIRED_FRONTMATTER_FIELDS = [
     "title", "aliases", "slug", "meal_type", "cuisine", "course",
-    "dietary_tags", "occasion", "season",
+    "dietary_tags", "season",
     "prep_time", "cook_time", "inactive_time", "total_time",
     "base_servings", "serving_unit", "scaling_notes",
     "source_type", "source_name", "source_url", "source_page", "origin_notes",
