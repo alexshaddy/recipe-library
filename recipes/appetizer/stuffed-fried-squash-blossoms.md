@@ -29,8 +29,11 @@ key_equipment:
   - skillet
   - thermometer
 tags:
-  - recipe/appetizer
-  - technique/fry
+- recipe/appetizer
+- technique/fry
+protein:
+- none
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
@@ -54,9 +57,12 @@ _Base servings: 12 blossoms_
 
 ## Instructions
 
-1. **Fill the blossoms.** Spoon a small amount of labneh into each blossom and twist closed.
-2. **Batter and fry.** Dredge lightly, then fry until crisp and pale gold.
-3. **Drain and serve.** Salt immediately and serve while the center is still creamy.
+1. **Prepare the filling.** In a bowl, whisk the labneh with the egg until smooth, then season with a pinch of salt and pepper.
+2. **Fill the blossoms.** Spoon a small amount of the labneh mixture into each squash blossom, then gently twist or fold the petals closed; the filling should be just below the blossom edge.
+3. **Prepare the batter.** In a shallow dish, whisk the flour with a pinch of salt; dip each stuffed blossom into the flour, shaking off excess.
+4. **Heat the oil.** In a skillet, heat oil to 350 °F (175 °C); the oil should shimmer but not smoke.
+5. **Fry the blossoms.** Carefully place the blossoms in the hot oil and fry for 2–3 minutes, turning once, until the coating is crisp and pale gold.
+6. **Drain and serve.** Remove with a slotted spoon, place on paper towels to drain, sprinkle with salt, and serve while the center is still creamy.
 
 ## Notes & Variations
 
