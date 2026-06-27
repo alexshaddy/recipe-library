@@ -32,7 +32,9 @@ key_equipment:
   - candy-spatula
   - 8-inch-square-pan
 tags:
-  - recipe/dessert
+  - recipe/dinner
+  - carnation
+  - vintage
 protein: []
 status: reviewed
 date_added: 2026-06-26

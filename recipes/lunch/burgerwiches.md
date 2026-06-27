@@ -31,7 +31,9 @@ key_equipment:
   - wax-paper
   - oven
 tags:
-  - recipe/lunch
+  - recipe/dinner
+  - carnation
+  - vintage
 protein: []
 status: reviewed
 date_added: 2026-06-26

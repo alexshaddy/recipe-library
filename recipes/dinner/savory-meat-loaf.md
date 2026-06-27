@@ -31,6 +31,8 @@ key_equipment:
   - oven
 tags:
   - recipe/dinner
+  - carnation
+  - vintage
 protein: []
 status: reviewed
 date_added: 2026-06-26

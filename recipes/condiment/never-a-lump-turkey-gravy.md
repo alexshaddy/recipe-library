@@ -29,7 +29,9 @@ difficulty: "easy"
 key_equipment:
   - heavy-skillet
 tags:
-  - recipe/condiment
+  - recipe/dinner
+  - carnation
+  - vintage
   - carnation
   - vintage
 protein: []

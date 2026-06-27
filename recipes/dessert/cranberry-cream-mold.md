@@ -33,7 +33,9 @@ key_equipment:
   - mold
   - refrigerator
 tags:
-  - recipe/dessert
+  - recipe/dinner
+  - carnation
+  - vintage
 protein: []
 status: reviewed
 date_added: 2026-06-26
