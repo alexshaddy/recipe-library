@@ -64,7 +64,9 @@ date_modified: 2026-06-27
 
 3. **Cook Until Thick.** Stir constantly over low heat until the gravy is thickened, smooth, and coats the back of a spoon (~5–7 min). It should be silky with no lumps and a rich, creamy tan color.
 
-4. **Serve.** Use immediately over turkey or other roasted poultry. If the gravy thickens on standing, whisk in a splash of warm water or milk to loosen.
+4. **Season and Adjust.** Taste the gravy and add salt if needed — remember the flour is already seasoned. If too thick, whisk in a splash of warm water or milk to reach desired consistency.
+
+5. **Serve.** Use immediately over turkey or other roasted poultry. If the gravy thickens on standing, whisk in a splash of warm water or milk to loosen.
 
 ---
 
