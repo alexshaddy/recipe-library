@@ -3297,3 +3297,8 @@ To github.com:alexshaddy/recipe-library.git
  1 file changed, 4 insertions(+)
 To github.com:alexshaddy/recipe-library.git
    3e25ac8..9660bc3  main -> main
+[main 2c6cea9] Auto-commit: changes from herdr agents
+ 2 files changed, 101 insertions(+)
+ create mode 100644 docs/specs/014-miso-caramel.md
+To github.com:alexshaddy/recipe-library.git
+   9660bc3..2c6cea9  main -> main
