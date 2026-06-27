@@ -31,8 +31,11 @@ key_equipment:
   - bowl
   - jar
 tags:
-  - recipe/appetizer
-  - technique/marinate
+- recipe/appetizer
+- technique/marinate
+protein:
+- none
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
