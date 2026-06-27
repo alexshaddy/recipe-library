@@ -1,41 +1,52 @@
 ---
-title: "Cold Smoked Baklava"
-aliases:
-  - "Cold Smoked Baclava"
+title: "Cold-Smoked Baklava"
+aliases: []
 slug: cold-smoked-baklava
 meal_type:
-  - side
+  - dessert
 cuisine:
-  - american
+  - Middle Eastern
+  - Turkish
+  - Modern
 course:
-  - vegetable
+  - dessert
 dietary_tags:
-  - vegan
   - vegetarian
-  - gluten-free
 season:
   - all-year
-prep_time: "15 min [ESTIMATED]"
-cook_time: "0 min"
-inactive_time: "smoke time [TO VERIFY]"
-total_time: "[TO VERIFY]"
-base_servings: 4
-serving_unit: "portions"
-scaling_notes: "Smoke gently; the goal is aroma, not cooking the vegetable through."
+prep_time: "45 min"
+cook_time: "50 min"
+inactive_time: "3 hr (cold smoke + syrup cool + rest)"
+total_time: "4 hr 35 min"
+base_servings: 24
+serving_unit: "pieces"
+scaling_notes: "Half recipe fits a 9x13 pan (12 pieces). Smoke time is per batch, not per piece — smoke full trays of phyllo/nuts together. Syrup scales linearly; make full batch regardless — extra keeps indefinitely."
 source_type: "handwritten"
 source_name: "Chef's Recipe Notebook"
 source_url: ""
 source_page: "22"
-origin_notes: "Notebook note is partially illegible; the title appears to refer to a cold-smoked baklava-style dessert or a closely related term."
-difficulty: "medium"
+origin_notes: "Notebook entry: 'Cold Smoked Bok Lava?' (p. 22). Interpreted as cold-smoked baklava — a modern technique where phyllo sheets and nut filling are cold-smoked before assembly, imparting subtle woodsmoke to the classic dessert. This editorial decision documented in Cook's Notes."
+difficulty: "difficulty: advanced"
 key_equipment:
-  - smoker
+  - cold-smoker
+  - smoke-tube
+  - half-sheet-pans
+  - 9x13-inch-baking-pan
+  - pastry-brush
+  - sharp-knife
+  - saucepan
 tags:
-  - recipe/side
-  - technique/smoke
-status: draft
+  - dessert
+  - baklava
+  - phyllo
+  - nuts
+  - technique-cold-smoke
+  - technique-baking
+  - middle-eastern
+  - turkish
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Cold Smoked Baklava
