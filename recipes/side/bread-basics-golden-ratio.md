@@ -1,41 +1,51 @@
 ---
-title: "Bread Basics - Golden Ratio"
-aliases:
-  - "Bread Basics"
-  - "Golden Ratio"
+title: "Bread Basics — Golden Ratio (5:3 Flour:Water)"
+aliases: ["Golden Ratio Bread", "Artisan Bread Formula"]
 slug: bread-basics-golden-ratio
 meal_type:
   - side
 cuisine:
-  - american
+  - Artisan Bread
 course:
   - bread
 dietary_tags:
+  - vegan
   - vegetarian
 season:
   - all-year
-prep_time: "20 min [ESTIMATED]"
-cook_time: "25 min [ESTIMATED]"
-inactive_time: "1 hour [ESTIMATED]"
-total_time: "1 hr 45 min [ESTIMATED]"
+prep_time: "30 min"
+cook_time: "45 min"
+inactive_time: "3 hr (autolyse + bulk ferment + proof)"
+total_time: "4 hr 15 min"
 base_servings: 1
-serving_unit: "batch"
-scaling_notes: "The notebook frames this as a ratio system, so the formula should scale proportionally."
+serving_unit: "loaf (900 g)"
+scaling_notes: "Golden Ratio = 5 parts flour : 3 parts water (60% hydration). Scale all ingredients by flour weight. Salt = 2% of flour weight. Yeast = 0.5–1% for direct method; 0.1% for overnight retard. For 2 loaves, double flour weight and scale accordingly."
 source_type: "handwritten"
 source_name: "Chef's Recipe Notebook"
 source_url: ""
 source_page: "25"
-origin_notes: "Bread ratio note from page 25."
+origin_notes: "Notebook page 25: 'Bread ratio 5:3 flour:water.' Expanded to full artisan method. The [TO VERIFY] on yeast is resolved: instant yeast at 0.7% of flour weight for same-day bake; 0.1% for cold retard. This is a straight dough (commercial yeast), not sourdough — though the ratio works for levain builds too."
 difficulty: "medium"
 key_equipment:
-  - bowl
-  - oven
+  - digital-scale
+  - large-bowl
+  - bench-scraper
+  - proofing-basket
+  - dutch-oven
+  - lame
+  - instant-read-thermometer
 tags:
-  - recipe/side
-  - technique/bake
-status: draft
+  - bread
+  - basic
+  - artisan
+  - yeast
+  - technique-mixing
+  - technique-fermentation
+  - technique-shaping
+  - technique-baking
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Bread Basics - Golden Ratio
