@@ -96,9 +96,11 @@ date_modified: 2026-06-27
 ### Variations
 - **Classic burger version:** Skip the chili topping and serve the patties plain.
 
-### Make-Ahead / Storage
+### Make-Ahead
 - Shape the patties ahead and chill them covered for up to 1 day.
-- Cooked burgers are best served immediately; reheat gently to avoid drying them out.
+
+### Storage
+- Cooked burgers are best served immediately; reheat gently to avoid drying them out. Leftovers keep refrigerated for up to 2 days.
 
 ### Scaling
 - The beef mixture is straightforward to scale up or down as long as the seasoning stays balanced.
