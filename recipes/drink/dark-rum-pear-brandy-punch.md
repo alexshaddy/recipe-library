@@ -5,7 +5,7 @@ slug: dark-rum-pear-brandy-punch
 meal_type:
   - drink
 cuisine:
-  - american
+  - Cocktail
 course:
   - cocktail
 dietary_tags: []
@@ -13,28 +13,35 @@ occasion:
   - entertaining
 season:
   - fall
-prep_time: "5 min [ESTIMATED]"
+prep_time: "5 min"
 cook_time: ""
 inactive_time: ""
-total_time: "5 min [ESTIMATED]"
+total_time: "5 min"
 base_servings: 1
 serving_unit: "cocktail"
-scaling_notes: "Scales cleanly one-for-one."
+scaling_notes: "Punch scales by 2:1:1:1 formula (strong:sour:sweet:weak). For batch: multiply. Pre-dilute 20%. Serve over pebble ice or up in coupe."
 source_type: "handwritten"
 source_name: "Scanned guest-check recipe notes"
 source_url: ""
 source_page: ""
-origin_notes: "Working-title transcription from a handwritten cocktail note on a guest check in _inbox/brw849e563cc961_000405.jpg. The title on the card is obscured, but the visible spirit structure is clear enough to preserve."
+origin_notes: "Transcribed from a handwritten cocktail note on a guest check in assets/loose_notes_scans/brw849e563cc961_000405.jpg. Base spirits (dark rum, pear brandy, crème de cacao) are legible; the title is a working title. Mockingbird Bar era (c. 2018–2022)."
 difficulty: "easy"
 key_equipment:
   - shaker
   - jigger
+  - fine-strainer
+  - rocks-glass
+  - pebble-ice-mold
 tags:
-  - recipe/drink
-  - technique/shake
-status: draft
+  - cocktail
+  - punch
+  - technique-shake
+  - rum
+  - pear
+  - cacao
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Dark Rum Pear Brandy Punch
