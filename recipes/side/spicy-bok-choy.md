@@ -11,7 +11,7 @@ course:
 dietary_tags:
 - vegan
 - vegetarian
-- gluten-free-option
+- gluten-free
 occasion: []
 season:
   - all-year
