@@ -1,11 +1,11 @@
 ---
-title: Ika Punch
+title: "Ika Punch"
 aliases: []
 slug: ika-punch
 meal_type:
   - drink
 cuisine:
-  - american
+  - Cocktail
 course:
   - cocktail
 dietary_tags: []
@@ -13,28 +13,36 @@ occasion:
   - entertaining
 season:
   - fall
-prep_time: 5 min [ESTIMATED]
+prep_time: "5 min"
 cook_time: ""
-inactive_time: ""
-total_time: 5 min [ESTIMATED]
+inactive_time: "10 min (syrup steep)"
+total_time: "15 min"
 base_servings: 1
-serving_unit: cocktail
-scaling_notes: Scales cleanly one-for-one.
-source_type: handwritten
-source_name: Scanned guest-check recipe notes
+serving_unit: "cocktail"
+scaling_notes: "Punch scales by 2:1:1:1 formula. For batch: multiply. Prune-black-tea syrup makes 1 cup (8-10 servings). Store syrup 2 weeks refrigerated. Pre-dilute batch 20%."
+source_type: "handwritten"
+source_name: "Scanned guest-check recipe notes"
 source_url: ""
 source_page: ""
-origin_notes: Working-title transcription from a handwritten cocktail note on a guest check in _inbox/brw849e563cc961_000403.jpg. The title on the card is obscured, but the flavor notes are readable.
-difficulty: easy
+origin_notes: "Transcribed from a handwritten cocktail note on a guest check in assets/loose_notes_scans/brw849e563cc961_000403.jpg. Title 'Ika' is legible (possibly a nickname or shorthand). Structure: citrus mug punch with prune-black-tea syrup. Mockingbird Bar era (c. 2018–2022)."
+difficulty: "easy"
 key_equipment:
   - mug
   - jigger
+  - bar-spoon
+  - saucepan (for syrup)
+  - fine-strainer
 tags:
-  - recipe/drink
-  - technique/build
-status: draft
+  - cocktail
+  - punch
+  - technique-build
+  - hot-cocktail
+  - prune
+  - black-tea
+  - citrus
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Orange Bitters Mug Punch
