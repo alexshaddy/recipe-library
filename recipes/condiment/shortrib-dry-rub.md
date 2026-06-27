@@ -31,8 +31,11 @@ difficulty: "easy"
 key_equipment:
   - bowl
 tags:
-  - recipe/condiment
-  - technique/rub
+- recipe/condiment
+- technique/rub
+protein:
+- none
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
@@ -57,8 +60,8 @@ date_modified: 2026-06-26
 
 ## Instructions
 
-1. **Mix the rub.** Stir everything together until the color is even.
-2. **Apply.** Rub onto short ribs or other meat before roasting, grilling, or smoking.
+1. **Mix the rub.** Stir all the spices together in a bowl until the color is uniform and the aroma of paprika and brown sugar is fragrant, about 30 seconds.
+2. **Apply.** Generously coat the short ribs or other meat with the rub, pressing it into the surface. Let the seasoned meat rest for 10 minutes at room temperature to allow the flavors to meld before cooking.
 
 ## Notes & Variations
 
