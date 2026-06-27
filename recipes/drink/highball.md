@@ -48,7 +48,7 @@ date_modified: 2026-06-27
 
 *Base servings: 1 cocktail*
 
-- [ ] `2 ounces` — spirit [TO VERIFY]
+- [ ] `2 ounces` — scotch (or malt whiskey)
 - [ ] `0.6 ounces` — Pocari Sweat syrup
 - [ ] `soda water` — to top
 
