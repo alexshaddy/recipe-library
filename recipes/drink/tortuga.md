@@ -32,11 +32,13 @@ key_equipment:
   - fine-strainer
   - coupe or rocks glass
 tags:
-  - cocktail
-  - sour
-  - technique-shake
-  - strawberry
-  - cream
+- cocktail
+- sour
+- technique-shake
+- strawberry
+- cream
+protein:
+- none
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27
