@@ -13,8 +13,7 @@ dietary_tags:
   - vegan
   - vegetarian
   - gluten-free
-protein:
-  - none
+protein: []
 season:
   - fall
   - winter
@@ -48,8 +47,7 @@ tags:
   - technique-grilling
   - technique-glazing
   - technique-juicing
-protein:
-  - none
+protein: []
   - technique-glazing
   - technique-juicing
 status: reviewed

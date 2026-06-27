@@ -11,8 +11,7 @@ course:
 dietary_tags:
   - vegan
   - vegetarian
-protein:
-  - none
+protein: []
 season:
   - all-year
 prep_time: "30 min"
@@ -45,8 +44,7 @@ tags:
   - technique-fermentation
   - technique-shaping
   - technique-baking
-protein:
-  - none
+protein: []
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27

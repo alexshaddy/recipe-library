@@ -12,8 +12,7 @@ course:
   - dessert
 dietary_tags:
   - vegetarian
-protein:
-  - none
+protein: []
 season:
   - all-year
 prep_time: "45 min"
@@ -46,8 +45,7 @@ tags:
   - technique-baking
   - middle-eastern
   - turkish
-protein:
-  - none
+protein: []
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27
