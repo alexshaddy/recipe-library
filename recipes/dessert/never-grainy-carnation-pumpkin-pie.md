@@ -67,12 +67,17 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Mix the dry base.** Blend the sugar, spices, and salt together in a bowl.
-2. **Add the custard ingredients.** Stir in the eggs, pumpkin, and evaporated milk until well combined.
-3. **Fill the shell.** Pour the custard into the unbaked pie shell.
-4. **Start hot.** Bake at 425 F for 15 minutes.
-5. **Finish gently.** Reduce the oven to 350 F and continue baking about 40 minutes, until a knife inserted near the center comes out clean.
-6. **Cool and serve.** Cool completely before slicing. Serve with cheese if desired.
+1. **Mix the Dry Base.** Blend the sugar, cinnamon, cloves, allspice, nutmeg, ginger, and salt together in a bowl. The spice mixture should be uniform and deeply fragrant.
+
+2. **Add the Custard Ingredients.** Stir in the eggs, pumpkin, and evaporated milk until well combined and smooth. The custard should be silky with no streaks of egg white — the color will be a warm, spiced orange.
+
+3. **Fill the Shell.** Pour the custard into the unbaked pie shell, filling it nearly to the top. Tap the pie gently on the counter to release any air bubbles.
+
+4. **Start Hot.** Bake at 425°F for 15 minutes — the high heat sets the outer edge of the custard quickly, preventing a soggy crust.
+
+5. **Finish Gently.** Reduce the oven to 350°F and continue baking until a knife inserted near the center comes out clean and the filling is set with a slight jiggle in the middle (~40 min). The pie should smell warmly spiced and the crust golden brown.
+
+6. **Cool and Serve.** Cool completely on a wire rack before slicing — the custard continues to set as it cools (~1 hr). Serve at room temperature or chilled, with cheese if desired.
 
 ---
 
