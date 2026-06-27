@@ -5,7 +5,7 @@ slug: mildly-herbaceous-old-fashioned
 meal_type:
   - drink
 cuisine:
-  - american
+  - Cocktail
 course:
   - cocktail
 dietary_tags: []
@@ -13,28 +13,33 @@ occasion:
   - entertaining
 season:
   - all-year
-prep_time: "5 min [ESTIMATED]"
+prep_time: "5 min"
 cook_time: ""
 inactive_time: ""
-total_time: "5 min [ESTIMATED]"
+total_time: "5 min"
 base_servings: 1
 serving_unit: "cocktail"
-scaling_notes: "Scales cleanly one-for-one."
+scaling_notes: "Scales linearly. For batch: multiply spirits, liqueurs, lemon, tincture, bitters. Store chilled up to 48 hours. Stir with ice to order (30 sec, ~25% dilution)."
 source_type: "handwritten"
 source_name: "Scanned guest-check recipe notes"
 source_url: ""
 source_page: ""
-origin_notes: "Transcribed from a handwritten cocktail note on a guest check in _inbox/brw849e563cc961_000405.jpg. The title on the card reads as a mildly herbaceous old fashioned."
+origin_notes: "Transcribed from a handwritten cocktail note on a guest check in assets/loose_notes_scans/brw849e563cc961_000405.jpg. The title 'Mildly Herbaceous Old Fashioned' is legible; the recipe is a gin-brandy split-base variation with herbal and spice accents, typical of Mockingbird Bar's riffing on the Old Fashioned template (c. 2018–2022)."
 difficulty: "easy"
 key_equipment:
   - mixing-glass
   - jigger
+  - bar-spoon
+  - rocks-glass
 tags:
-  - recipe/drink
-  - technique/stir
-status: draft
+  - cocktail
+  - old-fashioned
+  - technique-stir
+  - gin
+  - brandy
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Mildly Herbaceous Old Fashioned
