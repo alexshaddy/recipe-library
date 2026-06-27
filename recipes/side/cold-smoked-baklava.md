@@ -26,7 +26,7 @@ source_name: "Chef's Recipe Notebook"
 source_url: ""
 source_page: "22"
 origin_notes: "Notebook entry: 'Cold Smoked Bok Lava?' (p. 22). Interpreted as cold-smoked baklava — a modern technique where phyllo sheets and nut filling are cold-smoked before assembly, imparting subtle woodsmoke to the classic dessert. This editorial decision documented in Cook's Notes."
-difficulty: "difficulty: advanced"
+difficulty: "advanced"
 key_equipment:
   - cold-smoker
   - smoke-tube
