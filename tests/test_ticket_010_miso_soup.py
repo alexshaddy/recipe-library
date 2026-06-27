@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+import os
+RECIPE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes")
+RECIPE_PATH = os.path.join(RECIPE_DIR, "condiment", "miso-butter.md")
 """
 TICKET-010: Create Miso Soup from Title-Only Addendum.
 
