@@ -30,8 +30,11 @@ difficulty: "medium"
 key_equipment:
   - blender
 tags:
-  - recipe/condiment
-  - technique/emulsify
+- recipe/condiment
+- technique/emulsify
+protein:
+- egg
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
@@ -59,9 +62,9 @@ date_modified: 2026-06-26
 
 ## Instructions
 
-1. **Build the base.** Put everything except the oil into a blender and process until the garlic is broken down and the mixture looks loose and pale.
-2. **Emulsify slowly.** Stream in the oil in a thin ribbon while the blender runs; the sauce should thicken and turn glossy.
-3. **Adjust the balance.** Taste for salt, acid, and garlic intensity, then thin with a little water if the aioli feels too dense.
+1. **Build the base.** Place the garlic, egg, white wine vinegar, extra‑virgin olive oil, parsley, fennel seed, salt, lemon juice, and lemon zest into the blender. Process on high for 30 seconds until the mixture is smooth, pale, and the garlic is fully broken down.
+2. **Emulsify slowly.** With the blender running, stream the neutral oil in a thin, steady ribbon for 1–2 minutes. The sauce should gradually thicken and become glossy; stop adding oil once the aioli reaches a thick, spoon‑coating consistency.
+3. **Adjust the balance.** Taste and add a splash of water or extra lemon juice if the aioli feels too dense, blending for an additional 10 seconds. Adjust salt to taste.
 
 ## Notes & Variations
 
