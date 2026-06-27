@@ -52,13 +52,12 @@ date_modified: 2026-06-27
 
 *Makes about 1 cup*
 
-- 1 cup (200g) granulated sugar
-- ¼ cup (60ml) water
+- 1 cup (200g) brown sugar
+- ¼ cup (60ml) mirin
 - ½ cup (120ml) heavy cream, at room temperature
 - 4 tablespoons (60g) unsalted butter, cut into pieces, at room temperature
-- 1 teaspoon pure vanilla extract
 - ½ teaspoon flaky sea salt (or to taste)
-- 1 tablespoon white miso (shiro miso) or awase miso
+- 1 tablespoon white miso (shiro miso)
 
 ## Instructions
 
