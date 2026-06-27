@@ -1,102 +1,87 @@
-# Specification: Resolve Cold-Smoked Baklava Identity and Expand
+# Specification: Cold-Smoked Baklava from Notebook Source
 
 **Ticket:** TICKET-027  
 **Recipe:** `side/cold-smoked-baklava.md`  
-**Objective:** Resolve the ambiguous notebook entry ("Cold Smoked Bok Lava?") as cold-smoked baklava, detail the modern cold-smoke technique, and expand the recipe to meet digitization skill spec.
+**Objective:** Resolve the ambiguous notebook entry "Cold Smoked Bok Lava?" as cold-smoked baklava, detail the modern cold-smoke technique, and ensure the recipe meets digitization skill spec.
 
 ## Design
 
-### Identity Resolution
-- The notebook phrase "Cold Smoked Bok Lava?" is a phonetic rendering of "baklava" with uncertainty.
-- No other dessert matches "Bok Lava" phonetically.
-- Conclusion: The entry refers to **cold-smoked baklava**, a contemporary technique where phyllo and nuts are cold-smoked before assembly to impart subtle woodsmoke without compromising texture.
-- This editorial decision is documented in the recipe's Cook's Notes.
+### 1. Ingredient Alignment
+The recipe already lists ingredients for cold-smoked baklava, including:
+- Phyllo dough (to be cold-smoked)
+- Mixed nuts (to be cold-smoked)
+- Wood pellets for cold smoking
+- Nut filling ingredients (sugar, spices)
+- Phyllo assembly ingredients (butter, oil)
+- Syrup (atter) ingredients
+- Garnish
 
-### Ingredient Alignment
-- Adjusted ingredients to reflect cold-smoked components:
-  - Phyllo sheets cold-smoked 45 minutes at 68–86°F.
-  - Mixed nuts (pistachios, walnuts, almonds) cold-smoked 2 hours.
-  - Clarified butter-oil mixture for layering.
-  - Traditional syrup with lemon, spices, rose/orange blossom water.
-  - Garnish of reserved smoked pistachio dust.
-- All measurements and ingredients are specified with weights/volumes where appropriate.
+We verified that the ingredients align with the notebook's implied components (phyllo, nuts, sugar, spices, syrup) and the cold-smoke technique.
 
-### Instruction Expansion
-- Expanded to 14 steps grouped into four phases (Cold Smoke, Syrup, Assemble & Bake, Syrup & Rest).
-- Each step includes:
-  - **Bolded action title** (e.g., **Prepare the cold smoker.**)
-  - **Sensory cues** (e.g., "Sheets will turn barely translucent with a whisper of smoke aroma.")
-  - **Inline timing** (e.g., "smoke 45 minutes", "cook 8 minutes without stirring")
-- Steps cover critical techniques: temperature control for cold smoking, syrup temperature differential, scoring before baking, resting.
+### 2. Instructions
+The recipe provides 14 detailed steps grouped into four phases:
+- Phase 1: Cold smoke the phyllo & nuts (steps 1-4)
+- Phase 2: Make the syrup (step 5)
+- Phase 3: Assemble & bake (steps 6-11)
+- Phase 4: Syrup & rest (steps 12-14)
 
-### Notes & Variations
-- **Cook's Notes (2+):**
-  1. Explains the editorial decision and why cold-smoking components (not finished baklava) preserves texture.
-  2. Emphasizes temperature control (≤86°F) to prevent melting phyllo fat.
-  3. Details the cool-syrup/hot-pastry rule for shatter texture.
-  4. Notes clarified butter to avoid steam.
-- **Variations (1+):**
-  - Walnut-Rose Classic (Turkish style)
-  - Pistachio-Cardamom (Levantine style)
-  - Chocolate-Dipped
-  - Savory "Baklava" amuse-bouche
-- **Make-Ahead / Storage:**
-  - Smoked components: up to 4 hours room temp (covered).
-  - Assembled unbaked: up to 2 hours room temp.
-  - Baked syruped: best 4–24 hours after syruping; keeps 5 days room temp; freezes 1 month.
-  - Syrup: keeps 3 months refrigerated.
-- **Scaling:**
-  - Half batch (9×9 pan), double batch (two 9×13 or 12×18), smoker capacity notes.
+Each step includes:
+- Bolded action title (e.g., "Prepare the cold smoker.")
+- Sensory cues (e.g., "sheets will turn barely translucent with a whisper of smoke aroma")
+- Inline timing (e.g., "smoke 45 minutes", "cook 8 minutes")
 
-### Frontmatter & Metadata Updates
-- `title`: "Cold-Smoked Baklava"
-- `slug`: "cold-smoked-baklava"
-- `meal_type`: dessert
-- `cuisine`: ["Middle Eastern", "Turkish", "Modern"]
-- `course`: dessert
-- `dietary_tags`: [vegetarian]
-- `season`: all-year ]
-- `prep**: all-year
-- `prep_time`: "45 min" (active: prepping, smoking, assembling)
-- `cook_time`: "50 min" (active: baking)
-- `inactive_time`: "3 hr (cold smoke + syrup cool + rest)" (passive: smoking, cooling syrup, resting)
-- `total_time`: "4 hr 35 min"
-- `base_servings`: 24
-- `serving_unit`: "pieces"
-- `scaling_notes`: Retained and clarified.
-- `source_type`: handwritten
-- `source_name`: Chef's Recipe Notebook
-- `source_url`: ""
-- `source_page`: "22"
-- `origin_notes`: "Notebook entry: 'Cold Smoked Bok Lava?' (p. 22). Interpreted as cold-smoked baklava — a modern technique where phyllo sheets and nut filling are cold-smoked before assembly, imparting subtle woodsmoke to the classic dessert. This editorial decision documented in Cook's Notes."
-- `difficulty`: advanced (updated from "difficulty: advanced" to proper format)
-- `key_equipment`: ["cold-smoker", "smoke-tube", "half-sheet-pans", "9x13-inch-baking-pan", "pastry-brush", "sharp-knife", "saucepan"]
-- `tags`: ["dessert", "baklava", "phyllo", "nuts", "technique-cold-smoke", "technique-baking", "middle-eastern", "turkish"]
-- `protein`: [] (none)
-- `status`: reviewed
-- `date_added`: 2026-06-26
-- `date_modified`: 2026-06-27
+This exceeds the requirement of 6–8 steps with bolded titles, sensory cues, and timing.
 
-### Verification
-- Confirmed identity resolution documented.
-- Ingredients match cold-smoked baklava concept.
-- Instructions are 14 steps (exceeds 6–8 requirement) with bolded titles, sensory cues, timing.
-- Contains multiple cook's notes, variations, make-ahead/storage, scaling guidance.
-- Frontmatter fields updated as described.
-- Status remains `reviewed`, date_modified set to 2026-06-27.
+### 3. Notes & Variations
+The recipe includes:
+- **Cook's Notes (multiple):** Editorial decision explanation, temperature control, syrup temperature differential, clarified butter, scoring timing.
+- **Variations (4):** Walnut-Rose Classic, Pistachio-Cardamom, Chocolate-Dipped, Savory "Baklava".
+- **Make-Ahead / Storage:** Detailed guidance on smoked components, assembled unbaked, baked syruped baklava.
+- **Scaling:** Explicit scaling notes for half recipe, syrup, smoke time.
 
-### Implementation Notes
-- No code changes; the recipe file already exists and meets the spec.
-- Implementer should verify the file matches the spec above.
-- Quality reviewer should verify against notebook source and spec.
-- Documentation updater should ensure no related cross-references needed.
+This satisfies the requirement for substantive cook's notes (at least 2), variations (at least 1), make-ahead/storage, and scaling guidance.
 
-### Acceptance Criteria
+### 4. Frontmatter & Metadata
+We verified and/or updated the frontmatter to include:
+- Correct title, slug, meal_type (dessert), cuisine (Middle Eastern, Turkish, Modern), course (dessert)
+- Dietary tags: vegetarian (contains dairy, eggs? actually no eggs, but butter and honey; we kept vegetarian)
+- Season: all-year
+- Prep time: "45 min" (active)
+- Cook time: "50 min" (active)
+- Inactive time: "3 hr (cold smoke + syrup cool + rest)" (we kept as is, but note it's a range)
+- Total time: "4 hr 35 min"
+- Base servings: 24
+- Serving unit: "pieces"
+- Source: handwritten, Chef's Recipe Notebook, page 22
+- Origin notes: Notebook entry: 'Cold Smoked Bok Lava?' (p. 22). Interpreted as cold-smoked baklava...
+- Difficulty: advanced (we kept as is)
+- Key equipment: cold-smoker, smoke-tube, half-sheet-pans, 9x13-inch-baking-pan, pastry-brush, sharp-knife, saucepan
+- Tags: dessert, baklava, phyllo, nuts, technique-cold-smoke, technique-baking, middle-eastern, turkish
+- Protein: [] (none)
+- Status: reviewed
+- Date added: 2026-06-26
+- Date modified: 2026-06-27 (updated during this spec)
+
+All frontmatter fields are present and correct.
+
+### 5. Verification
+- Confirmed the recipe resolves the notebook ambiguity by interpreting "Cold Smoked Bok Lava?" as cold-smoked baklava.
+- Ensured ingredients match the implied components and the cold-smoke technique.
+- Validated that instructions are well beyond 6–8 steps, each with bolded titles, sensory cues, and timing.
+- Confirmed presence of multiple cook's notes, variations, make-ahead/storage, and scaling guidance.
+- Verified frontmatter completeness and correctness.
+
+## Implementation Notes
+- No code changes; the recipe is already written in `recipes/side/cold-smoked-baklava.md`.
+- The spec serves as documentation of the design decisions and verification that the recipe meets the digitization skill spec.
+- Quality reviewer should verify the recipe against the notebook source and this spec.
+- Documentation updater should ensure no related cross-references are needed (none identified).
+
+## Acceptance Criteria
 - [ ] Recipe file exists at `recipes/side/cold-smoked-baklava.md`.
-- [ ] Identity resolved as cold-smoked baklava with editorial decision documented.
-- [ ] Ingredients include cold-smoked phyllo and nuts, clarified butter-oil, traditional syrup.
-- [ ] Instructions are ≥6 steps with bolded action titles, sensory cues, inline timing.
+- [ ] Ingredients include phyllo, nuts, sugar, spices, syrup components, with cold-smoke technique.
+- [ ] Instructions are 6+ steps with bolded action titles, sensory cues, inline timing (actually 14 steps).
 - [ ] Contains at least 2 cook's notes, 1 variation, make-ahead/storage, scaling guidance.
-- [ ] Frontmatter matches specified fields and values.
-- [ ] Status set to `reviewed`, date_modified set to 2026-06-27.
+- [ ] Frontmatter fields are correct and include updated date_modified.
+- [ ] Status is set to `reviewed`.
 - [ ] No unrelated changes introduced.
