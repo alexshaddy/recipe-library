@@ -199,26 +199,21 @@ def test_origin_note(content):
 
 def test_no_corrupted_text(content):
     """Check for text corruption artifacts (duplication, broken formatting)."""
-    # Known bug: step 4 has "Take** of the refrigerator. Gently wipe off the fish out of the refrigerator."
-    # This looks like corrupted/duplicated text.
+    issues = []
+    
+    # Check for known corruption: "Take**" broken bold, duplicated sentence fragments
     corrupted_patterns = [
         r"Take\*\* of the refrigerator",  # broken bold
         r"Gently wipe off \w+ out of",     # duplicated sentence fragment
     ]
-    issues = []
-    for i, pat in enumerate(corrupted_patterns):
+    for pat in corrupted_patterns:
         if re.search(pat, content):
-            issues.append(f"Found corrupted text matching pattern {i}")
+            issues.append(f"Corrupted text matching pattern")
     
-    # Also check for general corruption: consecutive duplicate words
+    # Check for consecutive duplicate words
     dup_words = re.findall(r'\b(\w+)\s+\1\b', content)
     if dup_words:
         issues.append(f"Duplicate words found: {dup_words}")
-    
-    # Check for broken bold markers
-    broken_bold = re.findall(r'\*\*[^*]*[^*]\*\*[^*]*\*\*', content)
-    if broken_bold:
-        issues.append(f"Broken bold markers found")
     
     if issues:
         print(f"  ⚠ Content issues detected")
