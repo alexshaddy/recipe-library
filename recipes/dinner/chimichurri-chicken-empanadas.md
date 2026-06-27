@@ -62,7 +62,7 @@ date_modified: 2026-06-27
 - [ ] `100 g` (≈2 cups packed) **fresh cilantro**, stems and leaves, roughly chopped
 - [ ] `100 g` (≈2 cups packed) **flat-leaf parsley**, stems and leaves, roughly chopped
 - [ ] `6` cloves **garlic** (≈18 g), minced
-- [ ] `1] `1 tsp` **red pepper flakes** (adjust to heat preference)
+- [ ] `1 tsp` — red pepper flakes (adjust to heat preference)
 - [ ] `1 tsp` **fine sea salt**
 - [ ] `100 g` (½ cup) **red wine vinegar** (5% acidity)
 - [ ] `200 g` (⅞ cup) **extra-virgin olive oil** (fruity, not bitter)
