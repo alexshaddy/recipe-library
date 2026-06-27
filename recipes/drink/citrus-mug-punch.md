@@ -5,7 +5,7 @@ slug: citrus-mug-punch
 meal_type:
   - drink
 cuisine:
-  - american
+  - Cocktail
 course:
   - cocktail
 dietary_tags: []
@@ -13,28 +13,35 @@ occasion:
   - entertaining
 season:
   - winter
-prep_time: "5 min [ESTIMATED]"
+prep_time: "5 min"
 cook_time: ""
-inactive_time: ""
-total_time: "5 min [ESTIMATED]"
+inactive_time: "10 min (tea steep)"
+total_time: "15 min"
 base_servings: 1
 serving_unit: "cocktail"
-scaling_notes: "Scales cleanly one-for-one."
+scaling_notes: "Punch scales by 2:1:1:1 formula. For batch: multiply all ingredients. Pre-dilute 20% with water. Store chilled up to 24 hours. Serve over pebble ice or hot in mugs."
 source_type: "handwritten"
 source_name: "Scanned guest-check recipe notes"
 source_url: ""
 source_page: ""
-origin_notes: "Working-title transcription from a handwritten cocktail note on a guest check in _inbox/brw849e563cc961_000403.jpg. The scan shows a citrus-heavy drink served in a mug with straw."
+origin_notes: "Transcribed from a handwritten cocktail note on a guest check in assets/loose_notes_scans/brw849e563cc961_000403.jpg. The scan shows a citrus-heavy drink served in a mug with straw. Simpler sibling to Black Tea Orange Punch — likely a house 'Citrus Mug Punch' with black tea syrup as the standard sweetener. Mockingbird Bar era (c. 2018–2022)."
 difficulty: "easy"
 key_equipment:
   - mug
   - jigger
+  - bar-spoon
+  - saucepan (for syrup)
+  - fine-strainer
 tags:
-  - recipe/drink
-  - technique/build
-status: draft
+  - cocktail
+  - punch
+  - technique-build
+  - hot-cocktail
+  - black-tea
+  - citrus
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Citrus Mug Punch
