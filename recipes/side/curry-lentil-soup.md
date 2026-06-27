@@ -5,7 +5,7 @@ slug: curry-lentil-soup
 meal_type:
   - side
 cuisine:
-  - indian
+- indian-inspired
 course:
   - soup
 dietary_tags:

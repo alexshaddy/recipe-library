@@ -32,11 +32,10 @@ key_equipment:
   - measuring spoons
   - jar
 tags:
-  - recipe/condiment
-  - ingredient/miso
-  - ingredient/mirin
-  - ingredient/sake
-  - technique/simmering
+- condiment
+- glaze
+- miso
+- technique/simmering
 protein:
   - none
 status: reviewed
