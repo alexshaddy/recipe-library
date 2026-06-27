@@ -36,7 +36,7 @@ protein:
 
 status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Stuffed Fried Squash Blossoms
@@ -68,12 +68,19 @@ _Base servings: 12 blossoms_
 
 ### Cook's Notes
 
-- The page reads like a fine-dining garnish note, so keep the blossoms small and delicate.
+- The page reads like a fine‑dining garnish note, so keep the blossoms small and delicate.
+- Ensure the oil temperature stays steady; if it drops, the coating will absorb excess oil and become soggy.
+- Pat the blossoms dry after filling to prevent excess moisture from splattering the oil.
 
-### Make-Ahead / Storage
+### Variations
 
-- Fry right before serving.
+- **Cheese‑Filled Blossoms:** Substitute the labneh‑egg mixture with a blend of ricotta and grated Parmesan for a richer flavor.
+- **Herb‑Infused Batter:** Add 1 teaspoon dried oregano or thyme to the flour batter for an aromatic crust.
+
+### Make‑Ahead / Storage
+
+- Prepare the filling and fill the blossoms up to 2 hours in advance; keep refrigerated. Fry right before serving for optimal crispness.
 
 ### Scaling
 
-- If the filling gets warm, chill it before stuffing.
+- If the filling gets warm, chill it before stuffing. For larger batches, fry in batches to maintain oil temperature.

@@ -30,8 +30,11 @@ difficulty: "easy"
 key_equipment:
   - saucepan
 tags:
-  - recipe/condiment
-  - technique/infuse
+- recipe/condiment
+- technique/infuse
+protein:
+- none
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
