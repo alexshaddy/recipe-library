@@ -39,7 +39,7 @@ protein:
 
 status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Labneh
@@ -69,12 +69,22 @@ _Base servings: 1 batch_
 
 ### Cook's Notes
 
-- The notebook gives only the title, so this is a traditional-style reconstruction rather than a literal transcription.
-- Longer straining yields a thicker, cream-cheese-like labneh; shorter yields a softer, scoopable dip.
+- The notebook gives only the title, so this is a traditional‑style reconstruction rather than a literal transcription.
+- Longer straining yields a thicker, cream‑cheese‑like labneh; shorter yields a softer, scoopable dip.
+- For a tangier flavor, add a pinch of sumac to the yogurt before straining.
 
-### Make-Ahead / Storage
+### Variations
 
-- Best after a short chill; use within a few days.
+- **Herbed Labneh:** Stir in 1 tablespoon each of finely chopped fresh mint and dill after whipping for a bright, herbaceous note.
+- **Spiced Labneh:** Add 1/2 teaspoon ground cumin and a drizzle of honey for a sweet‑savory twist.
+
+### Make‑Ahead / Storage
+
+- Best after a short chill; store in an airtight container for up to 5 days. The labneh can be frozen for up to 1 month, though texture may change.
+
+### Scaling
+
+- Keep the yogurt-to-herb ratio consistent when scaling. For larger batches, increase the straining time proportionally to ensure proper thickness.
 
 ### Scaling
 

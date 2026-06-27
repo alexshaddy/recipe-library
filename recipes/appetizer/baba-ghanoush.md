@@ -32,8 +32,11 @@ key_equipment:
   - sheet-pan
   - blender
 tags:
-  - recipe/appetizer
-  - technique/roast
+- recipe/appetizer
+- technique/roast
+protein:
+- none
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
