@@ -77,8 +77,11 @@ date_modified: 2026-06-27
 ### Variations
 - **Chicken gravy:** Use chicken drippings in place of turkey drippings.
 
-### Make-Ahead / Storage
+### Make-Ahead
 - Gravy is best fresh, but can be held warm over very low heat with a little extra liquid stirred in as needed.
+
+### Storage
+- Refrigerate in an airtight container for up to 2 days. Reheat gently in a saucepan over low heat, whisking constantly.
 
 ### Scaling
 - Keep the drippings-to-flour ratio even so the roux stays smooth.
