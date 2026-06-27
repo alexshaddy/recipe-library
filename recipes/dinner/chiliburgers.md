@@ -75,11 +75,15 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Make the beef mixture.** Combine the evaporated milk, ground chuck, cracker meal, egg, onion, mustard, salt, and pepper until just mixed and evenly combined.
-2. **Form the patties.** Shape the mixture into 8 patties and place them on a broiler pan.
-3. **Broil the burgers.** Broil about 5 inches from the heat for roughly 6 minutes per side, until browned and cooked through with a juicy center.
-4. **Glaze with chili sauce.** During the last 5 minutes, mix the chili sauce, mustard, and chili powder, then spread it over the burgers so it bubbles lightly.
-5. **Serve immediately.** Slide the chiliburgers onto toasted buns and serve hot.
+1. **Make the Beef Mixture.** Combine the evaporated milk, ground chuck, cracker meal, egg, onion, mustard, salt, and pepper in a large bowl. Mix lightly with your hands or a fork until just evenly combined (~1 min) — overmixing makes tough burgers.
+
+2. **Form the Patties.** Shape the mixture into 8 patties of equal size, about 3/4 inch thick. Place them on a broiler pan, leaving space between each for even cooking.
+
+3. **Broil the Burgers.** Broil about 5 inches from the heat until the tops are browned and sizzling (~6 min per side). The patties should be cooked through with a juicy center and a lightly charred exterior.
+
+4. **Glaze with Chili Sauce.** During the last 5 minutes of cooking, mix the chili sauce, mustard, and chili powder in a small bowl. Spread the glaze over the burgers and return to the broiler — the glaze will bubble and turn glossy as it caramelizes.
+
+5. **Serve Immediately.** Slide the chiliburgers onto toasted buns and serve hot while the glaze is still shiny and the patties are juicy.
 
 ---
 
