@@ -9,9 +9,9 @@ cuisine:
 course:
   - vegetable
 dietary_tags:
-  - vegan
-  - vegetarian
-  - gluten-free
+- vegan
+- vegetarian
+- gluten-free-option
 occasion: []
 season:
   - all-year
@@ -31,10 +31,13 @@ difficulty: "easy"
 key_equipment:
   - wok
 tags:
-  - recipe/side
-  - technique/wok
-  - technique/high-heat
-  - technique/steam
+- side
+- vegetable
+- bok-choy
+- wok
+- technique/wok
+- technique/high-heat
+- technique/steam
 protein: []
 status: reviewed
 date_added: "2026-06-26"
