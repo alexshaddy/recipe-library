@@ -32,10 +32,11 @@ def test_frontmatter_fields(fm):
                   "source_type", "source_name",
                   "origin_notes",
                   "difficulty", "key_equipment",
-                  "tags", "protein",
+                  "tags",
                   "status", "date_added", "date_modified"]:
         check_frontmatter_field(fm, field)
     # inactive_time allowed empty for quick dishes
+    # protein allowed empty/none for vegetable dishes
     print("  ✓ All required frontmatter fields present")
 
 
