@@ -70,10 +70,13 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Season the meat mixture.** Combine the beef mixture ingredients with the additional evaporated milk and horseradish, mixing lightly so the loaf stays tender.
-2. **Pack the pan.** Transfer the mixture to a 9 x 5 x 3-inch loaf pan and smooth the top.
-3. **Bake until done.** Bake at 350 F for about 1 hour, until the loaf is browned on top and cooked through.
-4. **Rest briefly.** Let the loaf stand a few minutes before slicing so it holds together cleanly.
+1. **Season the Meat Mixture.** Combine the beef mixture ingredients with the additional evaporated milk and horseradish, mixing lightly with your hands or a fork until just combined (~1–2 min). Overmixing will make the loaf dense and tough.
+
+2. **Pack the Pan.** Transfer the mixture to a 9×5×3-inch loaf pan and smooth the top with a spatula. The surface should be even so it browns uniformly.
+
+3. **Bake Until Done.** Bake at 350°F until the loaf is browned on top, pulls away slightly from the sides, and an instant-read thermometer registers 160°F in the center (~1 hr). The aroma will fill the kitchen with savory, beefy notes.
+
+4. **Rest Briefly.** Let the loaf stand for 5–10 minutes before slicing so the juices redistribute and the slices hold together cleanly. Slice and serve hot.
 
 ---
 
