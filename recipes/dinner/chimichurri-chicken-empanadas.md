@@ -36,8 +36,6 @@ key_equipment:
   - deep-fry-thermometer
   - food-processor
 tags:
-protein:
-  - chicken
   - dinner
   - empanada
   - chicken
@@ -46,6 +44,8 @@ protein:
   - technique-filling
   - technique-frying
   - technique-baking
+protein:
+  - chicken
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27
