@@ -105,7 +105,7 @@ date_modified: "2026-06-27"
 
 ## Instructions
 
-1. **Make the Broth.** In a large pot, combine chicken stock, water, kombu, chicken/pork bones (if using), onion, carrot, celery, garlic, ginger, soy sauce, and sugar. Bring to a gentle simmer over medium heat. Do not boil; maintain a low simmer — tiny bubbles at the edges — for 30–40 minutes. Remove kombu after 20 minutes to avoid sliminess. Add katsuobushi in the last 5 minutes of simmering, then turn off heat and let steep 10 minutes. Strain through a fine-mesh sieve lined with cheesecloth. You should have about 6 cups of clear, golden broth with a rich savory aroma.
+1. **Make the Broth.** In a large pot, combine chicken stock, water, kombu, chicken/pork bones (if using), onion, carrot, celery, garlic, ginger, soy sauce, and sugar. Bring to a gentle simmer over medium heat. Do not boil; maintain a low simmer — tiny bubbles at the edges (~30–40 min). Remove kombu after 20 minutes to avoid sliminess. Add katsuobushi in the last 5 minutes of simmering, then turn off heat and let steep (~10 min). Strain through a fine-mesh sieve lined with cheesecloth. You should have about 6 cups of clear, golden broth with a rich savory aroma.
 
 2. **Prepare the Tare.** While broth simmers, combine white miso, red miso, mirin, sake, sugar, sesame oil, garlic, and ginger in a small bowl. Mix until a smooth paste forms. Set aside.
 
