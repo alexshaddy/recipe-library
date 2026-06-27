@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "f99d641e181f2d25",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff902f35f04f1fdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d75ecbfe9734048",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d07608c8f6f1bdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "905f7b7355bcfd97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4af8e5d23d10e436",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d432a055c7eb2ed6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bc627cf7907ee6a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b9a77b4864468f6b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c25f75e3a96f22b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2743024f914b24a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3d9baa896c2a5646",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "3c0fb9eebe9101ce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f9d6626e036d61ab",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fafecfe61caf37bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1d75ecbfe9734048",
+  "lastOpenFiles": [
+    "recipes/side/bread-basics-golden-ratio.md",
+    "recipe-vault-spec.md",
+    "recipes/condiment/rhubarb-syrup.md",
+    "recipes/condiment/jiban.md",
+    "recipes/condiment/aioli.md",
+    "recipes/condiment/shortrib-dry-rub.md",
+    "recipes/appetizer/kibbeh-niyee.md",
+    "recipes/appetizer/baba-ghanoush.md",
+    "recipes/appetizer/labneh.md",
+    "review-pass-plan.md",
+    "_meta/Vault Architecture Spec.md",
+    "digitize-recipes-skill.md",
+    "recipes/side/yufka.md",
+    "assets/recipe-legibility-help-images/unknown-card-405-leftcard 1.jpg",
+    "assets/recipe-legibility-help-images/unknown-card-405-leftcard.jpg",
+    "assets/recipe-legibility-help-images/unknown-card-403-leftcard.jpg",
+    "recipes/drink/orange-bitters-mug-punch.md",
+    "recipe-template.md",
+    "_skills/digitize-recipes-skill.md",
+    "recipes/drink/ika-punch.md",
+    "assets/chef_recipe_book_draft/chef_recipe_book_audit.md",
+    "assets/recipe-legibility-help-images/README.txt",
+    "assets/recipe-legibility-help-images",
+    "assets/recipe-legibility-help/tortuga.md",
+    "assets/recipe-legibility-help/strawberry-cream-collins.md",
+    "assets/recipe-legibility-help/smith-and-cross-punch.md",
+    "assets/recipe-legibility-help/recipe-source-map.md",
+    "assets/recipe-legibility-help/orange-bitters-mug-punch.md",
+    "assets/recipe-legibility-help/mildly-herbaceous-old-fashioned.md",
+    "assets/recipe-legibility-help/kimchi-bloody-mary.md",
+    "assets/recipe-legibility-help/dark-rum-pear-brandy-punch.md",
+    "assets/recipe-legibility-help/README.txt",
+    "assets/recipe-legibility-help",
+    "assets/chef_recipe_book_draft/brw849e563cc961_000414.pdf",
+    "assets/chef_recipe_book_draft",
+    "assets/loose_notes_scans/brw849e563cc961_000410.pdf",
+    "assets/loose_notes_scans/brw849e563cc961_000407.jpg",
+    "assets/loose_notes_scans/brw849e563cc961_000406.jpg",
+    "assets/loose_notes_scans/brw849e563cc961_000405.jpg",
+    "assets/loose_notes_scans/brw849e563cc961_000404.jpg",
+    "assets/loose_notes_scans/brw849e563cc961_000403.jpg",
+    "assets/loose_notes_scans/brw849e563cc961_000402.jpg",
+    "assets/loose_notes_scans",
+    "_inbox/loose_notes_scans/brw849e563cc961_000410.pdf",
+    "_inbox/loose_notes_scans/brw849e563cc961_000407.jpg",
+    "_inbox/loose_notes_scans"
+  ]
+}

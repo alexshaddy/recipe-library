@@ -1,0 +1,5 @@
+{
+  "template_folder": "_templates/",
+  "trigger_on_new_file_creation": true,
+  "auto_jump_to_cursor": true
+}

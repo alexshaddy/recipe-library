@@ -1,0 +1,6 @@
+{
+  "yaml-key-sort": true,
+  "yaml-timestamp-date-modified": true,
+  "yaml-timestamp-format": "YYYY-MM-DD",
+  "remove-yaml-keys-with-null-values": false
+}
