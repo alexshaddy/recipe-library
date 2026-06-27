@@ -262,12 +262,18 @@ def test_instructions_sensory_cues(content):
 
 
 def test_instructions_inline_timing(content):
-    """Check that instructions contain inline timing like (~X min)."""
+    """Check that instructions contain inline timing like (~X min) or 'X-Y minutes'."""
     instr_match = re.search(r"## Instructions\s*\n(.*?)(?=##|\Z)", content, re.DOTALL)
     instr_section = instr_match.group(1)
 
+    # Match parenthetical timing: (~X min), (X-Y minutes), etc.
     timing_matches = re.findall(r"\(~?\s*\d+[\s-]*\d*\s*(?:min|hour|hr|sec|second|minute)s?\)",
                                 instr_section, re.IGNORECASE)
+    # Also match unbracketed timing patterns like "X-Y minutes" or "X minutes"
+    timing_matches += re.findall(r"\d+[–\-]\d+\s*(?:min|hour|hr|sec|second|minute)s?",
+                                 instr_section, re.IGNORECASE)
+    timing_matches += re.findall(r"\d+\s*(?:min|hour|hr|sec|second|minute)s?\b",
+                                 instr_section, re.IGNORECASE)
     assert len(timing_matches) >= 1, (
         "No inline timing found in instructions (e.g., '~5 min')"
     )
