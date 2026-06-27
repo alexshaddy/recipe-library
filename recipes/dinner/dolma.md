@@ -80,7 +80,7 @@ date_modified: "2026-06-27"
 
 6. **Add Cooking Liquid.** Mix the water with any remaining tomato paste and pour over the dolma until just covered. Place a heatproof plate on top to weigh the rolls down and keep them submerged.
 
-7. **Simmer.** Bring to a gentle simmer over medium-low heat, then reduce to low. Cook, covered, for 35–40 minutes, until the rice is tender and most of the liquid is absorbed. Avoid boiling vigorously — a gentle bubble keeps the rolls intact.
+7. **Simmer.** Bring to a gentle simmer over medium-low heat, then reduce to low. Cook, covered (~35–40 min), until the rice is tender and most of the liquid is absorbed. Avoid boiling vigorously — a gentle bubble keeps the rolls intact.
 
 8. **Rest and Serve.** Remove from heat and let rest 10 minutes before serving. The dolma will firm up slightly as they cool. Serve warm or at room temperature with lemon wedges on the side.
 
