@@ -1,5 +1,1 @@
-{
-  "scripts": {
-    "test": "python3 tests/test_ticket_008_miso_glazed_eggplant.py"
-  }
-}
+{}
