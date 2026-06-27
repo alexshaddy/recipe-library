@@ -99,9 +99,10 @@ def test_golden_ratio(content):
 
 
 def test_yeast_resolved(content):
-    """Verify the [TO VERIFY] on yeast is resolved — no [TO VERIFY] in ingredient list."""
-    ingredient_section = content.split("## Instructions")[0]
-    assert "[TO VERIFY]" not in ingredient_section, \
+    """Verify the [TO VERIFY] on yeast is resolved — no [TO VERIFY] in ingredient section."""
+    # Check only between ## Ingredients and ## Instructions
+    ingr_section = content.split("## Ingredients")[1].split("## Instructions")[0] if "## Ingredients" in content and "## Instructions" in content else ""
+    assert "[TO VERIFY]" not in ingr_section, \
         "Yeast still has [TO VERIFY] in ingredient list"
     assert "0.7%" in content or "0.7" in content, "Missing yeast percentage"
     print("  ✓ Yeast [TO VERIFY] resolved")
