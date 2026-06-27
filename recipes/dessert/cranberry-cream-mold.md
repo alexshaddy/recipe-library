@@ -74,12 +74,17 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Beat the base.** Beat the cream cheese with sugar until light and smooth, then gradually blend in the evaporated milk.
-2. **Bloom the gelatin.** Dissolve the orange gelatin in the hot water and let it cool slightly.
-3. **Combine and flavor.** Stir the gelatin into the cream-cheese mixture, then blend in the orange rind and orange juice.
-4. **Mold and chill.** Pour into a 3 1/2-cup mold and chill about 4 hours, until firm.
-5. **Finish with topping.** Unmold and serve with the cranberry topping.
-6. **Make the topping.** Combine the cranberry sauce, sugar, orange juice, and orange rind, then chill until serving.
+1. **Beat the Base.** Beat the cream cheese with sugar until light and smooth (~2 min). Gradually blend in the evaporated milk — the mixture should be creamy and free of lumps.
+
+2. **Bloom the Gelatin.** Dissolve the orange gelatin in the hot water, stirring until completely dissolved. Let it cool slightly until just warm to the touch (~5 min) — if it's too hot, it will curdle the cream cheese.
+
+3. **Combine and Flavor.** Stir the cooled gelatin into the cream-cheese mixture, then blend in the orange rind and orange juice. The mixture should be smooth, pale orange, and fragrant with citrus.
+
+4. **Mold and Chill.** Pour into a 3 1/2-cup mold and refrigerate until firm and set (~4 hr). The mold should release cleanly when inverted.
+
+5. **Finish with Topping.** Unmold onto a serving plate and spoon the cranberry topping over and around the mold. Serve chilled.
+
+6. **Make the Topping.** Combine the cranberry sauce, sugar, orange juice, and orange rind in a small bowl. Stir until the sugar dissolves and the mixture is glossy. Chill until serving.
 
 ---
 
