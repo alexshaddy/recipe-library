@@ -37,7 +37,7 @@ protein:
 
 status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Rosemary Syrup
@@ -55,18 +55,23 @@ date_modified: 2026-06-26
 
 ## Instructions
 
-1. **Combine and heat.** Bring the sugar and water to a simmer with the rosemary.
-2. **Steep.** Let the rosemary infuse off heat until the syrup tastes aromatic, not piney.
-3. **Strain.** Remove the herb and cool before bottling.
+1. **Combine and heat.** In a saucepan, combine the sugar and water. Heat over medium‑high until the sugar dissolves and the mixture reaches a gentle simmer, stirring until you hear a soft bubbling sound and the aroma of caramel begins to develop.
+2. **Add rosemary and steep.** Add the rosemary sprigs, reduce heat to low, and let the syrup simmer for 2 minutes, then remove from heat and let steep off‑heat for 10 minutes until the fragrance is herbaceous and not piney.
+3. **Strain and cool.** Remove the rosemary sprigs, strain the syrup through a fine mesh, and let cool to room temperature before bottling.
 
 ## Notes & Variations
 
 ### Cook's Notes
-- A short steep keeps the flavor fresh and bright.
+- A short steep keeps the flavor fresh and bright; over‑steeping can make the syrup taste resinous.
+- The syrup should have a clear amber color and a fragrant, pine‑sweet aroma when ready.
 
-### Make-Ahead / Storage
-- Refrigerate and use within a couple of weeks.
+### Variations
+- **Citrus Rosemary Syrup:** Add the zest of one orange to the rosemary during steeping for a citrus‑bright version.
+- **Spiced Rosemary Syrup:** Add 1 pinch ground cardamom or a few crushed pink peppercorns for a subtle spice.
+
+### Make‑Ahead / Storage
+- Refrigerate and use within a couple of weeks. The syrup can be stored in a sterilized bottle for up to 1 month.
 
 ### Scaling
-- The infusion strength depends on the rosemary, so taste rather than timing alone.
+- The infusion strength depends on the rosemary, so taste rather than timing alone. Adjust water proportionally for larger batches.
 
