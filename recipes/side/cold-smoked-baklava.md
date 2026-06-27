@@ -12,7 +12,8 @@ course:
   - dessert
 dietary_tags:
   - vegetarian
-protein: []
+protein:
+- none
 season:
   - all-year
 prep_time: "45 min"
