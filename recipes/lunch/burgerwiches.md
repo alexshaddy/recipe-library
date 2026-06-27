@@ -75,12 +75,17 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Mix the patties.** Combine the beef mixture ingredients, leaving out the egg called for in the base mixture, and mix lightly.
-2. **Shape 12 thin patties.** Divide the meat into 12 portions and press each one between waxed paper into a patty about 4 1/2 inches wide.
-3. **Mix the stuffing.** Stir the relish, chopped pimiento, and mustard together.
-4. **Fill and seal.** Place about 2 tablespoons of filling on 6 patties, top each with another patty, and press the edges together tightly.
-5. **Bake.** Place the stuffed patties on a broiler pan and bake at 350 F for 20 to 25 minutes, without turning, until cooked through and browned.
-6. **Serve hot.** Serve immediately on split toasted buns.
+1. **Mix the Patties.** Combine the beef mixture ingredients, leaving out the egg called for in the base mixture, and mix lightly until just combined (~1 min). The mixture should hold together when pressed.
+
+2. **Shape 12 Thin Patties.** Divide the meat into 12 portions and press each one between waxed paper into a patty about 4 1/2 inches wide. The patties should be thin and even for uniform cooking.
+
+3. **Mix the Stuffing.** Stir the relish, chopped pimiento, and mustard together in a small bowl until well blended. The mixture should be moist and brightly colored.
+
+4. **Fill and Seal.** Place about 2 tablespoons of filling on 6 patties, spreading it evenly but leaving a 1/2-inch border. Top each with another patty and press the edges together tightly to seal — any gaps will leak during baking.
+
+5. **Bake.** Place the stuffed patties on a broiler pan and bake at 350°F without turning until cooked through, browned on top, and sizzling (~20–25 min). The filling should be hot and bubbly inside.
+
+6. **Serve Hot.** Serve immediately on split toasted buns while the patties are hot and the filling is steaming.
 
 ---
 
