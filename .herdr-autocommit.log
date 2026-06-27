@@ -372,3 +372,8 @@ To github.com:alexshaddy/recipe-library.git
  2 files changed, 21 insertions(+), 10 deletions(-)
 To github.com:alexshaddy/recipe-library.git
    64b8c01..ba4645a  main -> main
+[main c07b8cd] Auto-commit: changes from herdr agents
+ 3 files changed, 117 insertions(+), 1 deletion(-)
+ create mode 100644 docs/specs/022-budino.md
+To github.com:alexshaddy/recipe-library.git
+   ba4645a..c07b8cd  main -> main
