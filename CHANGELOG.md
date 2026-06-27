@@ -14,6 +14,7 @@ All notable changes to the Recipe Library are documented in this file.
 - **Miso Butter** (`recipes/condiment/miso-butter.md`) — Savory compound butter with white miso, mirin, honey, optional scallions and sesame seeds. Created from title-only addendum (TICKET-005 / TICKET-016). 7-step method with whipping, shaping, and chilling guidance.
 - **Miso-Glazed Eggplant** (`recipes/dinner/miso-glazed-eggplant.md`) — Nasu dengaku-style eggplant with 3:2:1 miso:mirin:sake glaze. Created from title-only addendum (TICKET-008). 7-step method with scoring, broiling, and glaze-caramelization technique.
 - **Miso Butterfish** (`recipes/dinner/miso-butterfish.md`) — Nobu-style saikyo-yaki with sablefish/black cod. Created from title-only addendum (TICKET-012). 8-step method covering 2–3 day marinade, broiling, and optional pan-sear.
+- **Miso-Glazed Salmon** (`recipes/dinner/miso-glazed-salmon.md`) — Saikyo-yaki-style salmon with 3:2:1 miso:mirin:sake marinade. Created from title-only addendum (TICKET-009). 8-step method covering 24–48 hr marinade, broiling, and optional pan-sear.
 
 ### Fixed
 

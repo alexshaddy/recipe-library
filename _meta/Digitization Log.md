@@ -63,6 +63,7 @@ Handwritten chef notebook (Lebanese-Sicilian family recipes, professional kitche
 | 2026-06-27 | miso-butter | reconstructed | Title-only addendum; compound butter based on notebook context | reviewed |
 | 2026-06-27 | miso-glazed-eggplant | reconstructed | Title-only addendum; nasu dengaku technique | reviewed |
 | 2026-06-27 | miso-butterfish | reconstructed | Title-only addendum; Nobu-style saikyo-yaki | reviewed |
+| 2026-06-27 | miso-glazed-salmon | reconstructed | Title-only addendum; saikyo-yaki technique | reviewed |
 | 2026-06-26 | cannoli | handwritten | Chef's Recipe Notebook, p.24 | draft |
 | 2026-06-26 | grilled-radicchio | handwritten | Chef's Recipe Notebook, p.24 | draft |
 | 2026-06-26 | bread-basics-golden-ratio | handwritten | Chef's Recipe Notebook, p.25 | draft |
