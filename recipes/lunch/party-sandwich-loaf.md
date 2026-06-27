@@ -93,9 +93,11 @@ date_modified: 2026-06-27
 ### Variations
 - **Open-face lunch version:** Serve the baked halves as open-faced sandwiches instead of slicing them smaller.
 
-### Make-Ahead / Storage
+### Make-Ahead
 - Assemble ahead and refrigerate, then bake just before serving.
-- Leftovers keep covered in the refrigerator for about 2 days.
+
+### Storage
+- Leftovers keep covered in the refrigerator for about 2 days. Reheat in a 350°F oven until warmed through.
 
 ### Scaling
 - Keep the bread-to-filling ratio generous so each slice holds together cleanly.

@@ -76,7 +76,9 @@ date_modified: 2026-06-27
 
 3. **Bake Until Done.** Bake at 350°F until the loaf is browned on top, pulls away slightly from the sides, and an instant-read thermometer registers 160°F in the center (~1 hr). The aroma will fill the kitchen with savory, beefy notes.
 
-4. **Rest Briefly.** Let the loaf stand for 5–10 minutes before slicing so the juices redistribute and the slices hold together cleanly. Slice and serve hot.
+4. **Rest Briefly.** Let the loaf stand for 5–10 minutes before slicing so the juices redistribute and the slices hold together cleanly.
+
+5. **Slice and Serve.** Slice into even portions and serve hot with pan juices or your favorite sauce. The loaf should be moist and tender, with a clean savory finish from the horseradish.
 
 ---
 
