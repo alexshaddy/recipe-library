@@ -61,12 +61,12 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Dissolve the Sugar** – In a medium saucepan, combine the sugar and water. Stir over medium heat just until the sugar dissolves, about 2–3 minutes. The mixture should be clear and bubbling slightly at the edges.
-2. **Cook the Caramel** – Increase heat to medium-high and bring to a boil. Do not stir; instead, gently swirl the pan occasionally to ensure even cooking. Cook until the syrup turns a deep amber color, about 6–8 minutes. It should smell nutty and toasty, and the bubbles will become slower and larger.
-3. **Add the Butter** – Remove the pan from the heat. Carefully add the butter pieces (the mixture will bubble vigorously). Stir until the butter is completely melted and incorporated, about 30 seconds.
-4. **Incorporate the Cream** – Slowly pour in the warm cream while stirring constantly (the mixture will steam and bubble). Continue stirring until smooth and fully combined, about 1 minute. The caramel should be glossy and pourable.
-5. **Finish with Miso and Vanilla** – Stir in the vanilla extract and white miso until completely smooth, about 30 seconds. Taste and add sea salt if desired. The caramel should be rich, sweet, with a savory umami depth from the miso.
-6. **Cool and Store** – Let the caramel cool slightly in the pan for 5 minutes, then transfer to a clean jar. It will thicken as it cools. Store at room temperature for up to 2 weeks or refrigerate for up to 1 month (rewarm gently before use).
+1. **Combine sugar and mirin.** In a medium saucepan, whisk together the brown sugar and mirin over medium heat until the sugar dissolves, about 2 minutes. The mixture should become a smooth, amber‑colored syrup.
+2. **Caramelize.** Increase the heat to medium‑high and bring the syrup to a steady boil, swirling the pan gently. Cook until it deepens to a rich amber hue and emits a nutty, caramel aroma, about 6–8 minutes.
+3. **Add butter.** Remove the pan from the heat and whisk in the cold butter pieces; the mixture will bubble vigorously. Stir until the butter is fully melted and incorporated, about 30 seconds.
+4. **Incorporate cream.** Return the pan to low heat and slowly pour in the heavy cream while whisking continuously. The sauce will steam and thicken; continue whisking for 1 minute until glossy.
+5. **Finish with miso and salt.** Stir in the white miso until fully dissolved, then add flaky sea salt to taste. The caramel should have a balanced sweet‑savory profile with a subtle umami depth.
+6. **Cool and store.** Transfer the hot caramel to a heat‑proof jar and let it cool for 5 minutes. It will thicken as it rests. Store at room temperature for up to 2 weeks or refrigerate for up to 1 month; gently re‑warm before use.
 
 ## Notes & Variations
 
