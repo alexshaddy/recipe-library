@@ -10,6 +10,8 @@ cuisine:
 course:
   - main
 dietary_tags: []
+protein:
+  - chicken
 season:
   - all-year
 prep_time: "45 min"
@@ -34,6 +36,8 @@ key_equipment:
   - deep-fry-thermometer
   - food-processor
 tags:
+protein:
+  - chicken
   - dinner
   - empanada
   - chicken
