@@ -111,7 +111,7 @@ date_modified: "2026-06-27"
 
 3. **Cook the Noodles.** Bring a large pot of water to a boil. Add ramen noodles and cook according to package directions — usually 2–3 minutes for fresh, 4–5 minutes for dried (~2–5 min) — until just al dente. Drain and rinse briefly under warm water to prevent sticking. Divide noodles among serving bowls.
 
-4. **Prepare Toppings.** While noodles cook, warm chashu slices in a microwave or pan. Blanch bean sprouts 30 seconds in hot water, then drain. Slice scallions. If using, warm corn and butter in a small pan until the butter melts and coats the corn. Prepare soft-boiled eggs (boil 6–7 minutes, cool in ice water, peel, halve).
+4. **Prepare Toppings.** While noodles cook, warm chashu slices in a microwave or pan. Blanch bean sprouts in hot water (~30 sec), then drain. Slice scallions. If using, warm corn and butter in a small pan until the butter melts and coats the corn. Prepare soft-boiled eggs — boil 6–7 minutes, cool in ice water, peel, halve (~7 min).
 
 5. **Combine Broth and Tare.** Return strained broth to pot and keep warm over low heat. Ladle about 2 tablespoons of tare into each serving bowl (adjust to taste). Add 1 cup hot broth to each bowl and whisk to dissolve tare completely — the broth will turn a rich, creamy tan.
 
