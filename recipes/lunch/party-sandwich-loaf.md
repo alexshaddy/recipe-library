@@ -72,11 +72,15 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Enrich the filling.** Mix the grated American cheese into the beef mixture until evenly distributed.
-2. **Build the loaf.** Split the French bread lengthwise and spread the meat mixture evenly over the cut sides.
-3. **Protect the crust.** Wrap aluminum foil around the crust side of each half, leaving the top exposed.
-4. **Bake until set.** Place on a cookie sheet and bake at 350 F for about 25 minutes, until the filling is browned and hot.
-5. **Finish and slice.** Garnish with cheese strips, bake about 5 minutes longer, then slice across or diagonally and serve hot.
+1. **Enrich the Filling.** Mix the grated American cheese into the beef mixture until evenly distributed (~1 min). The cheese should be fully incorporated with no clumps.
+
+2. **Build the Loaf.** Split the French bread lengthwise and spread the meat mixture evenly over the cut sides, pressing gently to adhere. The layer should be about 1/2 inch thick.
+
+3. **Protect the Crust.** Wrap aluminum foil around the crust side of each half, leaving the top exposed. This keeps the crust from burning while the topping browns.
+
+4. **Bake Until Set.** Place on a cookie sheet and bake at 350°F until the filling is browned on top, hot throughout, and sizzling at the edges (~25 min). The kitchen should smell rich and savory.
+
+5. **Finish and Slice.** Garnish with cheese strips, bake about 5 minutes longer until the cheese melts and turns golden, then slice across or diagonally and serve hot.
 
 ---
 
