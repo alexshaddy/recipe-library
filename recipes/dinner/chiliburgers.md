@@ -13,10 +13,10 @@ occasion:
   - weeknight
 season:
   - all-year
-prep_time: "15 min "
-cook_time: "15 min "
+prep_time: "15 min
+cook_time: "15 min
 inactive_time: ""
-total_time: "30 min "
+total_time: "30 min
 base_servings: 8
 serving_unit: "burgers"
 scaling_notes: "The beef mixture scales cleanly; keep the seasoning proportions consistent."
