@@ -48,8 +48,6 @@ tags:
   - technique-glazing
   - technique-juicing
 protein: []
-  - technique-glazing
-  - technique-juicing
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27
