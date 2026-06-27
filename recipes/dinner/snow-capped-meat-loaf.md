@@ -90,6 +90,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - This reads like a very mid-century comfort dish: the potato layer keeps the meat loaf from drying out and makes it feel like a full casserole.
+- For the smoothest potato topping, prepare the instant mashed potatoes just before spreading — they stiffen as they cool and become harder to spread evenly.
 
 ### Variations
 - **Extra-browned top:** Briefly run the pan under the broiler after the final bake if you want more color.
