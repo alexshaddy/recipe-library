@@ -152,15 +152,30 @@ def test_no_unverified_markers(content):
 
 
 def test_instructions(content):
-    n, titles, sensory = check_instructions(content, min_steps=5, max_steps=8)
-    # Also verify inline timing directly (helper regex may miss en-dash ranges)
     instr_match = re.search(r"## Instructions\s*\n(.*?)(?=## Notes|\Z)", content, re.DOTALL)
-    instr_section = instr_match.group(1) if instr_match else ""
+    assert instr_match, "Could not find Instructions section"
+    instr_section = instr_match.group(1)
+
+    steps = re.findall(r"^\d+\.\s+\*\*", instr_section, re.MULTILINE)
+    n = len(steps)
+    assert 5 <= n <= 8, f"Expected 5-8 instructions, found {n}"
+
+    titles = re.findall(r"^\d+\.\s+\*\*(.+?)\*\*", instr_section, re.MULTILINE)
+    assert len(titles) >= 1, "No bolded action titles found"
+
+    sensory = ["sizzle", "brown", "golden", "fragrant", "smooth", "creamy",
+               "glossy", "aroma", "bubbly", "melt", "soft", "warm", "tender",
+               "crisp", "pink", "wilt", "translucent", "thick", "cloudy",
+               "syrupy", "coated"]
+    found = [t for t in sensory if t in instr_section.lower()]
+    assert len(found) >= 1, f"No sensory cues found in instructions"
+
     timing = re.findall(r'\d+[–\-]?\d*\s*(?:min|hour|hr|sec|second|minute)s?',
                         instr_section, re.IGNORECASE)
     assert len(timing) >= 2, f"Too few inline timings: found {timing}"
+
     print(f"  ✓ Instructions: {n} steps, {len(titles)} bolded titles, "
-          f"{len(sensory)} sensory cues, {len(timing)} inline timings")
+          f"{len(found)} sensory cues, {len(timing)} inline timings")
 
 
 def test_notes(content):
