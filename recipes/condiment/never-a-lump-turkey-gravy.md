@@ -30,6 +30,8 @@ key_equipment:
   - heavy-skillet
 tags:
   - recipe/condiment
+  - carnation
+  - vintage
 protein: []
 status: reviewed
 date_added: 2026-06-26
