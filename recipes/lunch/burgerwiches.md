@@ -93,6 +93,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - The key is sealing the edges well so the filling stays inside when the patties swell in the oven.
+- Pressing the patties between waxed paper makes them easy to handle and prevents sticking — peel the paper off gently to keep the thin patties intact.
 
 ### Variations
 - **Baked slider version:** Make smaller patties and serve on mini rolls.
