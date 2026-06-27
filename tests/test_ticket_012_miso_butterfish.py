@@ -1,23 +1,11 @@
 #!/usr/bin/env python3
 """
-TICKET-012: Create Miso Butterfish from Title-Only Addendum.
+TICKET-012: Create Miso Butterfish from title-only addendum.
 
 Validates `recipes/dinner/miso-butterfish.md` against:
   - TICKET-012 requirements
-  - docs/specs/012-miso-butterfish.md specification
-  - Nobu-style saikyo-yaki technique requirements
-
-Requirements from TICKET-012:
-  1. File exists at recipes/dinner/miso-butterfish.md
-  2. Ingredients: saikyo miso, mirin, sake, sugar, butterfish/sablefish/black cod
-  3. Instructions: 6-8 steps with bolded action titles, sensory cues, inline timing
-  4. Key steps: prepare marinade, marinate 2-3 days, wipe off excess, broil, rest, serve
-  5. Cook's notes (>=2), variations (>=1), make-ahead/storage, scaling
-  6. Frontmatter: cuisine=japanese, dietary_tags=[gluten-free-option],
-     tags include dinner/fish/miso, technique=[marinating, broiling],
-     protein=[butterfish, sablefish, black-cod]
-  7. status: reviewed, date_modified: 2026-06-27
-  8. Ingredients grouped by component (marinade, fish)
+  - docs/specs/012-miso-butterfish.md spec
+  - Nobu-style saikyo-yaki technique
 """
 
 import os
@@ -27,313 +15,247 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from test_helpers import *
 
-# ── Constants ─────────────────────────────────────────────────────────────────
-
 RECIPE = "dinner/miso-butterfish.md"
-
-EXPECTED_TITLE = "Miso Butterfish"
-EXPECTED_STATUS = "reviewed"
 EXPECTED_DATE_MODIFIED = "2026-06-27"
-EXPECTED_CUISINE = "japanese"
-EXPECTED_DIETARY_TAGS = ["gluten-free-option"]
-EXPECTED_TAGS_SUBSTRINGS = ["recipe/dinner", "ingredient/fish", "ingredient/miso"]
-EXPECTED_TECHNIQUE_TAGS = ["technique/marinating", "technique/broiling"]
-EXPECTED_PROTEIN = ["butterfish", "sablefish", "black-cod"]
-
-REQUIRED_FRONTMATTER_FIELDS = [
-    "title", "aliases", "slug", "meal_type", "cuisine", "course",
-    "dietary_tags", "season",
-    "prep_time", "cook_time", "inactive_time", "total_time",
-    "base_servings", "serving_unit", "scaling_notes",
-    "source_type", "source_name", "origin_notes",
-    "difficulty", "key_equipment",
-    "tags", "protein", "status",
-    "date_added", "date_modified",
-]
-# source_url and source_page may be empty for handwritten/title-only sources
 
 
-# ── Test Functions ────────────────────────────────────────────────────────────
+def test_file_exists():
+    fm, content = load_recipe(RECIPE)
+    print("  ✓ File exists at recipes/dinner/miso-butterfish.md")
+    return fm, content
 
 
-def test_title(fm):
-    """Title must be 'Miso Butterfish'."""
-    assert fm.get("title") == EXPECTED_TITLE, (
-        f"Expected title '{EXPECTED_TITLE}', got '{fm.get('title')}'"
-    )
+def test_frontmatter_fields(fm):
+    for field in ["title", "slug", "meal_type", "cuisine", "course",
+                  "dietary_tags", "season",
+                  "prep_time", "cook_time", "inactive_time", "total_time",
+                  "base_servings", "serving_unit", "scaling_notes",
+                  "source_type", "source_name",
+                  "source_url", "source_page",
+                  "origin_notes",
+                  "difficulty", "key_equipment",
+                  "tags", "protein",
+                  "status", "date_added", "date_modified"]:
+        check_frontmatter_field(fm, field)
+    print("  ✓ All required frontmatter fields present")
 
 
-def test_status_reviewed(fm):
-    """Status must be 'reviewed'."""
-    assert fm.get("status") == EXPECTED_STATUS, (
-        f"Expected status '{EXPECTED_STATUS}', got '{fm.get('status')}'"
-    )
-
-
-def test_date_modified(fm):
-    """date_modified must be 2026-06-27."""
-    dm = fmt_date(fm.get("date_modified"))
-    assert dm == EXPECTED_DATE_MODIFIED, (
-        f"Expected date_modified '{EXPECTED_DATE_MODIFIED}', got '{dm}'"
-    )
-
-
-def test_cuisine_japanese(fm):
-    """Cuisine must include 'japanese'."""
+def test_frontmatter_cuisine(fm):
     cuisines = fm.get("cuisine", [])
     if isinstance(cuisines, str):
         cuisines = [cuisines]
-    assert any(EXPECTED_CUISINE in c.lower() for c in cuisines), (
-        f"Expected cuisine to include '{EXPECTED_CUISINE}', got {cuisines}"
-    )
+    assert any("japanese" in c.lower() for c in cuisines), \
+        f"Expected cuisine Japanese, got {cuisines}"
+    print("  ✓ Cuisine is Japanese")
 
 
-def test_dietary_tags_gluten_free(fm):
-    """dietary_tags must include 'gluten-free-option'."""
-    tags = fm.get("dietary_tags", [])
-    if isinstance(tags, str):
-        tags = [tags]
-    for exp in EXPECTED_DIETARY_TAGS:
-        assert any(exp in t.lower() for t in tags), (
-            f"Expected dietary_tags to include '{exp}', got {tags}"
-        )
+def test_frontmatter_dietary_tags(fm):
+    dt = fm.get("dietary_tags", [])
+    if isinstance(dt, str):
+        dt = [dt]
+    assert "gluten-free-option" in dt, \
+        f"Expected dietary_tags to contain gluten-free-option, got {dt}"
+    print("  ✓ Dietary tags: gluten-free-option")
 
 
-def test_tags_include_dinner_fish_miso(fm):
-    """Tags must include recipe/dinner, ingredient/fish, ingredient/miso."""
+def test_frontmatter_tags(fm):
     tags = fm.get("tags", [])
     if isinstance(tags, str):
         tags = [tags]
-    tags_lower = [t.lower() for t in tags]
-    for exp in EXPECTED_TAGS_SUBSTRINGS:
-        assert any(exp in t for t in tags_lower), (
-            f"Expected a tag containing '{exp}', got {tags}"
-        )
+    for exp in ["recipe/dinner", "ingredient/fish", "ingredient/miso",
+                "technique/marinating", "technique/broiling"]:
+        assert exp in tags, f"Missing tag '{exp}', got {tags}"
+    print("  ✓ Tags: dinner, fish, miso, marinating, broiling")
 
 
-def test_technique_tags(fm):
-    """Tags must include technique/marinating and technique/broiling."""
-    tags = fm.get("tags", [])
-    if isinstance(tags, str):
-        tags = [tags]
-    for exp in EXPECTED_TECHNIQUE_TAGS:
-        assert exp in tags, (
-            f"Expected technique tag '{exp}', got {tags}"
-        )
-
-
-def test_protein_tags(fm):
-    """Protein must include butterfish, sablefish, black-cod."""
+def test_frontmatter_protein(fm):
     protein = fm.get("protein", [])
     if isinstance(protein, str):
         protein = [protein]
-    for exp in EXPECTED_PROTEIN:
-        assert exp in protein, (
-            f"Expected protein '{exp}', got {protein}"
-        )
+    for exp in ["butterfish", "sablefish", "black-cod"]:
+        assert exp in protein, f"Missing protein '{exp}', got {protein}"
+    print("  ✓ Protein: butterfish, sablefish, black-cod")
 
 
-def test_ingredients_saikyo_miso(content):
-    """Content must reference 'saikyo miso' or 'white miso'."""
-    lower = content.lower()
-    assert "saikyo miso" in lower or "white miso" in lower, (
-        "Content does not mention 'saikyo miso' or 'white miso'"
-    )
+def test_frontmatter_status(fm):
+    assert fm.get("status") == "reviewed", \
+        f"Expected status 'reviewed', got '{fm.get('status')}'"
+    dm = fmt_date(fm.get("date_modified", ""))
+    assert dm == EXPECTED_DATE_MODIFIED, \
+        f"Expected date_modified '{EXPECTED_DATE_MODIFIED}', got '{dm}'"
+    print("  ✓ Status reviewed, date_modified 2026-06-27")
 
 
-def test_marinate_2_3_days(content):
-    """Content must mention 'marinate' and '2 to 3 days' or '2-3 days'."""
-    lower = content.lower()
-    assert "marinate" in lower, "Content does not mention 'marinate'"
-    assert "2 to 3 days" in content or "2-3 days" in content, (
-        "Content does not specify '2 to 3 days' or '2-3 days' marinating time"
-    )
-
-
-def test_wipe_instruction(content):
-    """Content must mention 'wipe' (wiping off excess marinade)."""
-    lower = content.lower()
-    assert "wipe" in lower, (
-        "Content does not mention 'wipe' for removing excess marinade"
-    )
-
-
-def test_ingredients_grouped(content):
-    """Ingredients must be grouped by component subheadings."""
-    assert "### For the Miso Marinade" in content, (
-        "Missing '### For the Miso Marinade' ingredient group"
-    )
-    assert "### For the Fish" in content, (
-        "Missing '### For the Fish' ingredient group"
-    )
-
-
-def test_ingredient_core_items(content):
-    """Content must include miso, mirin, sake, sugar, and fish."""
-    lower = content.lower()
-    core = ["miso", "mirin", "sake", "sugar", "butterfish"]
-    missing = [i for i in core if i not in lower]
-    assert not missing, f"Missing core ingredients: {missing}"
-
-
-def test_instructions(content):
-    """Instructions must have 6-8 steps with bolded titles, sensory cues, inline timing."""
-    check_instructions(content, min_steps=6, max_steps=8)
-
-
-def test_notes(content):
-    """Must have >=2 cook's notes, >=1 variation, make-ahead/storage, scaling."""
-    check_notes(content, min_cooks=2, min_variations=1)
-
-
-def test_make_ahead(content):
-    """Must have a Make-Ahead section."""
-    assert "Make-Ahead" in content or "Make Ahead" in content, (
-        "Missing 'Make-Ahead' section"
-    )
-
-
-def test_storage(content):
-    """Must have a Storage section (standalone or combined with Make-Ahead)."""
-    lower = content.lower()
-    has_storage = "storage" in lower
-    has_combined = "make-ahead" in lower and "storage" in lower
-    assert has_storage, "Missing 'Storage' in content (combined or standalone)"
-
-
-def test_scaling_section(content):
-    """Must have a Scaling section."""
-    assert "### Scaling" in content, "Missing '### Scaling' section"
-
-
-def test_content_sections(content):
-    """Check all required section headings exist."""
-    required = [
-        "## Ingredients",
-        "## Instructions",
-        "## Notes & Variations",
-        "### Cook's Notes",
-        "### Variations",
-        "### Scaling",
-    ]
-    for heading in required:
-        assert heading in content, f"Missing heading: '{heading}'"
-
-
-def test_key_steps_present(content):
-    """Key technique steps must be present: prepare, marinate, wipe, broil, rest, serve."""
-    lower = content.lower()
-    steps = ["prepare", "marinate", "wipe", "broil", "rest", "serve"]
-    missing = [s for s in steps if s not in lower]
-    assert not missing, f"Missing key technique steps in content: {missing}"
-
-
-def test_frontmatter_required_fields(fm):
-    """All frontmatter fields must be present and non-empty."""
-    for field in REQUIRED_FRONTMATTER_FIELDS:
-        check_frontmatter_field(fm, field)
-
-
-def test_tags_include_recipe_meal_type(fm):
-    """Check tags include a recipe/ tag."""
-    tags = fm.get("tags", [])
-    if isinstance(tags, str):
-        tags = [tags]
-    has_recipe_tag = any("recipe/" in t for t in tags)
-    assert has_recipe_tag, f"Expected a 'recipe/...' tag, got {tags}"
+def test_frontmatter_series(fm):
+    """Verify title and slug are correct."""
+    assert fm.get("title") == "Miso Butterfish", \
+        f"Expected title 'Miso Butterfish', got '{fm.get('title')}'"
+    assert fm.get("slug") == "miso-butterfish", \
+        f"Expected slug 'miso-butterfish', got '{fm.get('slug')}'"
+    print("  ✓ Title and slug correct")
 
 
 def test_source_documented(fm):
-    """Check source_type and source_name are documented."""
-    assert fm.get("source_type"), "source_type is missing or empty"
-    assert fm.get("source_name"), "source_name is missing or empty"
+    assert fm.get("source_type") == "handwritten", \
+        f"Expected source_type 'handwritten', got '{fm.get('source_type')}'"
+    assert "Notebook" in fm.get("source_name", ""), \
+        f"Expected source_name containing 'Notebook', got '{fm.get('source_name')}'"
+    print("  ✓ Source documented: handwritten — Chef's Recipe Notebook")
 
 
-def test_difficulty_set(fm):
-    """Check difficulty is a valid value."""
-    diff = fm.get("difficulty")
-    assert diff in ["easy", "medium", "hard", "professional"], (
-        f"Expected difficulty in [easy, medium, hard, professional], got '{diff}'"
-    )
-
-
-def test_key_equipment_present(fm):
-    """Check key_equipment is populated."""
+def test_key_equipment(fm):
     ke = fm.get("key_equipment", [])
-    assert len(ke) > 0, "key_equipment is empty or missing"
+    if isinstance(ke, str):
+        ke = [ke]
+    for tool in ["broiler", "baking sheet", "small bowl"]:
+        assert any(tool in eq for eq in ke), \
+            f"Missing required equipment '{tool}', got {ke}"
+    print("  ✓ Key equipment: broiler, baking sheet, small bowl")
 
 
-def test_origin_notes_present(fm):
-    """Check origin_notes is populated."""
-    on = fm.get("origin_notes", "")
-    assert on, "origin_notes is missing or empty"
+def test_ingredient_groups(content):
+    assert "### For the Miso Marinade" in content, \
+        "Missing 'Miso Marinade' ingredient group"
+    assert "### For the Fish" in content, \
+        "Missing 'Fish' ingredient group"
+    print("  ✓ Ingredient groups: marinade, fish")
 
 
-def test_slug_matches_filename(fm):
-    """Check slug matches filename (without .md extension)."""
-    expected_slug = "miso-butterfish"
-    actual_slug = fm.get("slug", "")
-    assert actual_slug == expected_slug, (
-        f"Expected slug '{expected_slug}', got '{actual_slug}'"
-    )
+def test_ingredient_marinade(content):
+    lower = content.lower()
+    for item in ["saikyo miso", "sweet white miso", "mirin", "sake", "sugar"]:
+        assert item in lower, f"Missing marinade ingredient: {item}"
+    print("  ✓ Marinade: saikyo miso, mirin, sake, sugar")
 
 
-def test_base_servings_and_unit(fm):
-    """Check base_servings and serving_unit are populated."""
-    assert fm.get("base_servings") is not None, "base_servings is missing"
-    assert fm.get("serving_unit", "") != "", "serving_unit is empty"
+def test_ingredient_butterfish(content):
+    lower = content.lower()
+    for name in ["butterfish", "sablefish", "black cod"]:
+        assert name in lower, f"Missing fish type: {name}"
+    print("  ✓ Fish types: butterfish, sablefish, black cod")
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+def test_instructions(content):
+    n, titles, sensory = check_instructions(content, min_steps=6, max_steps=8)
+    print(f"  ✓ Instructions: {n} steps, {len(titles)} bolded titles, "
+          f"{len(sensory)} sensory cues, inline timing present")
 
-if __name__ == "__main__":
-    # Load recipe once; all subsequent tests use the same data
+
+def test_saikyo_yaki_technique(content):
+    """Verify saikyo-yaki technique: marinating 2-3 days, wiping, broiling."""
+    lower = content.lower()
+    assert "2 to 3 days" in lower or "2–3 days" in lower or "2-3 days" in lower, \
+        "Missing 2-3 day marinade duration"
+    assert "wipe" in lower, "Missing step to wipe off excess marinade"
+    assert "broil" in lower, "Missing broiling step"
+    print("  ✓ Saikyo-yaki technique: 2-3 day marinade, wipe, broil")
+
+
+def test_notes(content):
+    nb, vb = check_notes(content, min_cooks=2, min_variations=1)
+    print(f"  ✓ Notes: {nb} cook's notes, {vb} variations, "
+          f"make-ahead/storage, scaling")
+
+
+def test_variations_specific(content):
+    """Verify specific variations from the spec."""
+    lower = content.lower()
+    assert "spicy miso" in lower, "Missing Spicy Miso variation"
+    assert "miso-maple" in lower or "miso maple" in lower, \
+        "Missing Miso-Maple variation"
+    print("  ✓ Variations: Spicy Miso, Miso-Maple")
+
+
+def test_make_ahead_storage(content):
+    assert "Make-Ahead" in content or "Make Ahead" in content, \
+        "Missing Make-Ahead heading"
+    assert "Storage" in content or "storage" in content, \
+        "Missing Storage information"
+    print("  ✓ Make-Ahead / Storage present")
+
+
+def test_scaling(content):
+    assert "### Scaling" in content, "Missing Scaling section"
+    print("  ✓ Scaling section present")
+
+
+def test_sections(content):
+    required = ["## Ingredients", "## Instructions", "## Notes & Variations",
+                "### Cook's Notes", "### Variations", "### Scaling"]
+    for h in required:
+        assert h in content, f"Missing heading: {h}"
+    print("  ✓ All required sections present")
+
+
+def test_origin_note(content):
+    """Verify origin note references addendum / Nobu-style technique."""
+    assert "title-only addendum" in content.lower() or \
+           "addendum" in content.lower(), "Missing addendum reference"
+    assert "nobu" in content.lower() or "saikyo-yaki" in content.lower() or \
+           "saikyo yaki" in content.lower(), \
+        "Missing Nobu-style / saikyo-yaki reference"
+    print("  ✓ Origin note references addendum and technique")
+
+
+def test_no_corrupted_text(content):
+    """Check for text corruption artifacts (duplication, broken formatting)."""
+    # Known bug: step 4 has "Take** of the refrigerator. Gently wipe off the fish out of the refrigerator."
+    # This looks like corrupted/duplicated text.
+    corrupted_patterns = [
+        r"Take\*\* of the refrigerator",  # broken bold
+        r"Gently wipe off \w+ out of",     # duplicated sentence fragment
+    ]
+    issues = []
+    for i, pat in enumerate(corrupted_patterns):
+        if re.search(pat, content):
+            issues.append(f"Found corrupted text matching pattern {i}")
+    
+    # Also check for general corruption: consecutive duplicate words
+    dup_words = re.findall(r'\b(\w+)\s+\1\b', content)
+    if dup_words:
+        issues.append(f"Duplicate words found: {dup_words}")
+    
+    # Check for broken bold markers
+    broken_bold = re.findall(r'\*\*[^*]*[^*]\*\*[^*]*\*\*', content)
+    if broken_bold:
+        issues.append(f"Broken bold markers found")
+    
+    if issues:
+        print(f"  ⚠ Content issues detected")
+        raise AssertionError("; ".join(issues))
+    print("  ✓ No text corruption detected")
+
+
+def run():
     fm, content = load_recipe(RECIPE)
 
     tests = [
-        # Frontmatter completeness
-        ("All required frontmatter fields", lambda: test_frontmatter_required_fields(fm)),
-        ("Title", lambda: test_title(fm)),
-        ("Status reviewed", lambda: test_status_reviewed(fm)),
-        ("date_modified", lambda: test_date_modified(fm)),
-        ("Slug matches filename", lambda: test_slug_matches_filename(fm)),
-
-        # Cuisine & dietary
-        ("Cuisine Japanese", lambda: test_cuisine_japanese(fm)),
-        ("Dietary tags: gluten-free-option", lambda: test_dietary_tags_gluten_free(fm)),
-
-        # Tags
-        ("Tags include dinner/fish/miso", lambda: test_tags_include_dinner_fish_miso(fm)),
-        ("Tags include recipe/ type", lambda: test_tags_include_recipe_meal_type(fm)),
-        ("Technique tags: marinating, broiling", lambda: test_technique_tags(fm)),
-        ("Protein tags: butterfish, sablefish, black-cod", lambda: test_protein_tags(fm)),
-
-        # Source & metadata
+        ("File exists", lambda: None),  # already loaded
+        ("Frontmatter: all fields", lambda: test_frontmatter_fields(fm)),
+        ("Frontmatter: cuisine Japanese", lambda: test_frontmatter_cuisine(fm)),
+        ("Frontmatter: dietary tags", lambda: test_frontmatter_dietary_tags(fm)),
+        ("Frontmatter: tags", lambda: test_frontmatter_tags(fm)),
+        ("Frontmatter: protein", lambda: test_frontmatter_protein(fm)),
+        ("Frontmatter: status/date", lambda: test_frontmatter_status(fm)),
+        ("Frontmatter: title/slug", lambda: test_frontmatter_series(fm)),
         ("Source documented", lambda: test_source_documented(fm)),
-        ("Difficulty set", lambda: test_difficulty_set(fm)),
-        ("Key equipment populated", lambda: test_key_equipment_present(fm)),
-        ("Origin notes present", lambda: test_origin_notes_present(fm)),
-        ("Base servings and unit", lambda: test_base_servings_and_unit(fm)),
-
-        # Ingredients
-        ("Core ingredients: miso, mirin, sake, sugar, fish", lambda: test_ingredient_core_items(content)),
-        ("Saikyo miso or white miso referenced", lambda: test_ingredients_saikyo_miso(content)),
-        ("Ingredients grouped by component", lambda: test_ingredients_grouped(content)),
-
-        # Instructions
-        ("Instructions (6-8 steps, bolded titles, sensory cues, timing)", lambda: test_instructions(content)),
-        ("Marinate 2-3 days mentioned", lambda: test_marinate_2_3_days(content)),
-        ("Wipe instruction present", lambda: test_wipe_instruction(content)),
-        ("Key steps: prepare, marinate, wipe, broil, rest, serve", lambda: test_key_steps_present(content)),
-
-        # Notes & variations
-        ("Cook's notes, variations, make-ahead, storage, scaling", lambda: test_notes(content)),
-        ("Make-Ahead section", lambda: test_make_ahead(content)),
-        ("Storage section", lambda: test_storage(content)),
-        ("Scaling section heading", lambda: test_scaling_section(content)),
-
-        # Content structure
-        ("All required section headings", lambda: test_content_sections(content)),
+        ("Key equipment", lambda: test_key_equipment(fm)),
+        ("Ingredient groups", lambda: test_ingredient_groups(content)),
+        ("Marinade ingredients", lambda: test_ingredient_marinade(content)),
+        ("Fish types", lambda: test_ingredient_butterfish(content)),
+        ("Instructions", lambda: test_instructions(content)),
+        ("Saikyo-yaki technique", lambda: test_saikyo_yaki_technique(content)),
+        ("Cook's notes & variations", lambda: test_notes(content)),
+        ("Variations specific", lambda: test_variations_specific(content)),
+        ("Make-Ahead / Storage", lambda: test_make_ahead_storage(content)),
+        ("Scaling", lambda: test_scaling(content)),
+        ("Sections", lambda: test_sections(content)),
+        ("Origin note", lambda: test_origin_note(content)),
+        ("No corrupted text", lambda: test_no_corrupted_text(content)),
     ]
 
     run_tests("TICKET-012", tests)
+
+
+if __name__ == "__main__":
+    run()
