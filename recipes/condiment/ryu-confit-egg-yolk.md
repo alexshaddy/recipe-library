@@ -69,7 +69,7 @@ date_modified: "2026-06-27"
 
 3. **Add the Yolks.** Once the oil is steady at 160°F/71°C, gently slide the yolks into the oil one at a time using a spoon. They should sink and sit on the bottom without touching each other. The oil will barely bubble — a sign the temperature is correct.
 
-4. **Confit Slowly.** Maintain the oil at 160°F/71°C, adjusting heat as needed. Cook the yolks undisturbed for about 55 minutes. They are done when the surface turns opaque and firm to the touch but the center remains soft and custard-like — a gentle press should feel like a ripe peach. The yolks will take on a warm golden-orange hue.
+4. **Confit Slowly.** Maintain the oil at 160°F/71°C, adjusting heat as needed. Cook the yolks undisturbed (~55 min). They are done when the surface turns opaque and firm to the touch but the center remains soft and custard-like — a gentle press should feel like a ripe peach. The yolks will take on a warm golden-orange hue.
 
 5. **Remove and Drain.** Using a slotted spoon, carefully lift each yolk from the oil. Let excess oil drip off, then transfer to a paper towel-lined plate. The yolks will be fragile — handle them as you would a poached egg.
 
