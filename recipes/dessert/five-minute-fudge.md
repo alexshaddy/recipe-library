@@ -65,12 +65,17 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Start the candy base.** Combine the butter, evaporated milk, sugar, and salt in a saucepan over medium heat.
-2. **Bring to a boil.** Cook about 4 to 5 minutes, stirring constantly, until the mixture bubbles around the edges and starts to thicken.
-3. **Finish off the heat.** Remove from the heat and stir in the marshmallows, chocolate, vanilla, and nuts.
-4. **Beat until smooth.** Stir vigorously for about 1 minute, until the marshmallows melt and the fudge looks glossy.
-5. **Set the fudge.** Pour into an 8-inch square buttered pan and cool until firm.
-6. **Cut and serve.** Cut into squares once set.
+1. **Start the Candy Base.** Combine the butter, evaporated milk, sugar, and salt in a saucepan over medium heat. Stir until the butter melts and the sugar dissolves — the mixture will look pale and thin.
+
+2. **Bring to a Boil.** Cook, stirring constantly, until the mixture comes to a full rolling boil and bubbles vigorously around the edges (~4–5 min). It will begin to thicken slightly and turn a light caramel color.
+
+3. **Finish Off the Heat.** Remove from the heat and immediately stir in the marshmallows, chocolate, vanilla, and nuts. The residual heat will melt everything together.
+
+4. **Beat Until Smooth.** Stir vigorously until the marshmallows melt completely and the fudge looks glossy, smooth, and uniformly dark (~1 min). Work quickly — the fudge begins to set as it cools.
+
+5. **Set the Fudge.** Pour into an 8-inch square buttered pan and spread evenly. Cool at room temperature until firm (~1 hr). The surface should be smooth and shiny.
+
+6. **Cut and Serve.** Once fully set, cut into squares with a sharp knife. Store in an airtight container.
 
 ---
 
