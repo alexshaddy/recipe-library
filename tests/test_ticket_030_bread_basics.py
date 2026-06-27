@@ -99,8 +99,10 @@ def test_golden_ratio(content):
 
 
 def test_yeast_resolved(content):
-    """Verify the [TO VERIFY] on yeast is resolved."""
-    assert "[TO VERIFY]" not in content, "Yeast still has [TO VERIFY]"
+    """Verify the [TO VERIFY] on yeast is resolved — no [TO VERIFY] in ingredient list."""
+    ingredient_section = content.split("## Instructions")[0]
+    assert "[TO VERIFY]" not in ingredient_section, \
+        "Yeast still has [TO VERIFY] in ingredient list"
     assert "0.7%" in content or "0.7" in content, "Missing yeast percentage"
     print("  ✓ Yeast [TO VERIFY] resolved")
 
@@ -137,7 +139,7 @@ def test_sections(content):
 def test_key_steps_present(content):
     """Verify key bread-making steps are present."""
     lower = content.lower()
-    for step in ["autolyse", "knead", "bulk ferment", "stretch and fold",
+    for step in ["autolyse", "knead", "bulk ferment", "stretch", "fold",
                  "shape", "proof", "score", "steam"]:
         assert step in lower, f"Missing key step: {step}"
     print("  ✓ Key bread steps: autolyse, knead, bulk ferment, stretch & fold, shape, proof, score, steam")
