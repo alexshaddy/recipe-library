@@ -30,12 +30,11 @@ key_equipment:
   - measuring cups
   - heatproof jar
 tags:
-  - recipe/condiment
-  - ingredient/sugar
-  - ingredient/butter
-  - ingredient/cream
-  - ingredient/miso
-  - technique/caramel-making
+- condiment
+- caramel
+- dessert
+- miso
+- technique/caramel-making
 protein:
   - none
 status: reviewed
