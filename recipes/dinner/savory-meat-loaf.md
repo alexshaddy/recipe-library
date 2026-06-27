@@ -84,6 +84,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - The horseradish reads as a small amount, but it gives the loaf a cleaner savory edge than extra salt would.
+- Mixing the meat lightly is key — overworking develops tough proteins. Stop as soon as the ingredients are evenly distributed.
 
 ### Variations
 - **Milder loaf:** Reduce the horseradish slightly if you want less bite.
