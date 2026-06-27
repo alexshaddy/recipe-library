@@ -9,10 +9,10 @@ cuisine:
 course:
   - bread
 dietary_tags:
-protein:
-  - none
   - vegan
   - vegetarian
+protein:
+  - none
 season:
   - all-year
 prep_time: "30 min"
@@ -37,8 +37,6 @@ key_equipment:
   - lame
   - instant-read-thermometer
 tags:
-protein:
-  - none
   - bread
   - basic
   - artisan
@@ -47,6 +45,8 @@ protein:
   - technique-fermentation
   - technique-shaping
   - technique-baking
+protein:
+  - none
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27
