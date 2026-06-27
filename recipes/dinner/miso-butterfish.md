@@ -42,8 +42,8 @@ protein:
   - sablefish
   - black-cod
 status: reviewed
-date_added: 2026-06-27
-date_modified: 2026-06-27
+date_added: "2026-06-27"
+date_modified: "2026-06-27"
 ---
 
 # Miso Butterfish
