@@ -37,7 +37,7 @@ protein:
 
 status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Aioli

@@ -32,8 +32,11 @@ key_equipment:
   - bowl
   - cheesecloth
 tags:
-  - recipe/appetizer
-  - technique/strain
+- recipe/appetizer
+- technique/strain
+protein:
+- dairy
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
