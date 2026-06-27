@@ -32,10 +32,12 @@ difficulty: "easy"
 key_equipment:
   - saucepan
 tags:
-  - recipe/side
-  - technique/bloom-spices
-  - technique/simmer
-  - technique/blend
+- soup
+- lentil
+- curry
+- technique/bloom-spices
+- technique/simmer
+- technique/blend
 protein:
   - lentil
 status: reviewed
