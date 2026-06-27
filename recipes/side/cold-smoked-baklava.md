@@ -11,9 +11,9 @@ cuisine:
 course:
   - dessert
 dietary_tags:
+  - vegetarian
 protein:
   - none
-  - vegetarian
 season:
   - all-year
 prep_time: "45 min"
@@ -38,8 +38,6 @@ key_equipment:
   - sharp-knife
   - saucepan
 tags:
-protein:
-  - none
   - dessert
   - baklava
   - phyllo
@@ -48,6 +46,8 @@ protein:
   - technique-baking
   - middle-eastern
   - turkish
+protein:
+  - none
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27
