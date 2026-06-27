@@ -13,8 +13,8 @@ occasion:
   - entertaining
 season:
   - all-year
-prep_time: "20 min
-cook_time: "25 min
+prep_time: "20 min"
+cook_time: "25 min"
 inactive_time: ""
 total_time: "45 min
 base_servings: 6

@@ -13,10 +13,10 @@ dietary_tags:
   - vegetarian
 season:
   - fall
-prep_time: "15 min
-cook_time: "55 min
+prep_time: "15 min"
+cook_time: "55 min"
 inactive_time: "1 hr
-total_time: "2 hr 10 min
+total_time: "2 hr 10 min"
 base_servings: 8
 serving_unit: "slices"
 scaling_notes: "The custard is formula-driven; keep the spice balance intact if you scale."

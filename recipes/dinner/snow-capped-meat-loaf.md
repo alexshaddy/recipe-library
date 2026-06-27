@@ -13,10 +13,10 @@ occasion:
   - comfort
 season:
   - all-year
-prep_time: "25 min
-cook_time: "45 min
+prep_time: "25 min"
+cook_time: "45 min"
 inactive_time: ""
-total_time: "1 hr 10 min
+total_time: "1 hr 10 min"
 base_servings: 6
 serving_unit: "slices"
 scaling_notes: "The potato topping is most reliable when the pan size keeps the meat loaf fairly shallow."

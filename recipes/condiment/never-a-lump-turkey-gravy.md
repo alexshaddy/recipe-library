@@ -13,8 +13,8 @@ occasion:
   - holiday
 season:
   - fall
-prep_time: "5 min
-cook_time: "10 min
+prep_time: "5 min"
+cook_time: "10 min"
 inactive_time: ""
 total_time: "15 min
 base_servings: 8

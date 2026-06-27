@@ -13,10 +13,10 @@ occasion:
   - weeknight
 season:
   - all-year
-prep_time: "15 min
+prep_time: "15 min"
 cook_time: "1 hr
 inactive_time: ""
-total_time: "1 hr 15 min
+total_time: "1 hr 15 min"
 base_servings: 6
 serving_unit: "slices"
 scaling_notes: "The loaf mixture scales cleanly; keep the pan size appropriate so the center cooks through evenly."

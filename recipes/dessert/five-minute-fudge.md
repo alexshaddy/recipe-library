@@ -14,10 +14,10 @@ dietary_tags:
   - gluten-free
 season:
   - holiday
-prep_time: "5 min
-cook_time: "5 min
+prep_time: "5 min"
+cook_time: "5 min"
 inactive_time: "1 hr
-total_time: "1 hr 10 min
+total_time: "1 hr 10 min"
 base_servings: 16
 serving_unit: "pieces"
 scaling_notes: "This candy sets quickly; line up the ingredients before you start cooking."
