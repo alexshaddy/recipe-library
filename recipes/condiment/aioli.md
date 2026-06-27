@@ -69,13 +69,16 @@ date_modified: 2026-06-26
 ## Notes & Variations
 
 ### Cook's Notes
-- This reads like a garlic-lemon aioli with fennel. The oil needs to go in slowly or the emulsion will split.
+- This reads like a garlic‑lemon aioli with fennel. The oil needs to go in slowly or the emulsion will split.
+- If the aioli becomes too thick, add a few drops of warm water while blending to rescue the emulsion.
+- For a smoother texture, strain the finished aioli through a fine mesh before serving.
 
 ### Variations
 - **Sharper version:** Add a little more vinegar if you want it brighter and less rich.
+- **Herb‑Infused:** Add 1 teaspoon chopped fresh tarragon or basil for an herbal note.
 
-### Make-Ahead / Storage
-- Refrigerate tightly covered and use within 3 days.
+### Make‑Ahead / Storage
+- Refrigerate tightly covered and use within 3 days. The aioli can be stored in a sealed jar for up to a week; stir before use.
 
 ### Scaling
-- Keep the acid and egg proportional if you scale the batch.
+- Keep the acid and egg proportional if you scale the batch. For larger batches, blend in a food processor to maintain emulsion stability.
