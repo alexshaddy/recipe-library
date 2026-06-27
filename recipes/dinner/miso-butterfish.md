@@ -87,9 +87,11 @@ date_modified: "2026-06-27"
 - Wiping off excess marinade before broiling prevents burning and allows the sugar to caramelize without charring.
 - Saikyo miso is traditionally used for its sweetness; if using regular white miso, you may need to add a bit more sugar.
 
-### Make-Ahead / Storage
+### Make-Ahead
 - The miso marinade can be made ahead and stored in an airtight container in the refrigerator for up to 1 week.
 - Marinated fish (before cooking) keeps in the refrigerator for up to 3 days; do not freeze as the texture may change.
+
+### Storage
 - Cooked miso butterfish is best served immediately but can be kept at room temperature for up to 2 hours; reheat gently if needed.
 
 ### Scaling
