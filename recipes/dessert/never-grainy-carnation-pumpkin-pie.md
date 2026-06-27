@@ -85,6 +85,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - The high-heat start helps set the custard so the filling stays smooth instead of grainy.
+- The evaporated milk is the key to the "never grainy" promise — its concentrated proteins create a silkier custard than fresh milk or cream.
 
 ### Variations
 - **Cheese service:** Serve with a slice of cheese on the side, as the booklet suggests.
