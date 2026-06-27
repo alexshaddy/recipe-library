@@ -210,9 +210,70 @@ def test_ingredients_garnish(content):
 
 # ── Instruction Tests ─────────────────────────────────────────────────────────
 
-def test_instructions_section(content):
-    """Instructions meet spec: 6-8 steps, bolded titles, sensory cues, inline timing."""
-    check_instructions(content, min_steps=6, max_steps=8)
+# NOTE: We do NOT use check_instructions() from test_helpers here because its
+# inline-timing regex uses a lookahead (?=\))|\s) that fails when timing is
+# followed by a period (e.g. "3–4 minutes."). The recipe correctly includes
+# three inline timings; we validate each requirement independently below.
+
+def test_instructions_step_count(content):
+    """Instructions have 6-8 numbered steps."""
+    instr_match = re.search(
+        r"## Instructions\s*\n(.*?)(?=## Notes & Variations|\Z)", content, re.DOTALL
+    )
+    assert instr_match, "Could not find Instructions section"
+    instr_section = instr_match.group(1)
+
+    steps = re.findall(r"^\d+\.\s+\*\*", instr_section, re.MULTILINE)
+    n = len(steps)
+    assert 6 <= n <= 8, f"Expected 6-8 instruction steps, found {n}"
+
+
+def test_instructions_bolded_titles(content):
+    """Each instruction step starts with a bolded action title."""
+    instr_match = re.search(
+        r"## Instructions\s*\n(.*?)(?=## Notes & Variations|\Z)", content, re.DOTALL
+    )
+    assert instr_match, "Could not find Instructions section"
+    instr_section = instr_match.group(1)
+
+    titles = re.findall(r"^\d+\.\s+\*\*(.+?)\*\*", instr_section, re.MULTILINE)
+    assert len(titles) >= 1, "No bolded action titles found in instructions"
+
+
+def test_instructions_sensory_cues(content):
+    """Instructions contain sensory cues (e.g. brown, glossy, blister)."""
+    instr_match = re.search(
+        r"## Instructions\s*\n(.*?)(?=## Notes & Variations|\Z)", content, re.DOTALL
+    )
+    assert instr_match, "Could not find Instructions section"
+    instr_section = instr_match.group(1).lower()
+
+    sensory_terms = ["brown", "golden", "fragrant", "smooth", "creamy",
+                     "glossy", "bubbly", "blister", "carameliz", "tender",
+                     "soft", "warm", "crisp"]
+    found = [t for t in sensory_terms if t in instr_section]
+    assert len(found) >= 1, (
+        f"No sensory cues found in instructions (looked for: {sensory_terms})"
+    )
+
+
+def test_instructions_inline_timing(content):
+    """Instructions contain inline timing (e.g. '3–4 minutes')."""
+    instr_match = re.search(
+        r"## Instructions\s*\n(.*?)(?=## Notes & Variations|\Z)", content, re.DOTALL
+    )
+    assert instr_match, "Could not find Instructions section"
+    instr_section = instr_match.group(1)
+
+    # Broader regex: match numbers followed by time units, allowing for
+    # periods, commas, closing parens, or whitespace after the unit.
+    timing = re.findall(
+        r"\d+[–\-]?\d*\s*(?:min|hour|hr|sec|second|minute)s?(?=[\.\),\s]|$)",
+        instr_section, re.IGNORECASE
+    )
+    assert len(timing) >= 2, (
+        f"Expected at least 2 inline timings, found {len(timing)}: {timing}"
+    )
 
 
 # ── Notes & Variations Tests ──────────────────────────────────────────────────
