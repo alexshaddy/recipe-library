@@ -40,7 +40,7 @@ protein:
 
 status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Rhubarb Syrup
@@ -83,8 +83,11 @@ date_modified: 2026-06-26
 - **Batch 2 (with water)** gives a larger volume at a lighter intensity, closer to a classic syrup.
 - The notebook reads like a test log rather than a final formula, so the exact hold times are more important than the endpoint numbers.
 
-### Make-Ahead / Storage
-- Refrigerate and strain before serving.
+### Variations
+- **Spiced Rhubarb Syrup:** Add 1 teaspoon grated ginger and a pinch of cinnamon to either batch for a warm, spicy note.
+
+### Make‑Ahead / Storage
+- Refrigerate and strain before serving. The syrup keeps for up to 2 weeks.
 
 ### Scaling
 - Equal fruit and sugar by weight is the key ratio for both methods.
