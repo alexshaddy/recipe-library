@@ -95,8 +95,11 @@ date_modified: 2026-06-27
 ### Variations
 - **Extra-browned top:** Briefly run the pan under the broiler after the final bake if you want more color.
 
-### Make-Ahead / Storage
+### Make-Ahead
 - The meat loaf can be baked ahead and reheated, though the potato layer is best on the day it is made.
+
+### Storage
+- Refrigerate leftovers in an airtight container for up to 3 days. Reheat in a 350°F oven to restore the texture.
 
 ### Scaling
 - If you increase the batch, keep the loaf shallow enough for the potato topping to spread cleanly.

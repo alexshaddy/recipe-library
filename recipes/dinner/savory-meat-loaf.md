@@ -91,9 +91,11 @@ date_modified: 2026-06-27
 ### Variations
 - **Milder loaf:** Reduce the horseradish slightly if you want less bite.
 
-### Make-Ahead / Storage
+### Make-Ahead
 - The loaf can be mixed ahead and refrigerated before baking.
-- Leftovers keep well for sandwiches the next day.
+
+### Storage
+- Leftovers keep well for sandwiches the next day. Refrigerate in an airtight container for up to 3 days.
 
 ### Scaling
 - The recipe behaves like a standard meat loaf once the beef mixture is mixed lightly and not overworked.
