@@ -151,8 +151,14 @@ def test_no_unverified_markers(content):
 
 def test_instructions(content):
     n, titles, sensory = check_instructions(content, min_steps=5, max_steps=8)
+    # Also verify inline timing directly (helper regex may miss en-dash ranges)
+    instr_match = re.search(r"## Instructions\s*\n(.*?)(?=## Notes|\Z)", content, re.DOTALL)
+    instr_section = instr_match.group(1) if instr_match else ""
+    timing = re.findall(r'\d+[–\-]?\d*\s*(?:min|hour|hr|sec|second|minute)s?',
+                        instr_section, re.IGNORECASE)
+    assert len(timing) >= 2, f"Too few inline timings: found {timing}"
     print(f"  ✓ Instructions: {n} steps, {len(titles)} bolded titles, "
-          f"{len(sensory)} sensory cues, inline timing present")
+          f"{len(sensory)} sensory cues, {len(timing)} inline timings")
 
 
 def test_notes(content):
