@@ -45,12 +45,12 @@ REQUIRED_FRONTMATTER_FIELDS = [
     "dietary_tags", "season",
     "prep_time", "cook_time", "inactive_time", "total_time",
     "base_servings", "serving_unit", "scaling_notes",
-    "source_type", "source_name", "source_page", "origin_notes",
+    "source_type", "source_name", "origin_notes",
     "difficulty", "key_equipment",
     "tags", "protein", "status",
     "date_added", "date_modified",
 ]
-# source_url is allowed to be empty for handwritten sources
+# source_url and source_page may be empty for handwritten/title-only sources
 
 
 # ── Test Functions ────────────────────────────────────────────────────────────
