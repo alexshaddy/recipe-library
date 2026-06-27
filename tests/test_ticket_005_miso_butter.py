@@ -130,8 +130,10 @@ def test_status_reviewed(fm):
 def test_date_modified(fm):
     """Check date_modified is set to 2026-06-27."""
     dm = fm.get("date_modified", "")
-    assert dm == EXPECTED_DATE_MODIFIED, (
-        f"Expected date_modified '{EXPECTED_DATE_MODIFIED}', got '{dm}'"
+    # YAML may parse "2026-06-27" as a datetime.date object
+    dm_str = str(dm)
+    assert dm_str == EXPECTED_DATE_MODIFIED, (
+        f"Expected date_modified '{EXPECTED_DATE_MODIFIED}', got '{dm_str}' (type: {type(dm).__name__})"
     )
     print(f"  ✓ date_modified is '{EXPECTED_DATE_MODIFIED}'")
 
