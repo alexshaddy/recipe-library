@@ -29,11 +29,14 @@ key_equipment:
   - sheet-pan
   - biscuit-cutter
 tags:
-  - recipe/breakfast
-  - technique/bake
+- recipe/breakfast
+- technique/bake
+protein:
+- dairy
+
 status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Buttermilk Biscuits
@@ -67,12 +70,19 @@ _Base servings: 8 biscuits_
 
 ### Cook's Notes
 
-- The cold butter matters. If it melts before the oven, the biscuits lose their layers.
+- The cold butter matters. If it melts before the oven, the biscuits lose their layers and become dense.
+- Over‑mixing the dough develops gluten, resulting in tough biscuits; stop mixing as soon as the dough comes together.
+- For a richer flavor, brush the tops with melted butter mixed with a pinch of honey before baking.
 
-### Make-Ahead / Storage
+### Variations
 
-- Best fresh, but they can be rewarmed in a low oven for 10 minutes.
+- **Buttermilk‑Free Version:** Substitute the buttermilk with 3/4 cup plain yogurt thinned with 2 tablespoons milk; the biscuits will be slightly tangier.
+- **Herb‑Infused Biscuits:** Add 1 tablespoon chopped fresh chives or rosemary to the dry ingredients for an aromatic twist.
+
+### Make‑Ahead / Storage
+
+- Best fresh, but they can be rewarmed in a low oven for 10 minutes. Store cooled biscuits in an airtight container for up to 2 days.
 
 ### Scaling
 
-- The recipe scales cleanly if you keep the butter cold and stop mixing early.
+- The recipe scales cleanly if you keep the butter cold and stop mixing early. For larger batches, increase flour and butter proportionally and chill the dough before cutting.
