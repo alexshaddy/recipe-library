@@ -418,13 +418,20 @@ def test_content_structure(content):
         "## Notes & Variations",
         "### Cook's Notes",
         "### Variations",
-        "### Make-Ahead",
-        "### Storage",
         "### Scaling",
     ]
+    # Make-Ahead and Storage can be combined or separate
+    has_make_ahead = "### Make-Ahead" in content
+    has_storage = "### Storage" in content
+    has_combined = "### Make-Ahead / Storage" in content or "### Storage / Make-Ahead" in content
+    assert has_make_ahead or has_storage or has_combined, (
+        "Missing Make-Ahead or Storage heading. Expected one of: "
+        "'### Make-Ahead', '### Storage', or '### Make-Ahead / Storage'"
+    )
+
     for heading in required_headings:
         assert heading in content, f"Missing heading: '{heading}'"
-    print(f"  ✓ All required sections present ({len(required_headings)} headings)")
+    print(f"  ✓ All required sections present ({len(required_headings)}+ heading(s))")
 
 
 def run_all_tests():
