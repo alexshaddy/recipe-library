@@ -72,12 +72,17 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Mix in the cheese.** Add the grated process American cheese to the beef mixture and mix lightly.
-2. **Bake the loaf.** Press the mixture into a 9 x 9 x 2-inch baking pan and bake at 350 F for about 35 minutes.
-3. **Prepare the topping.** Make the instant mashed potatoes according to the package directions while the loaf bakes.
-4. **Snow cap the loaf.** Spread the mashed potatoes over the baked meat loaf and sprinkle the remaining grated cheese over the top.
-5. **Finish baking.** Return the pan to the oven for about 10 minutes longer, until the cheese melts and the top looks creamy and lightly browned.
-6. **Serve hot.** Bring to the table at once while the topping is still soft.
+1. **Mix in the Cheese.** Add the grated process American cheese to the beef mixture and mix lightly until just combined (~1 min). The cheese should be evenly distributed but not overworked.
+
+2. **Bake the Loaf.** Press the mixture into a 9×9×2-inch baking pan and smooth the top. Bake at 350°F until the loaf is set, browned on top, and beginning to pull away from the sides (~35 min).
+
+3. **Prepare the Topping.** While the loaf bakes, make the instant mashed potatoes according to the package directions. The potatoes should be smooth, creamy, and hold soft peaks.
+
+4. **Snow Cap the Loaf.** Spread the mashed potatoes evenly over the baked meat loaf, covering it completely like a blanket of snow. Sprinkle the remaining grated cheese over the top.
+
+5. **Finish Baking.** Return the pan to the oven until the cheese melts and the top looks creamy with lightly browned spots (~10 min). The potato layer should be hot throughout.
+
+6. **Serve Hot.** Bring to the table at once while the topping is still soft and the cheese is gooey. Slice and serve immediately.
 
 ---
 
