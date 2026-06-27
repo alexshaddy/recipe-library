@@ -72,15 +72,18 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - Adding the miso at the end preserves its delicate flavor and prevents it from breaking or becoming grainy due to prolonged heat.
-- Using a wet sugar method (sugar + water) helps prevent crystallization and gives more control over the caramelization process.
+- Using a wet sugar method (sugar + mirin) helps prevent crystallization and gives more control over the caramelization process.
+- If the caramel darkens too quickly, reduce the heat and swirl gently to avoid burning.
+- For a smoother texture, strain the finished caramel through a fine mesh before storing.
 
-### Make-Ahead / Storage
-- Miso caramel keeps at room temperature in an airtight container for up to 2 weeks.
-- For longer storage, refrigerate for up to 1 month; warm gently in a microwave or hot water bath before pouring.
+### Variations
+- **Spicy Miso Caramel:** Add ¼ teaspoon cayenne pepper or a few drops of chili oil with the miso for a sweet‑heat kick.
+- **Salted Miso Caramel:** Finish with an extra pinch of flaky sea salt for a pronounced salty contrast.
+
+### Make‑Ahead / Storage
+- Miso caramel keeps at room temperature in an airtight container for up to 2 weeks.
+- For longer storage, refrigerate for up to 1 month; warm gently in a microwave or hot water bath before pouring.
 
 ### Scaling
 - The recipe scales linearly; maintain the ratio of 2 parts sugar to 1 part cream by volume.
-- Use a larger saucepan if doubling to prevent boil-over.
-
-### Variations
-- **Spicy Miso Caramel:** Add ¼ teaspoon cayenne pepper or a few drops of chili oil with the miso for a sweet-heat kick.
+- Use a larger saucepan if doubling to prevent boil‑over and ensure even heating.
