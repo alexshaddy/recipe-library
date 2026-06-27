@@ -92,6 +92,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - The orange-and-cranberry pairing keeps the mold from tasting overly sweet.
+- Let the gelatin cool until just warm before adding to the cream cheese mixture — if it's too hot, it will curdle the dairy and create a grainy texture.
 
 ### Variations
 - **Holiday platter:** Serve with extra cranberry sauce spooned around the mold.
