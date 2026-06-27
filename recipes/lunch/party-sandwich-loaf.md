@@ -13,10 +13,10 @@ occasion:
   - entertaining
 season:
   - all-year
-prep_time: "20 min "
-cook_time: "30 min "
+prep_time: "20 min
+cook_time: "30 min
 inactive_time: ""
-total_time: "50 min "
+total_time: "50 min
 base_servings: 8
 serving_unit: "slices"
 scaling_notes: "The filling scales with the loaf, but keep the bread proportion generous so the top does not get soggy."
@@ -32,7 +32,10 @@ key_equipment:
   - oven
 tags:
   - recipe/lunch
-  - cuisine/american
+tags:
+  - recipe/condiment
+  - carnation
+  - vintage
   - technique/bake
 protein: []
 status: reviewed

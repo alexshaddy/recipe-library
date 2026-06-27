@@ -13,10 +13,10 @@ occasion:
   - entertaining
 season:
   - all-year
-prep_time: "20 min "
-cook_time: "25 min "
+prep_time: "20 min
+cook_time: "25 min
 inactive_time: ""
-total_time: "45 min "
+total_time: "45 min
 base_servings: 6
 serving_unit: "sandwiches"
 scaling_notes: "The filled patties need enough room to seal; scale the patties before scaling the filling too aggressively."
@@ -32,7 +32,10 @@ key_equipment:
   - oven
 tags:
   - recipe/lunch
-  - cuisine/american
+tags:
+  - recipe/condiment
+  - carnation
+  - vintage
   - technique/bake
 protein: []
 status: reviewed

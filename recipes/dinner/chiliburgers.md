@@ -31,7 +31,10 @@ key_equipment:
   - mixing-bowl
 tags:
   - recipe/dinner
-  - cuisine/american
+tags:
+  - recipe/condiment
+  - carnation
+  - vintage
   - technique/broil
 protein: []
 status: reviewed

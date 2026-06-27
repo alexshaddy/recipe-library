@@ -15,10 +15,10 @@ occasion:
   - holiday
 season:
   - fall
-prep_time: "20 min "
+prep_time: "20 min
 cook_time: ""
 inactive_time: "4 hr"
-total_time: "4 hr 20 min "
+total_time: "4 hr 20 min
 base_servings: 5
 serving_unit: "servings"
 scaling_notes: "The mold sets best when the gelatin and dairy proportions stay consistent."
@@ -34,7 +34,10 @@ key_equipment:
   - refrigerator
 tags:
   - recipe/dessert
-  - cuisine/american
+tags:
+  - recipe/condiment
+  - carnation
+  - vintage
   - technique/chill
 protein: []
 status: reviewed
