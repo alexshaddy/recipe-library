@@ -54,17 +54,30 @@ date_modified: 2026-06-27
 
 ## Instructions
 
-1. **Build over ice.** Add the spirit and Pocari Sweat syrup to a highball glass filled with ice.
-2. **Top.** Fill with soda water and stir gently so the drink stays lively.
+1. **Prepare glass and ice.** Fill a highball glass with large, clear ice cubes (or pebble ice) to chill the vessel and slow dilution.
+2. **Add spirit and syrup.** Pour 2 ounces scotch (or malt whiskey) and 0.6 ounces Pocari Sweat syrup over the ice. The syrup should coat the ice and begin to dissolve, creating a subtle sweet‑salty base.
+3. **Top with soda water.** Slowly add soda water to fill the glass to about 8 ounces total, achieving roughly 20 % dilution.
+4. **Stir gently.** Using a bar spoon, give the drink 3–4 slow turns to integrate the syrup without bruising the soda’s effervescence.
+5. **Garnish.** Express a lemon (or lime) twist over the surface and drop it into the glass for a bright citrus aroma.
 
 ## Notes & Variations
 
 ### Cook's Notes
-- The notebook does not identify the base spirit clearly, so keep that field open until you audit the scan.
+- **Spirit choice:** Scotch (or malt whiskey) provides a smoky, malty backbone that pairs well with the lightly salty Pocari Sweat syrup. Choose a 12‑year‑old or similar for balance; a heavily peated malt will dominate.
+- **Dilution target:** Aim for ~20 % total dilution (≈1 oz water from melted ice plus soda) to keep the highball crisp while showcasing the spirit.
+- **Syrup balance:** The 0.6 oz syrup yields a 1:3 spirit‑to‑syrup ratio, delivering subtle sweetness without masking the scotch.
 
-### Make-Ahead / Storage
-- Batch the syrup only; build the drink fresh.
+### Variations
+- **Rye Highball:** Substitute rye whiskey for a spicier profile; add a dash of Angostura bitters.
+- **Citrus Twist:** Add ¼ oz fresh lemon or lime juice for extra brightness.
+- **Herbal Accent:** Muddle a sprig of mint or rosemary in the glass before adding ice.
+- **Spiced Version:** Include a pinch of ground ginger or a few drops of ginger bitters.
+
+### Make‑Ahead / Storage
+- **Syrup:** Batch the Pocari Sweat syrup (water, sugar, a pinch of salt) and store sealed in the refrigerator for up to 2 weeks.
+- **Pre‑build:** Combine spirit and syrup in a sealed container and chill; add soda and ice at service to preserve carbonation.
 
 ### Scaling
-- Scale the syrup and spirit together, then top with soda to taste.
+- **Linear scaling:** Multiply spirit and syrup quantities proportionally for each serving. Keep soda separate and top each drink individually to maintain fizz.
+- **Pitcher batch:** For a pitcher, combine spirit and syrup, chill, then add soda and ice just before serving (≈1 oz soda per 2 oz spirit).
 
