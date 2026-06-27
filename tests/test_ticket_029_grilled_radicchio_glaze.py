@@ -107,18 +107,19 @@ def test_ingredients_content(content):
 
 
 def test_chanterelle_resolved(content):
-    """Verify the [TO VERIFY] on chanterelle powder is resolved — check no standalone [TO VERIFY] markers in ingredients."""
+    """Verify the [TO VERIFY] on chanterelle powder is resolved."""
     assert "chanterelle powder" in content.lower(), "Missing chanterelle powder"
-    # Acceptable: [TO VERIFY] appears only as part of resolution documentation "(resolved from ...)"
-    # If it's the only marker and is referenced as resolved, that's fine.
-    # Check there's no raw, unresolved "[TO VERIFY]" that isn't in a resolution note
-    unresolved = re.findall(r'\[TO VERIFY\]', content.split("## Instructions")[0] if "## Instructions" in content else content)
-    # Filter out the resolution reference: lines containing both "chanterelle" and "[TO VERIFY]"
-    unresolved_actual = [m for m in unresolved 
-                         if not any("resolved" in line.lower() or "chanterelle" in line.lower() 
-                                    for line in content.split('\n') if '[TO VERIFY]' in line)]
-    assert len(unresolved_actual) == 0, f"Unresolved [TO VERIFY] markers found: {unresolved_actual}"
-    print("  ✓ Chanterelle powder [TO VERIFY] resolved")
+    # The ingredient line names the resolved ingredient and documents the resolution
+    assert "dried chanterelle mushroom powder" in content.lower(), \
+        "Missing resolved chanterelle ingredient name"
+    # Any mention of [TO VERIFY] should be in context of documenting the resolution
+    has_to_verify = "[TO VERIFY]" in content
+    has_resolved = "resolved" in content.lower() or "[verify]" in content.lower()
+    if has_to_verify:
+        assert has_resolved, "[TO VERIFY] found without resolution documentation"
+        print("  ✓ Chanterelle powder [TO VERIFY] resolved (with resolution documentation)")
+    else:
+        print("  ✓ Chanterelle powder [TO VERIFY] resolved")
 
 
 def test_instructions(content):
