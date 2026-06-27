@@ -98,8 +98,11 @@ date_modified: 2026-06-27
 ### Variations
 - **Baked slider version:** Make smaller patties and serve on mini rolls.
 
-### Make-Ahead / Storage
+### Make-Ahead
 - The stuffed patties can be assembled ahead and chilled, then baked just before serving.
+
+### Storage
+- Cooked burgerwiches are best eaten immediately. Refrigerate leftovers for up to 2 days; reheat in a 350°F oven.
 
 ### Scaling
 - Keep the patties thin enough that the centers cook at the same rate as the edges.
