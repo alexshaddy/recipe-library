@@ -1,38 +1,50 @@
 ---
 title: "Chimichurri Chicken Empanadas"
-aliases: []
+aliases: ["Chicken Empanadas with Chimichurri"]
 slug: chimichurri-chicken-empanadas
 meal_type:
   - dinner
 cuisine:
-  - latin-american
+  - Argentine
+  - Latin
 course:
   - main
-dietary_tags:
-  - dairy-free
+dietary_tags: []
 season:
   - all-year
-prep_time: "30 min [ESTIMATED]"
-cook_time: "20 min [ESTIMATED]"
-inactive_time: ""
-total_time: "50 min [ESTIMATED]"
+prep_time: "45 min"
+cook_time: "25 min"
+inactive_time: "30 min (chimichurri rest + dough rest)"
+total_time: "1 hr 40 min"
 base_servings: 12
 serving_unit: "empanadas"
-scaling_notes: "The filling should stay fairly dry so the pastry does not burst."
+scaling_notes: "Dough and filling scale linearly. Chimichurri makes ~1 cup — use ½ cup for filling, reserve rest for serving. For 24 empanadas, double all components; chill dough 1 hr before rolling. Fry in batches (6 at a time) or bake on 2 sheet pans (rotate halfway)."
 source_type: "handwritten"
 source_name: "Chef's Recipe Notebook"
 source_url: ""
 source_page: "19"
-origin_notes: "Notebook dinner note."
+origin_notes: "Notebook p.19: chimichurri (100g cilantro, 100g parsley, 100g red wine vinegar, ~6 cloves garlic, EVOO), chicken filling, empanada dough. Water amount in dough was [ESTIMATED]; resolved to ¾ cup + 2 tbsp for 60% hydration. Expanded to full 3-component spec with bake/fry options."
 difficulty: "medium"
 key_equipment:
-  - sheet-pan
+  - stand-mixer
+  - rolling-pin
+  - 4-inch-round-cutter
+  - baking-sheet
+  - pastry-brush
+  - deep-fry-thermometer
+  - food-processor
 tags:
-  - recipe/dinner
-  - technique/bake
-status: draft
+  - dinner
+  - empanada
+  - chicken
+  - chimichurri
+  - technique-dough
+  - technique-filling
+  - technique-frying
+  - technique-baking
+status: reviewed
 date_added: 2026-06-26
-date_modified: 2026-06-26
+date_modified: 2026-06-27
 ---
 
 # Chimichurri Chicken Empanadas
