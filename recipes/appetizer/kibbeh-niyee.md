@@ -30,8 +30,11 @@ difficulty: "medium"
 key_equipment:
   - bowl
 tags:
-  - recipe/appetizer
-  - cuisine/middle-eastern
+- recipe/appetizer
+- cuisine/middle-eastern
+protein:
+- meat
+
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-26
@@ -57,10 +60,11 @@ _Base servings: 4 portions_
 
 ## Instructions
 
-1. **Cook the bulgur.** Prepare the fine bulgur according to package directions (or soak in boiling water until tender). Drain any excess liquid and let cool completely before mixing.
-2. **Work the meat.** Combine the cooled bulgur with the meat, grated onion, and spices until the mixture looks smooth and cohesive.
-3. **Adjust the texture.** Add ice water a little at a time until the kibbeh can be shaped or mounded.
-4. **Serve chilled.** Pack onto a plate, drizzle with olive oil, and serve with bread and crisp vegetables.
+1. **Cook the bulgur.** Prepare the fine bulgur according to package directions (or soak in boiling water until tender). Drain any excess liquid and let cool completely for 5 minutes before mixing.
+2. **Work the meat.** Combine the cooled bulgur with the very lean lamb or beef, grated onion, and spices. Mix for 2–3 minutes until the mixture looks smooth and cohesive.
+3. **Adjust the texture.** Add ice water a little at a time, mixing for 30 seconds each addition, until the kibbeh can be shaped or mounded without cracking.
+4. **Shape and chill.** Form the kibbeh into portions or a flat mound, drizzle with olive oil, and refrigerate for at least 30 minutes before serving.
+5. **Serve chilled.** Pack onto a plate, drizzle with olive oil, and serve with flatbread and crisp vegetables.
 
 ## Notes & Variations
 
@@ -68,11 +72,17 @@ _Base servings: 4 portions_
 
 - Keep the meat very cold and very lean so the texture stays clean and sliceable.
 - Cook the bulgur ahead of time and let it cool completely for the best texture.
+- If the mixture feels dry, add a splash more ice water; if too wet, add a bit more bulgur.
 
-### Make-Ahead / Storage
+### Variations
 
-- Best the day it is made; hold chilled until service.
+- **Spiced Kibbeh:** Add 1 teaspoon ground cumin and a pinch of sumac to the mixture for a warm, earthy flavor.
+- **Herb‑Infused Kibbeh:** Stir in 2 tablespoons chopped fresh mint or parsley after mixing for a fresh note.
+
+### Make‑Ahead / Storage
+
+- Best the day it is made; hold chilled until service. The kibbeh can be stored covered in the refrigerator for up to 2 days.
 
 ### Scaling
 
-- Bulgur hydrates quickly, so scale carefully and adjust by feel.
+- Bulgur hydrates quickly, so scale carefully and adjust by feel. For larger batches, increase meat and bulgur proportionally and chill the mixture before shaping.
