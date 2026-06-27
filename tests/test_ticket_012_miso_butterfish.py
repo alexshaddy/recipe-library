@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os
 RECIPE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes")
-RECIPE_PATH = os.path.join(RECIPE_DIR, "condiment", "miso-butter.md")
+RECIPE_PATH = os.path.join(RECIPE_DIR, "dinner/miso-butterfish.md")
 """
 TICKET-012: Create Miso Butterfish from title-only addendum.
 

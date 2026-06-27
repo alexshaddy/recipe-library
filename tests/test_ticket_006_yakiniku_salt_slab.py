@@ -19,7 +19,7 @@ import re
 import sys
 
 RECIPE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes")
-RECIPE_PATH = os.path.join(RECIPE_DIR, "dinner", "yakiniku-salt-slab.md")
+RECIPE_PATH = os.path.join(RECIPE_DIR, "dinner/yakiniku-salt-slab.md")
 
 try:
     import yaml
