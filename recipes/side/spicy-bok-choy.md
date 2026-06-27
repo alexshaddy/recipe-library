@@ -31,6 +31,7 @@ difficulty: "easy"
 key_equipment:
   - wok
 tags:
+- recipe/side
 - side
 - vegetable
 - bok-choy
