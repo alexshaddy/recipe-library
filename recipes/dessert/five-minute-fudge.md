@@ -16,7 +16,7 @@ season:
   - holiday
 prep_time: "5 min
 cook_time: "5 min
-inactive_time: "1 hr "
+inactive_time: "1 hr
 total_time: "1 hr 10 min
 base_servings: 16
 serving_unit: "pieces"
