@@ -32,11 +32,13 @@ key_equipment:
   - bar-spoon
   - rocks-glass
 tags:
-  - cocktail
-  - old-fashioned
-  - technique-stir
-  - gin
-  - brandy
+- cocktail
+- old-fashioned
+- technique-stir
+- gin
+- brandy
+protein:
+- none
 status: reviewed
 date_added: 2026-06-26
 date_modified: 2026-06-27
