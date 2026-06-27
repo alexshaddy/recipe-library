@@ -82,7 +82,7 @@ date_modified: "2026-06-27"
 
 1. **Make the Dashi.** Place water and kombu in a saucepan. Let soak 20–30 minutes (or up to 2 hours). Heat over medium-low until just below boiling — tiny bubbles form around the edges, about 160°F/70°C (~5–7 min). Remove kombu (reserve for other uses if desired). Add katsuobushi, bring to a simmer, then immediately remove from heat. Let sit (~5 min), then strain through a fine-mesh sieve or cheesecloth. You should have about 4 cups of clear, golden broth with a delicate oceanic aroma.
 
-2. **Prepare the Solids.** While dashi steeps, rehydrate wakame in a bowl of cold water for 5 minutes — it will expand and turn bright green — then squeeze dry and set aside. Cube tofu into ½-inch pieces. Slice scallions.
+2. **Prepare the Solids.** While dashi steeps, rehydrate wakame in a bowl of cold water (~5 min) — it will expand and turn bright green — then squeeze dry and set aside. Cube tofu into ½-inch pieces. Slice scallions.
 
 3. **Combine and Heat.** Return strained dashi to the pot. Add any optional vegetables (carrot, mushrooms) and simmer gently until tender (~5–7 min). Keep the soup at a low simmer; do not boil.
 
