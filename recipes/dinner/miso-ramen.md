@@ -109,7 +109,7 @@ date_modified: "2026-06-27"
 
 2. **Prepare the Tare.** While broth simmers, combine white miso, red miso, mirin, sake, sugar, sesame oil, garlic, and ginger in a small bowl. Mix until a smooth paste forms. Set aside.
 
-3. **Cook the Noodles.** Bring a large pot of water to a boil. Add ramen noodles and cook according to package directions (usually 2–3 minutes for fresh, 4–5 minutes for dried) until just al dente. Drain and rinse briefly under warm water to prevent sticking. Divide noodles among serving bowls.
+3. **Cook the Noodles.** Bring a large pot of water to a boil. Add ramen noodles and cook according to package directions — usually 2–3 minutes for fresh, 4–5 minutes for dried (~2–5 min) — until just al dente. Drain and rinse briefly under warm water to prevent sticking. Divide noodles among serving bowls.
 
 4. **Prepare Toppings.** While noodles cook, warm chashu slices in a microwave or pan. Blanch bean sprouts 30 seconds in hot water, then drain. Slice scallions. If using, warm corn and butter in a small pan until the butter melts and coats the corn. Prepare soft-boiled eggs (boil 6–7 minutes, cool in ice water, peel, halve).
 
