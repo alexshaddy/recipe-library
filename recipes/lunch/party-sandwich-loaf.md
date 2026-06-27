@@ -88,6 +88,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - Leaving the top exposed helps the meat topping brown while the crust stays from drying out.
+- The foil wrap around the crust is essential — without it, the bread will burn before the meat topping is fully cooked through.
 
 ### Variations
 - **Open-face lunch version:** Serve the baked halves as open-faced sandwiches instead of slicing them smaller.
