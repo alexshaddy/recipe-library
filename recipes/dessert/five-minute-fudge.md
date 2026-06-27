@@ -83,6 +83,7 @@ date_modified: 2026-06-27
 
 ### Cook's Notes
 - Have the add-ins ready before the sugar syrup finishes boiling; the fudge sets fast.
+- The evaporated milk is what makes this fudge smooth and creamy without the need for a candy thermometer — the milk proteins prevent graininess.
 
 ### Variations
 - **Fancy fudge:** Omit the chopped nuts and substitute toasted chopped almonds plus finely chopped candied mixed fruit.
