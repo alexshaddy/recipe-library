@@ -60,10 +60,10 @@ _Base servings: 1 batch_
 
 ## Instructions
 
-1. **Strain the yogurt.** Line a sieve with cheesecloth and pour in the yogurt. Gather the cloth and tie it closed. Suspend over a bowl or set in the sieve, and let drain in the refrigerator overnight (about 12 hours) until thick and spreadable.
-2. **Discard the whey.** Discard the liquid that has drained out.
-3. **Whip and season.** Once set, whip the labneh until smooth. Stir in the grated garlic, salt to taste, and lemon juice. Adjust to taste.
-4. **Finish and serve.** Transfer to a serving bowl, drizzle with olive oil, and garnish with chopped mint or dill.
+1. **Strain the yogurt.** Line a sieve with cheesecloth, pour in the yogurt, gather the cloth and tie it closed. Suspend over a bowl and refrigerate for 12 hours (or overnight) until thick and spreadable; you’ll notice a creamy texture and a faint tang.
+2. **Discard the whey.** Remove and discard the liquid that has drained out; this should take about 1 minute.
+3. **Whip and season.** Transfer the thickened yogurt to a bowl, whip with a hand mixer for 2 minutes until smooth. Stir in the grated garlic, salt to taste, and lemon juice; the mixture should smell fresh and slightly sharp.
+4. **Finish and serve.** Spoon the labneh into a serving bowl, drizzle with olive oil, and garnish with chopped mint or dill. Serve at room temperature.
 
 ## Notes & Variations
 
